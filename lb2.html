@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Баєсів класифікатор</title>
+</head>
+<body>
+    <h1> Класифікатор</h1>
+    <textarea id="tweetInput" rows="4" cols="50"></textarea><br>
+    <button onclick="classifyTweet()">Визначити тональність</button>
+    <p id="result"></p>
+
+    <script type="text/javascript">
+        let logprior;
+        let loglikelihood;
+
+      
+        fetch('naive_bayes_model.json')
+            .then(response => response.json())
+            .then(data => {
+                logprior = data.logprior;
+                loglikelihood = data.loglikelihood;
+            });
+
+        
+        function processTweet(tweet) {
+            
+            return tweet.toLowerCase().split(' ');
+        }
+
+        
+
+        function naiveBayesPredict(tweet, logprior, loglikelihood) {
+            const words = processTweet(tweet);
+            let p = logprior;
+
+            for (const word of words) {
+                if (word in loglikelihood) {
+                    p += loglikelihood[word];
+                }
+            }
+
+            return p;
+        }
+
+        function classifyTweet() {
+            const tweet = document.getElementById('tweetInput').value;
+            const prediction = naiveBayesPredict(tweet, logprior, loglikelihood);
+            const sentiment = prediction > 0 ? 'позитивна' : 'негативна';
+            document.getElementById('result').textContent = `Визначена тональність: ${sentiment}`;
+        }
+    </script>
+</body>
+</html>

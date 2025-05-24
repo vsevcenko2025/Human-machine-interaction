@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Аналіз тональності</title>
+</head>
+<body>
+    <h1>Аналіз тональності</h1>
+    <textarea id="tweetInput" rows="4" cols="60" placeholder="Введіть текст..."></textarea><br>
+    <button onclick="classifyTweet()">Визначити тональність</button>
+    <pre id="result" style="white-space: pre-wrap;"></pre>
+
+    <script>
+        let bias;
+        let weights = {};
+
+        fetch('sentiment_model.json')
+            .then(response => response.json())
+            .then(data => {
+                bias = data.bias;
+                weights = data.weights;
+            })
+            .catch(error => console.error("Помилка завантаження моделі:", error));
+
+        function sigmoid(z) {
+            return 1 / (1 + Math.exp(-z));
+        }
+
+        function processText(text) {
+            return text
+                .toLowerCase()
+                .replace(/[^\w\s]|_/g, '')
+                .replace(/\s+/g, ' ')
+                .trim()
+                .split(' ');
+        }
+
+        function predictLogistic(text) {
+            const words = processText(text);
+            let z = bias;
+
+            for (const word of words) {
+                if (word in weights) {
+                    z += weights[word];
+                }
+            }
+
+            const probability = sigmoid(z);
+            return probability;
+        }
+
+        function classifyTweet() {
+            const text = document.getElementById('tweetInput').value.trim();
+            if (!text) {
+                document.getElementById('result').textContent = "Будь ласка, введіть текст.";
+                return;
+            }
+
+            const probability = predictLogistic(text);
+            const predictedClass = probability >= 0.5 ? 1 : 0;
+
+            const resultText = 
+`Твіт: ${text}
+Передбачений клас: ${predictedClass} (ймовірність: ${probability.toFixed(4)})`;
+
+            document.getElementById('result').textContent = resultText;
+        }
+    </script>
+</body>
+</html>

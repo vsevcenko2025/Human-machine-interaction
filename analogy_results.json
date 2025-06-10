@@ -1,0 +1,8002 @@
+[
+  {
+    "adj1": "Монако",
+    "adv1": "Європа",
+    "adj2": "Гамбія",
+    "expected_adv2": "Африка",
+    "predicted_adv2": "Україна",
+    "correct": false
+  },
+  {
+    "adj1": "дивний",
+    "adv1": "найдивніший",
+    "adj2": "точний",
+    "expected_adv2": "найточніший",
+    "predicted_adv2": "точної",
+    "correct": false
+  },
+  {
+    "adj1": "впевнено",
+    "adv1": "невпевнено",
+    "adj2": "інформативно",
+    "expected_adv2": "неінформативно",
+    "predicted_adv2": "неадекватно",
+    "correct": false
+  },
+  {
+    "adj1": "Китай",
+    "adv1": "Пекін",
+    "adj2": "Суринам",
+    "expected_adv2": "Парамарибо",
+    "predicted_adv2": "Пекіна",
+    "correct": false
+  },
+  {
+    "adj1": "Нігер",
+    "adv1": "Ніамей",
+    "adj2": "Сенегал",
+    "expected_adv2": "Дакар",
+    "predicted_adv2": "Tokyo",
+    "correct": false
+  },
+  {
+    "adj1": "сумний",
+    "adv1": "сумно",
+    "adj2": "рідкісний",
+    "expected_adv2": "рідко",
+    "predicted_adv2": "смішно",
+    "correct": false
+  },
+  {
+    "adj1": "великий",
+    "adv1": "більший",
+    "adj2": "глибокий",
+    "expected_adv2": "глибший",
+    "predicted_adv2": "менший",
+    "correct": false
+  },
+  {
+    "adj1": "чоловік",
+    "adv1": "чоловіки",
+    "adj2": "дитина",
+    "expected_adv2": "діти",
+    "predicted_adv2": "дівчинка",
+    "correct": false
+  },
+  {
+    "adj1": "Перу",
+    "adv1": "Ліма",
+    "adj2": "Білорусь",
+    "expected_adv2": "Мінськ",
+    "predicted_adv2": "Сілва",
+    "correct": false
+  },
+  {
+    "adj1": "приємно",
+    "adv1": "неприємно",
+    "adj2": "вірогідно",
+    "expected_adv2": "невірогідно",
+    "predicted_adv2": "імовірно",
+    "correct": false
+  },
+  {
+    "adj1": "мавпа",
+    "adv1": "мавпи",
+    "adj2": "ананас",
+    "expected_adv2": "ананаси",
+    "predicted_adv2": "ананаси",
+    "correct": true
+  },
+  {
+    "adj1": "Сінгапур",
+    "adv1": "Сінгапур",
+    "adj2": "Домініка",
+    "expected_adv2": "Розо",
+    "predicted_adv2": "Домінік",
+    "correct": false
+  },
+  {
+    "adj1": "Італія",
+    "adv1": "Рим",
+    "adj2": "Барбадос",
+    "expected_adv2": "Бриджтаун",
+    "predicted_adv2": "Риму",
+    "correct": false
+  },
+  {
+    "adj1": "Чад",
+    "adv1": "Нджамена",
+    "adj2": "Люксембург",
+    "expected_adv2": "Люксембург",
+    "predicted_adv2": "Мічуріна",
+    "correct": false
+  },
+  {
+    "adj1": "малий",
+    "adv1": "менший",
+    "adj2": "довгий",
+    "expected_adv2": "довший",
+    "predicted_adv2": "довший",
+    "correct": true
+  },
+  {
+    "adj1": "індонезійці",
+    "adv1": "індонезійка",
+    "adj2": "німці",
+    "expected_adv2": "німка",
+    "predicted_adv2": "нацисти",
+    "correct": false
+  },
+  {
+    "adj1": "Габон",
+    "adv1": "Лібревіль",
+    "adj2": "Судан",
+    "expected_adv2": "Хартум",
+    "predicted_adv2": "Судану",
+    "correct": false
+  },
+  {
+    "adj1": "коза",
+    "adv1": "кози",
+    "adj2": "палець",
+    "expected_adv2": "пальці",
+    "predicted_adv2": "пальця",
+    "correct": false
+  },
+  {
+    "adj1": "темний",
+    "adv1": "найтемніший",
+    "adj2": "низький",
+    "expected_adv2": "найнижчий",
+    "predicted_adv2": "високий",
+    "correct": false
+  },
+  {
+    "adj1": "корова",
+    "adv1": "корови",
+    "adj2": "осел",
+    "expected_adv2": "осли",
+    "predicted_adv2": "свині",
+    "correct": false
+  },
+  {
+    "adj1": "Албанія",
+    "adv1": "Тирана",
+    "adj2": "Алжир",
+    "expected_adv2": "Алжир",
+    "predicted_adv2": "Алжиру",
+    "correct": false
+  },
+  {
+    "adj1": "Парагвай",
+    "adv1": "Асунсьйон",
+    "adj2": "Туніс",
+    "expected_adv2": "Туніс",
+    "predicted_adv2": "Тунісу",
+    "correct": false
+  },
+  {
+    "adj1": "Португалія",
+    "adv1": "Лісабон",
+    "adj2": "Ліберія",
+    "expected_adv2": "Монровія",
+    "predicted_adv2": "Ліберії",
+    "correct": false
+  },
+  {
+    "adj1": "Марокко",
+    "adv1": "марокканець",
+    "adj2": "Словенія",
+    "expected_adv2": "словенець",
+    "predicted_adv2": "Осреднєсловенський",
+    "correct": false
+  },
+  {
+    "adj1": "Ірак",
+    "adv1": "Багдад",
+    "adj2": "Австрія",
+    "expected_adv2": "Відень",
+    "predicted_adv2": "Зальцбург",
+    "correct": false
+  },
+  {
+    "adj1": "Йорданія",
+    "adv1": "Амман",
+    "adj2": "Ватикан",
+    "expected_adv2": "Ватикан",
+    "predicted_adv2": "Рим",
+    "correct": false
+  },
+  {
+    "adj1": "Ангола",
+    "adv1": "кванза",
+    "adj2": "Швеція",
+    "expected_adv2": "крона",
+    "predicted_adv2": "Фінляндія",
+    "correct": false
+  },
+  {
+    "adj1": "приємно",
+    "adv1": "неприємно",
+    "adj2": "зручно",
+    "expected_adv2": "незручно",
+    "predicted_adv2": "незручно",
+    "correct": true
+  },
+  {
+    "adj1": "колір",
+    "adv1": "кольори",
+    "adj2": "хмара",
+    "expected_adv2": "хмари",
+    "predicted_adv2": "хмари",
+    "correct": true
+  },
+  {
+    "adj1": "Сирія",
+    "adv1": "Азія",
+    "adj2": "Ефіопія",
+    "expected_adv2": "Африка",
+    "predicted_adv2": "Африка",
+    "correct": true
+  },
+  {
+    "adj1": "писати",
+    "adv1": "пише",
+    "adj2": "збільшувати",
+    "expected_adv2": "збільшується",
+    "predicted_adv2": "повідомляє",
+    "correct": false
+  },
+  {
+    "adj1": "Гвінея",
+    "adv1": "Конакрі",
+    "adj2": "Ліберія",
+    "expected_adv2": "Монровія",
+    "predicted_adv2": "Ліберії",
+    "correct": false
+  },
+  {
+    "adj1": "австрієць",
+    "adv1": "Австрія",
+    "adj2": "голландець",
+    "expected_adv2": "Голландія",
+    "predicted_adv2": "Голландія",
+    "correct": true
+  },
+  {
+    "adj1": "Мальта",
+    "adv1": "Європа",
+    "adj2": "Сенегал",
+    "expected_adv2": "Африка",
+    "predicted_adv2": "Европа",
+    "correct": false
+  },
+  {
+    "adj1": "високий",
+    "adv1": "вищий",
+    "adj2": "теплий",
+    "expected_adv2": "тепліший",
+    "predicted_adv2": "нижчий",
+    "correct": false
+  },
+  {
+    "adj1": "гарячий",
+    "adv1": "гарячіший",
+    "adj2": "легкий",
+    "expected_adv2": "легший",
+    "predicted_adv2": "зручний",
+    "correct": false
+  },
+  {
+    "adj1": "мавпа",
+    "adv1": "мавпи",
+    "adj2": "палець",
+    "expected_adv2": "пальці",
+    "predicted_adv2": "пальці",
+    "correct": true
+  },
+  {
+    "adj1": "відкривати",
+    "adv1": "відкриває",
+    "adj2": "танцювати",
+    "expected_adv2": "танцює",
+    "predicted_adv2": "танцює",
+    "correct": true
+  },
+  {
+    "adj1": "цибуля",
+    "adv1": "цибулю",
+    "adj2": "орел",
+    "expected_adv2": "орли",
+    "predicted_adv2": "сокіл",
+    "correct": false
+  },
+  {
+    "adj1": "Малі",
+    "adv1": "Бамако",
+    "adj2": "Намібія",
+    "expected_adv2": "Віндгук",
+    "predicted_adv2": "Замбія",
+    "correct": false
+  },
+  {
+    "adj1": "Латвія",
+    "adv1": "латвійський",
+    "adj2": "Куба",
+    "expected_adv2": "кубинський",
+    "predicted_adv2": "кубинський",
+    "correct": true
+  },
+  {
+    "adj1": "Уганда",
+    "adv1": "Африка",
+    "adj2": "Мальдіви",
+    "expected_adv2": "Азія",
+    "predicted_adv2": "Азія",
+    "correct": true
+  },
+  {
+    "adj1": "араб",
+    "adv1": "араби",
+    "adj2": "австралієць",
+    "expected_adv2": "австралійці",
+    "predicted_adv2": "угорці",
+    "correct": false
+  },
+  {
+    "adj1": "Японія",
+    "adv1": "ієн",
+    "adj2": "Китай",
+    "expected_adv2": "юань",
+    "predicted_adv2": "юанів",
+    "correct": false
+  },
+  {
+    "adj1": "точний",
+    "adv1": "найточніший",
+    "adj2": "старий",
+    "expected_adv2": "найстаріший",
+    "predicted_adv2": "Старий",
+    "correct": false
+  },
+  {
+    "adj1": "камерунці",
+    "adv1": "Камерун",
+    "adj2": "норвежці",
+    "expected_adv2": "Норвегія",
+    "predicted_adv2": "Норвегія",
+    "correct": true
+  },
+  {
+    "adj1": "Йорданія",
+    "adv1": "Амман",
+    "adj2": "Беліз",
+    "expected_adv2": "Бельмопан",
+    "predicted_adv2": "Каїр",
+    "correct": false
+  },
+  {
+    "adj1": "Іран",
+    "adv1": "ріал",
+    "adj2": "Аргентина",
+    "expected_adv2": "песо",
+    "predicted_adv2": "ка",
+    "correct": false
+  },
+  {
+    "adj1": "киргизький",
+    "adv1": "киргизи",
+    "adj2": "швейцарський",
+    "expected_adv2": "швейцарці",
+    "predicted_adv2": "швейцарські",
+    "correct": false
+  },
+  {
+    "adj1": "племінник",
+    "adv1": "племінниця",
+    "adj2": "чоловік",
+    "expected_adv2": "жінка",
+    "predicted_adv2": "жінка",
+    "correct": true
+  },
+  {
+    "adj1": "Китай",
+    "adv1": "юань",
+    "adj2": "Македонія",
+    "expected_adv2": "динар",
+    "predicted_adv2": "Юань",
+    "correct": false
+  },
+  {
+    "adj1": "Швеція",
+    "adv1": "крона",
+    "adj2": "Китай",
+    "expected_adv2": "юань",
+    "predicted_adv2": "крони",
+    "correct": false
+  },
+  {
+    "adj1": "канадка",
+    "adv1": "Канада",
+    "adj2": "перуанка",
+    "expected_adv2": "Перу",
+    "predicted_adv2": "Мексика",
+    "correct": false
+  },
+  {
+    "adj1": "полінезійці",
+    "adv1": "полінезійський",
+    "adj2": "тунісці",
+    "expected_adv2": "туніський",
+    "predicted_adv2": "сирійський",
+    "correct": false
+  },
+  {
+    "adj1": "мексиканка",
+    "adv1": "мексиканський",
+    "adj2": "естонка",
+    "expected_adv2": "естонський",
+    "predicted_adv2": "естонський",
+    "correct": true
+  },
+  {
+    "adj1": "високий",
+    "adv1": "високо",
+    "adj2": "швидкий",
+    "expected_adv2": "швидко",
+    "predicted_adv2": "Високо",
+    "correct": false
+  },
+  {
+    "adj1": "гарячий",
+    "adv1": "гарячіший",
+    "adj2": "яскравий",
+    "expected_adv2": "яскравіший",
+    "predicted_adv2": "Яскравий",
+    "correct": false
+  },
+  {
+    "adj1": "Вірменія",
+    "adv1": "Єреван",
+    "adj2": "Тувалу",
+    "expected_adv2": "Фунафуті",
+    "predicted_adv2": "Науру",
+    "correct": false
+  },
+  {
+    "adj1": "Афганістан",
+    "adv1": "Азія",
+    "adj2": "Албанія",
+    "expected_adv2": "Європа",
+    "predicted_adv2": "Європа",
+    "correct": true
+  },
+  {
+    "adj1": "іудеї",
+    "adv1": "Іудея",
+    "adj2": "грузини",
+    "expected_adv2": "Грузія",
+    "predicted_adv2": "Грузія",
+    "correct": true
+  },
+  {
+    "adj1": "раціонально",
+    "adv1": "ірраціонально",
+    "adj2": "комфортно",
+    "expected_adv2": "некомфортно",
+    "predicted_adv2": "затишно",
+    "correct": false
+  },
+  {
+    "adj1": "вдало",
+    "adv1": "невдало",
+    "adj2": "чесно",
+    "expected_adv2": "нечесно",
+    "predicted_adv2": "Чесно",
+    "correct": false
+  },
+  {
+    "adj1": "Узбекистан",
+    "adv1": "Азія",
+    "adj2": "Іспанія",
+    "expected_adv2": "Європа",
+    "predicted_adv2": "Європа",
+    "correct": true
+  },
+  {
+    "adj1": "Нікарагуа",
+    "adv1": "Манагуа",
+    "adj2": "Бутан",
+    "expected_adv2": "Тхімпху",
+    "predicted_adv2": "Бутану",
+    "correct": false
+  },
+  {
+    "adj1": "Латгалія",
+    "adv1": "латгальці",
+    "adj2": "Казахстан",
+    "expected_adv2": "казахи",
+    "predicted_adv2": "Казахстані",
+    "correct": false
+  },
+  {
+    "adj1": "Ямайка",
+    "adv1": "Кінгстон",
+    "adj2": "Камерун",
+    "expected_adv2": "Яунде",
+    "predicted_adv2": "Камеруну",
+    "correct": false
+  },
+  {
+    "adj1": "киргиз",
+    "adv1": "киргизи",
+    "adj2": "єгиптянин",
+    "expected_adv2": "єгиптяни",
+    "predicted_adv2": "єгиптяни",
+    "correct": true
+  },
+  {
+    "adj1": "стояти",
+    "adv1": "стоїть",
+    "adj2": "показувати",
+    "expected_adv2": "показує",
+    "predicted_adv2": "показує",
+    "correct": true
+  },
+  {
+    "adj1": "закритий",
+    "adv1": "закрито",
+    "adj2": "професійний",
+    "expected_adv2": "професійно",
+    "predicted_adv2": "відкрито",
+    "correct": false
+  },
+  {
+    "adj1": "Швейцарія",
+    "adv1": "Берн",
+    "adj2": "Судан",
+    "expected_adv2": "Хартум",
+    "predicted_adv2": "Берлін",
+    "correct": false
+  },
+  {
+    "adj1": "Англія",
+    "adv1": "англійський",
+    "adj2": "Тайвань",
+    "expected_adv2": "тайванський",
+    "predicted_adv2": "китайський",
+    "correct": false
+  },
+  {
+    "adj1": "брат",
+    "adv1": "сестра",
+    "adj2": "пасинок",
+    "expected_adv2": "падчерка",
+    "predicted_adv2": "Акторка",
+    "correct": false
+  },
+  {
+    "adj1": "Тувалу",
+    "adv1": "Фунафуті",
+    "adj2": "Бельгія",
+    "expected_adv2": "Брюссель",
+    "predicted_adv2": "Шарлеруа",
+    "correct": false
+  },
+  {
+    "adj1": "Японія",
+    "adv1": "Токіо",
+    "adj2": "Польща",
+    "expected_adv2": "Варшава",
+    "predicted_adv2": "Варшави",
+    "correct": false
+  },
+  {
+    "adj1": "розумний",
+    "adv1": "найрозумніший",
+    "adj2": "молодий",
+    "expected_adv2": "наймолодший",
+    "predicted_adv2": "Молодий",
+    "correct": false
+  },
+  {
+    "adj1": "Франція",
+    "adv1": "Париж",
+    "adj2": "Болгарія",
+    "expected_adv2": "Софія",
+    "predicted_adv2": "Відень",
+    "correct": false
+  },
+  {
+    "adj1": "малійський",
+    "adv1": "Малі",
+    "adj2": "європейський",
+    "expected_adv2": "Європа",
+    "predicted_adv2": "Великі",
+    "correct": false
+  },
+  {
+    "adj1": "простий",
+    "adv1": "найпростіший",
+    "adj2": "молодий",
+    "expected_adv2": "наймолодший",
+    "predicted_adv2": "Молодий",
+    "correct": false
+  },
+  {
+    "adj1": "мексиканці",
+    "adv1": "мексиканець",
+    "adj2": "монголи",
+    "expected_adv2": "монгол",
+    "predicted_adv2": "монголів",
+    "correct": false
+  },
+  {
+    "adj1": "Хорватія",
+    "adv1": "Загреб",
+    "adj2": "Бангладеш",
+    "expected_adv2": "Дакка",
+    "predicted_adv2": "Мумбаї",
+    "correct": false
+  },
+  {
+    "adj1": "Португалія",
+    "adv1": "Лісабон",
+    "adj2": "Туніс",
+    "expected_adv2": "Туніс",
+    "predicted_adv2": "Тунісу",
+    "correct": false
+  },
+  {
+    "adj1": "гострий",
+    "adv1": "найгостріший",
+    "adj2": "темний",
+    "expected_adv2": "найтемніший",
+    "predicted_adv2": "світлий",
+    "correct": false
+  },
+  {
+    "adj1": "правильний",
+    "adv1": "правильно",
+    "adj2": "ефективний",
+    "expected_adv2": "ефективно",
+    "predicted_adv2": "ефективно",
+    "correct": true
+  },
+  {
+    "adj1": "Естонія",
+    "adv1": "Таллінн",
+    "adj2": "Чад",
+    "expected_adv2": "Нджамена",
+    "predicted_adv2": "Бенін",
+    "correct": false
+  },
+  {
+    "adj1": "внук",
+    "adv1": "внучка",
+    "adj2": "дід",
+    "expected_adv2": "баба",
+    "predicted_adv2": "дідусь",
+    "correct": false
+  },
+  {
+    "adj1": "гарячий",
+    "adv1": "гарячіший",
+    "adj2": "старий",
+    "expected_adv2": "старший",
+    "predicted_adv2": "Старий",
+    "correct": false
+  },
+  {
+    "adj1": "Болгарія",
+    "adv1": "болгарин",
+    "adj2": "Перу",
+    "expected_adv2": "перуанець",
+    "predicted_adv2": "Чилі",
+    "correct": false
+  },
+  {
+    "adj1": "Туніс",
+    "adv1": "Туніс",
+    "adj2": "Молдова",
+    "expected_adv2": "Кишинів",
+    "predicted_adv2": "Молдови",
+    "correct": false
+  },
+  {
+    "adj1": "Канада",
+    "adv1": "долар",
+    "adj2": "Китай",
+    "expected_adv2": "юань",
+    "predicted_adv2": "Долар",
+    "correct": false
+  },
+  {
+    "adj1": "Монако",
+    "adv1": "Монако",
+    "adj2": "Кенія",
+    "expected_adv2": "Найробі",
+    "predicted_adv2": "Уганда",
+    "correct": false
+  },
+  {
+    "adj1": "Камерун",
+    "adv1": "Яунде",
+    "adj2": "Палау",
+    "expected_adv2": "Нгерулмуд",
+    "predicted_adv2": "Гуам",
+    "correct": false
+  },
+  {
+    "adj1": "Узбекистан",
+    "adv1": "Азія",
+    "adj2": "Греція",
+    "expected_adv2": "Європа",
+    "predicted_adv2": "Європа",
+    "correct": true
+  },
+  {
+    "adj1": "Бахрейн",
+    "adv1": "Манама",
+    "adj2": "Судан",
+    "expected_adv2": "Хартум",
+    "predicted_adv2": "Судану",
+    "correct": false
+  },
+  {
+    "adj1": "Америка",
+    "adv1": "американець",
+    "adj2": "Молдова",
+    "expected_adv2": "молдованин",
+    "predicted_adv2": "Молдови",
+    "correct": false
+  },
+  {
+    "adj1": "Ірак",
+    "adv1": "Азія",
+    "adj2": "Габон",
+    "expected_adv2": "Африка",
+    "predicted_adv2": "Африка",
+    "correct": true
+  },
+  {
+    "adj1": "європейський",
+    "adv1": "європейці",
+    "adj2": "намібійський",
+    "expected_adv2": "намібійці",
+    "predicted_adv2": "Європейці",
+    "correct": false
+  },
+  {
+    "adj1": "Австрія",
+    "adv1": "Європа",
+    "adj2": "Йорданія",
+    "expected_adv2": "Азія",
+    "predicted_adv2": "Европа",
+    "correct": false
+  },
+  {
+    "adj1": "дідусь",
+    "adv1": "бабуся",
+    "adj2": "поліцейський",
+    "expected_adv2": "поліцейська",
+    "predicted_adv2": "поліція",
+    "correct": false
+  },
+  {
+    "adj1": "Афганістан",
+    "adv1": "Кабул",
+    "adj2": "Малаві",
+    "expected_adv2": "Лілонгве",
+    "predicted_adv2": "Пакистану",
+    "correct": false
+  },
+  {
+    "adj1": "мавританці",
+    "adv1": "мавританський",
+    "adj2": "словаки",
+    "expected_adv2": "словацький",
+    "predicted_adv2": "чехи",
+    "correct": false
+  },
+  {
+    "adj1": "Киргизстан",
+    "adv1": "Азія",
+    "adj2": "Сенегал",
+    "expected_adv2": "Африка",
+    "predicted_adv2": "Африка",
+    "correct": true
+  },
+  {
+    "adj1": "Росія",
+    "adv1": "Європа",
+    "adj2": "Афганістан",
+    "expected_adv2": "Азія",
+    "predicted_adv2": "Африка",
+    "correct": false
+  },
+  {
+    "adj1": "батько",
+    "adv1": "мати",
+    "adj2": "принц",
+    "expected_adv2": "принцеса",
+    "predicted_adv2": "принцеса",
+    "correct": true
+  },
+  {
+    "adj1": "Оман",
+    "adv1": "Маскат",
+    "adj2": "Гамбія",
+    "expected_adv2": "Банжул",
+    "predicted_adv2": "Олбані",
+    "correct": false
+  },
+  {
+    "adj1": "гарний",
+    "adv1": "найгарніший",
+    "adj2": "крутий",
+    "expected_adv2": "найкрутіший",
+    "predicted_adv2": "Крутий",
+    "correct": false
+  },
+  {
+    "adj1": "холодний",
+    "adv1": "холодніший",
+    "adj2": "хороший",
+    "expected_adv2": "кращий",
+    "predicted_adv2": "непоганий",
+    "correct": false
+  },
+  {
+    "adj1": "Македонія",
+    "adv1": "македонець",
+    "adj2": "Китай",
+    "expected_adv2": "китаєць",
+    "predicted_adv2": "китайський",
+    "correct": false
+  },
+  {
+    "adj1": "Зімбабве",
+    "adv1": "Хараре",
+    "adj2": "Монако",
+    "expected_adv2": "Монако",
+    "predicted_adv2": "Ніцца",
+    "correct": false
+  },
+  {
+    "adj1": "щур",
+    "adv1": "щурі",
+    "adj2": "жінка",
+    "expected_adv2": "жінки",
+    "predicted_adv2": "жінки",
+    "correct": true
+  },
+  {
+    "adj1": "Латвія",
+    "adv1": "Рига",
+    "adj2": "Катар",
+    "expected_adv2": "Доха",
+    "predicted_adv2": "Ер-Ріяд",
+    "correct": false
+  },
+  {
+    "adj1": "узагальнювати",
+    "adv1": "узагальнювали",
+    "adj2": "ковзати",
+    "expected_adv2": "ковзали",
+    "predicted_adv2": "переміщатися",
+    "correct": false
+  },
+  {
+    "adj1": "Бельгія",
+    "adv1": "бельгієць",
+    "adj2": "Бразилія",
+    "expected_adv2": "бразилець",
+    "predicted_adv2": "бразилець",
+    "correct": true
+  },
+  {
+    "adj1": "німецький",
+    "adv1": "Німеччина",
+    "adj2": "індонезійський",
+    "expected_adv2": "Індонезія",
+    "predicted_adv2": "Індонезія",
+    "correct": true
+  },
+  {
+    "adj1": "поганий",
+    "adv1": "найгірший",
+    "adj2": "маленький",
+    "expected_adv2": "найменший",
+    "predicted_adv2": "найменший",
+    "correct": true
+  },
+  {
+    "adj1": "Нікарагуа",
+    "adv1": "Манагуа",
+    "adj2": "Алжир",
+    "expected_adv2": "Алжир",
+    "predicted_adv2": "Туніс",
+    "correct": false
+  },
+  {
+    "adj1": "Франція",
+    "adv1": "Париж",
+    "adj2": "Парагвай",
+    "expected_adv2": "Асунсьйон",
+    "predicted_adv2": "Нью-Йорк",
+    "correct": false
+  },
+  {
+    "adj1": "литовський",
+    "adv1": "литовець",
+    "adj2": "руський",
+    "expected_adv2": "русин",
+    "predicted_adv2": "Руський",
+    "correct": false
+  },
+  {
+    "adj1": "швидкий",
+    "adv1": "швидший",
+    "adj2": "низький",
+    "expected_adv2": "нижчий",
+    "predicted_adv2": "нижчий",
+    "correct": true
+  },
+  {
+    "adj1": "яскравий",
+    "adv1": "яскравіший",
+    "adj2": "великий",
+    "expected_adv2": "більший",
+    "predicted_adv2": "більший",
+    "correct": true
+  },
+  {
+    "adj1": "словаки",
+    "adv1": "Словаччина",
+    "adj2": "ямайці",
+    "expected_adv2": "Ямайка",
+    "predicted_adv2": "Менсон",
+    "correct": false
+  },
+  {
+    "adj1": "Тонга",
+    "adv1": "Нукуалофа",
+    "adj2": "Норвегія",
+    "expected_adv2": "Осло",
+    "predicted_adv2": "Бахчисарай",
+    "correct": false
+  },
+  {
+    "adj1": "Словенія",
+    "adv1": "Любляна",
+    "adj2": "Киргизстан",
+    "expected_adv2": "Бішкек",
+    "predicted_adv2": "Бішкек",
+    "correct": true
+  },
+  {
+    "adj1": "високий",
+    "adv1": "найвищий",
+    "adj2": "точний",
+    "expected_adv2": "найточніший",
+    "predicted_adv2": "приблизний",
+    "correct": false
+  },
+  {
+    "adj1": "сумний",
+    "adv1": "сумно",
+    "adj2": "раптовий",
+    "expected_adv2": "раптово",
+    "predicted_adv2": "смішно",
+    "correct": false
+  },
+  {
+    "adj1": "Латвія",
+    "adv1": "Рига",
+    "adj2": "Венесуела",
+    "expected_adv2": "Каракас",
+    "predicted_adv2": "Москва",
+    "correct": false
+  },
+  {
+    "adj1": "таїтянський",
+    "adv1": "таїтяни",
+    "adj2": "гондураський",
+    "expected_adv2": "гондурасці",
+    "predicted_adv2": "іспанці",
+    "correct": false
+  },
+  {
+    "adj1": "Малайзія",
+    "adv1": "рингіт",
+    "adj2": "Македонія",
+    "expected_adv2": "динар",
+    "predicted_adv2": "Македонії",
+    "correct": false
+  },
+  {
+    "adj1": "Італія",
+    "adv1": "Рим",
+    "adj2": "Хорватія",
+    "expected_adv2": "Загреб",
+    "predicted_adv2": "Риму",
+    "correct": false
+  },
+  {
+    "adj1": "говорити",
+    "adv1": "говорили",
+    "adj2": "штовхати",
+    "expected_adv2": "штовхали",
+    "predicted_adv2": "кидали",
+    "correct": false
+  },
+  {
+    "adj1": "комфортно",
+    "adv1": "некомфортно",
+    "adj2": "переконливо",
+    "expected_adv2": "непереконливо",
+    "predicted_adv2": "красномовно",
+    "correct": false
+  },
+  {
+    "adj1": "Нікарагуа",
+    "adv1": "Манагуа",
+    "adj2": "Руанда",
+    "expected_adv2": "Кігалі",
+    "predicted_adv2": "Руанди",
+    "correct": false
+  },
+  {
+    "adj1": "бірманський",
+    "adv1": "Бірма",
+    "adj2": "індійський",
+    "expected_adv2": "Індія",
+    "predicted_adv2": "Індія",
+    "correct": true
+  },
+  {
+    "adj1": "Македонія",
+    "adv1": "динар",
+    "adj2": "Аргентина",
+    "expected_adv2": "песо",
+    "predicted_adv2": "песо",
+    "correct": true
+  },
+  {
+    "adj1": "Андорра",
+    "adv1": "Європа",
+    "adj2": "Ліберія",
+    "expected_adv2": "Африка",
+    "predicted_adv2": "Америка",
+    "correct": false
+  },
+  {
+    "adj1": "лежати",
+    "adv1": "лежали",
+    "adj2": "узагальнювати",
+    "expected_adv2": "узагальнювали",
+    "predicted_adv2": "складались",
+    "correct": false
+  },
+  {
+    "adj1": "Росія",
+    "adv1": "Москва",
+    "adj2": "Франція",
+    "expected_adv2": "Париж",
+    "predicted_adv2": "Париж",
+    "correct": true
+  },
+  {
+    "adj1": "племінник",
+    "adv1": "племінниця",
+    "adj2": "принц",
+    "expected_adv2": "принцеса",
+    "predicted_adv2": "Принц",
+    "correct": false
+  },
+  {
+    "adj1": "Польща",
+    "adv1": "злотий",
+    "adj2": "Хорватія",
+    "expected_adv2": "куна",
+    "predicted_adv2": "золотий",
+    "correct": false
+  },
+  {
+    "adj1": "Канада",
+    "adv1": "Оттава",
+    "adj2": "Японія",
+    "expected_adv2": "Токіо",
+    "predicted_adv2": "Токіо",
+    "correct": true
+  },
+  {
+    "adj1": "Вірменія",
+    "adv1": "драм",
+    "adj2": "Європа",
+    "expected_adv2": "євро",
+    "predicted_adv2": "драми",
+    "correct": false
+  },
+  {
+    "adj1": "сини",
+    "adv1": "дочки",
+    "adj2": "король",
+    "expected_adv2": "королева",
+    "predicted_adv2": "королева",
+    "correct": true
+  },
+  {
+    "adj1": "Таїланд",
+    "adv1": "Бангкок",
+    "adj2": "Сенегал",
+    "expected_adv2": "Дакар",
+    "predicted_adv2": "Сенегалу",
+    "correct": false
+  },
+  {
+    "adj1": "тримати",
+    "adv1": "тримали",
+    "adj2": "відчувати",
+    "expected_adv2": "відчували",
+    "predicted_adv2": "відчували",
+    "correct": true
+  },
+  {
+    "adj1": "ковтати",
+    "adv1": "ковтали",
+    "adj2": "заперечувати",
+    "expected_adv2": "заперечували",
+    "predicted_adv2": "заперечували",
+    "correct": true
+  },
+  {
+    "adj1": "Індонезія",
+    "adv1": "Азія",
+    "adj2": "Ватикан",
+    "expected_adv2": "Європа",
+    "predicted_adv2": "Європа",
+    "correct": true
+  },
+  {
+    "adj1": "Сербія",
+    "adv1": "Белград",
+    "adj2": "Киргизстан",
+    "expected_adv2": "Бішкек",
+    "predicted_adv2": "Душанбе",
+    "correct": false
+  },
+  {
+    "adj1": "Італія",
+    "adv1": "італійці",
+    "adj2": "Македонія",
+    "expected_adv2": "македонці",
+    "predicted_adv2": "македонці",
+    "correct": true
+  },
+  {
+    "adj1": "Індія",
+    "adv1": "індієць",
+    "adj2": "Румунія",
+    "expected_adv2": "румун",
+    "predicted_adv2": "румунський",
+    "correct": false
+  },
+  {
+    "adj1": "Гватемала",
+    "adv1": "Гватемала",
+    "adj2": "Словенія",
+    "expected_adv2": "Любляна",
+    "predicted_adv2": "Словенії",
+    "correct": false
+  },
+  {
+    "adj1": "Туркменістан",
+    "adv1": "Ашгабат",
+    "adj2": "Лесото",
+    "expected_adv2": "Масеру",
+    "predicted_adv2": "Ботсвани",
+    "correct": false
+  },
+  {
+    "adj1": "показувати",
+    "adv1": "показує",
+    "adj2": "малювати",
+    "expected_adv2": "малює",
+    "predicted_adv2": "малює",
+    "correct": true
+  },
+  {
+    "adj1": "Бруней",
+    "adv1": "Азія",
+    "adj2": "Ангола",
+    "expected_adv2": "Африка",
+    "predicted_adv2": "Африка",
+    "correct": true
+  },
+  {
+    "adj1": "танцювати",
+    "adv1": "танцювали",
+    "adj2": "ходити",
+    "expected_adv2": "ходили",
+    "predicted_adv2": "ходили",
+    "correct": true
+  },
+  {
+    "adj1": "веселий",
+    "adv1": "весело",
+    "adj2": "нещасливий",
+    "expected_adv2": "нещасливо",
+    "predicted_adv2": "нудно",
+    "correct": false
+  },
+  {
+    "adj1": "сидіти",
+    "adv1": "сидить",
+    "adj2": "плавати",
+    "expected_adv2": "плаває",
+    "predicted_adv2": "плаває",
+    "correct": true
+  },
+  {
+    "adj1": "Сербія",
+    "adv1": "Белград",
+    "adj2": "Уругвай",
+    "expected_adv2": "Монтевідео",
+    "predicted_adv2": "Монтевідео",
+    "correct": true
+  },
+  {
+    "adj1": "збирати",
+    "adv1": "збирає",
+    "adj2": "плавати",
+    "expected_adv2": "плаває",
+    "predicted_adv2": "плаває",
+    "correct": true
+  },
+  {
+    "adj1": "Барбадос",
+    "adv1": "Бриджтаун",
+    "adj2": "Фінляндія",
+    "expected_adv2": "Гельсінкі",
+    "predicted_adv2": "Швеція",
+    "correct": false
+  },
+  {
+    "adj1": "Ірак",
+    "adv1": "Багдад",
+    "adj2": "Сінгапур",
+    "expected_adv2": "Сінгапур",
+    "predicted_adv2": "Куала-Лумпур",
+    "correct": false
+  },
+  {
+    "adj1": "Молдова",
+    "adv1": "Європа",
+    "adj2": "Алжир",
+    "expected_adv2": "Африка",
+    "predicted_adv2": "Туніс",
+    "correct": false
+  },
+  {
+    "adj1": "жінка",
+    "adv1": "жінки",
+    "adj2": "ананас",
+    "expected_adv2": "ананаси",
+    "predicted_adv2": "ананаси",
+    "correct": true
+  },
+  {
+    "adj1": "повний",
+    "adv1": "найповніший",
+    "adj2": "простий",
+    "expected_adv2": "найпростіший",
+    "predicted_adv2": "найпростіший",
+    "correct": true
+  },
+  {
+    "adj1": "лівонський",
+    "adv1": "Лівонія",
+    "adj2": "турецький",
+    "expected_adv2": "Туреччина",
+    "predicted_adv2": "турецька",
+    "correct": false
+  },
+  {
+    "adj1": "повний",
+    "adv1": "найповніший",
+    "adj2": "великий",
+    "expected_adv2": "найбільший",
+    "predicted_adv2": "найбільший",
+    "correct": true
+  },
+  {
+    "adj1": "низький",
+    "adv1": "нижчий",
+    "adj2": "теплий",
+    "expected_adv2": "тепліший",
+    "predicted_adv2": "холодний",
+    "correct": false
+  },
+  {
+    "adj1": "автомобіль",
+    "adv1": "автомобілі",
+    "adj2": "чоловік",
+    "expected_adv2": "чоловіки",
+    "predicted_adv2": "чоловіки",
+    "correct": true
+  },
+  {
+    "adj1": "нещасливий",
+    "adv1": "нещасливо",
+    "adj2": "повільний",
+    "expected_adv2": "повільно",
+    "predicted_adv2": "повільно",
+    "correct": true
+  },
+  {
+    "adj1": "дивний",
+    "adv1": "найдивніший",
+    "adj2": "добрий",
+    "expected_adv2": "найдобріший",
+    "predicted_adv2": "хороший",
+    "correct": false
+  },
+  {
+    "adj1": "Ліхтенштейн",
+    "adv1": "Європа",
+    "adj2": "Уганда",
+    "expected_adv2": "Африка",
+    "predicted_adv2": "Африка",
+    "correct": true
+  },
+  {
+    "adj1": "писати",
+    "adv1": "писали",
+    "adj2": "іти",
+    "expected_adv2": "йшли",
+    "predicted_adv2": "йти",
+    "correct": false
+  },
+  {
+    "adj1": "Японія",
+    "adv1": "японці",
+    "adj2": "Русь",
+    "expected_adv2": "русини",
+    "predicted_adv2": "Русі",
+    "correct": false
+  },
+  {
+    "adj1": "Самоа",
+    "adv1": "Апіа",
+    "adj2": "Марокко",
+    "expected_adv2": "Рабат",
+    "predicted_adv2": "Аммані",
+    "correct": false
+  },
+  {
+    "adj1": "раптовий",
+    "adv1": "раптово",
+    "adj2": "ефективний",
+    "expected_adv2": "ефективно",
+    "predicted_adv2": "ефективно",
+    "correct": true
+  },
+  {
+    "adj1": "холодний",
+    "adv1": "найхолодніший",
+    "adj2": "добрий",
+    "expected_adv2": "найдобріший",
+    "predicted_adv2": "хороший",
+    "correct": false
+  },
+  {
+    "adj1": "Ірак",
+    "adv1": "Багдад",
+    "adj2": "Японія",
+    "expected_adv2": "Токіо",
+    "predicted_adv2": "Кіото",
+    "correct": false
+  },
+  {
+    "adj1": "Норвегія",
+    "adv1": "Європа",
+    "adj2": "Монголія",
+    "expected_adv2": "Азія",
+    "predicted_adv2": "Европа",
+    "correct": false
+  },
+  {
+    "adj1": "Нідерланди",
+    "adv1": "нідерландець",
+    "adj2": "Канада",
+    "expected_adv2": "канадець",
+    "predicted_adv2": "Канаді",
+    "correct": false
+  },
+  {
+    "adj1": "Хорватія",
+    "adv1": "хорватський",
+    "adj2": "Колумбія",
+    "expected_adv2": "колумбійський",
+    "predicted_adv2": "колумбійський",
+    "correct": true
+  },
+  {
+    "adj1": "тунісець",
+    "adv1": "Туніс",
+    "adj2": "бразилець",
+    "expected_adv2": "Бразилія",
+    "predicted_adv2": "Алжир",
+    "correct": false
+  },
+  {
+    "adj1": "Беліз",
+    "adv1": "Бельмопан",
+    "adj2": "Канада",
+    "expected_adv2": "Оттава",
+    "predicted_adv2": "Торонто",
+    "correct": false
+  },
+  {
+    "adj1": "Сирія",
+    "adv1": "Дамаск",
+    "adj2": "Іран",
+    "expected_adv2": "Тегеран",
+    "predicted_adv2": "Тегеран",
+    "correct": true
+  },
+  {
+    "adj1": "Барбадос",
+    "adv1": "Бриджтаун",
+    "adj2": "Азербайджан",
+    "expected_adv2": "Баку",
+    "predicted_adv2": "Баку",
+    "correct": true
+  },
+  {
+    "adj1": "дорога",
+    "adv1": "дороги",
+    "adj2": "рука",
+    "expected_adv2": "руки",
+    "predicted_adv2": "нога",
+    "correct": false
+  },
+  {
+    "adj1": "Ісландія",
+    "adv1": "ісландський",
+    "adj2": "Лівонія",
+    "expected_adv2": "лівонський",
+    "predicted_adv2": "Лівонії",
+    "correct": false
+  },
+  {
+    "adj1": "Угорщина",
+    "adv1": "Європа",
+    "adj2": "Лаос",
+    "expected_adv2": "Азія",
+    "predicted_adv2": "Лаосу",
+    "correct": false
+  },
+  {
+    "adj1": "мовчати",
+    "adv1": "мовчали",
+    "adj2": "грати",
+    "expected_adv2": "грали",
+    "predicted_adv2": "грали",
+    "correct": true
+  },
+  {
+    "adj1": "Непал",
+    "adv1": "Катманду",
+    "adj2": "Індонезія",
+    "expected_adv2": "Джакарта",
+    "predicted_adv2": "Джакарта",
+    "correct": true
+  },
+  {
+    "adj1": "великий",
+    "adv1": "більший",
+    "adj2": "новий",
+    "expected_adv2": "новіший",
+    "predicted_adv2": "інший",
+    "correct": false
+  },
+  {
+    "adj1": "Тонга",
+    "adv1": "Нукуалофа",
+    "adj2": "Сирія",
+    "expected_adv2": "Дамаск",
+    "predicted_adv2": "Алеппо",
+    "correct": false
+  },
+  {
+    "adj1": "Мавританія",
+    "adv1": "Нуакшот",
+    "adj2": "Франція",
+    "expected_adv2": "Париж",
+    "predicted_adv2": "Реймс",
+    "correct": false
+  },
+  {
+    "adj1": "коринфський",
+    "adv1": "Коринф",
+    "adj2": "поліський",
+    "expected_adv2": "Полісся",
+    "predicted_adv2": "Чернігів",
+    "correct": false
+  },
+  {
+    "adj1": "норвежці",
+    "adv1": "норвежець",
+    "adj2": "фіни",
+    "expected_adv2": "фін",
+    "predicted_adv2": "росіяни",
+    "correct": false
+  },
+  {
+    "adj1": "танцювати",
+    "adv1": "танцювали",
+    "adj2": "бачити",
+    "expected_adv2": "бачили",
+    "predicted_adv2": "бачили",
+    "correct": true
+  },
+  {
+    "adj1": "Словаччина",
+    "adv1": "Братислава",
+    "adj2": "Ангола",
+    "expected_adv2": "Луанда",
+    "predicted_adv2": "Анголи",
+    "correct": false
+  },
+  {
+    "adj1": "маленький",
+    "adv1": "найменший",
+    "adj2": "широкий",
+    "expected_adv2": "найширший",
+    "predicted_adv2": "найбільший",
+    "correct": false
+  },
+  {
+    "adj1": "Індія",
+    "adv1": "Азія",
+    "adj2": "Нігер",
+    "expected_adv2": "Африка",
+    "predicted_adv2": "Африка",
+    "correct": true
+  },
+  {
+    "adj1": "Йорданія",
+    "adv1": "Азія",
+    "adj2": "Мозамбік",
+    "expected_adv2": "Африка",
+    "predicted_adv2": "Африка",
+    "correct": true
+  },
+  {
+    "adj1": "індійський",
+    "adv1": "індієць",
+    "adj2": "індійський",
+    "expected_adv2": "індієць",
+    "predicted_adv2": "британець",
+    "correct": false
+  },
+  {
+    "adj1": "Ліван",
+    "adv1": "Бейрут",
+    "adj2": "Венесуела",
+    "expected_adv2": "Каракас",
+    "predicted_adv2": "Венеція",
+    "correct": false
+  },
+  {
+    "adj1": "іти",
+    "adv1": "йшли",
+    "adj2": "прогнозувати",
+    "expected_adv2": "прогнозували",
+    "predicted_adv2": "здійснювалися",
+    "correct": false
+  },
+  {
+    "adj1": "малайський",
+    "adv1": "малаєць",
+    "adj2": "філіппінський",
+    "expected_adv2": "філіппінець",
+    "predicted_adv2": "вирішив",
+    "correct": false
+  },
+  {
+    "adj1": "Судан",
+    "adv1": "Хартум",
+    "adj2": "Греція",
+    "expected_adv2": "Афіни",
+    "predicted_adv2": "Афіни",
+    "correct": true
+  },
+  {
+    "adj1": "Таджикистан",
+    "adv1": "Азія",
+    "adj2": "Чехія",
+    "expected_adv2": "Європа",
+    "predicted_adv2": "Європа",
+    "correct": true
+  },
+  {
+    "adj1": "негайний",
+    "adv1": "негайно",
+    "adj2": "професійний",
+    "expected_adv2": "професійно",
+    "predicted_adv2": "знову",
+    "correct": false
+  },
+  {
+    "adj1": "словенський",
+    "adv1": "Словенія",
+    "adj2": "барбадоський",
+    "expected_adv2": "Барбадос",
+    "predicted_adv2": "Ірландія",
+    "correct": false
+  },
+  {
+    "adj1": "Свазіленд",
+    "adv1": "свазі",
+    "adj2": "Словаччина",
+    "expected_adv2": "словаки",
+    "predicted_adv2": "словацька",
+    "correct": false
+  },
+  {
+    "adj1": "цибуля",
+    "adv1": "цибулю",
+    "adj2": "коза",
+    "expected_adv2": "кози",
+    "predicted_adv2": "Коза",
+    "correct": false
+  },
+  {
+    "adj1": "гарний",
+    "adv1": "найгарніший",
+    "adj2": "яскравий",
+    "expected_adv2": "найяскравіший",
+    "predicted_adv2": "найяскравіших",
+    "correct": false
+  },
+  {
+    "adj1": "таїтяни",
+    "adv1": "Таїті",
+    "adj2": "камерунці",
+    "expected_adv2": "Камерун",
+    "predicted_adv2": "Фіджі",
+    "correct": false
+  },
+  {
+    "adj1": "гострий",
+    "adv1": "найгостріший",
+    "adj2": "повільний",
+    "expected_adv2": "найповільніший",
+    "predicted_adv2": "повільне",
+    "correct": false
+  },
+  {
+    "adj1": "сильний",
+    "adv1": "найсильніший",
+    "adj2": "довгий",
+    "expected_adv2": "найдовший",
+    "predicted_adv2": "тривалий",
+    "correct": false
+  },
+  {
+    "adj1": "Туніс",
+    "adv1": "Туніс",
+    "adj2": "Данія",
+    "expected_adv2": "Копенгаген",
+    "predicted_adv2": "Швеція",
+    "correct": false
+  },
+  {
+    "adj1": "Румунія",
+    "adv1": "Бухарест",
+    "adj2": "Ірландія",
+    "expected_adv2": "Дублін",
+    "predicted_adv2": "Дублін",
+    "correct": true
+  },
+  {
+    "adj1": "сон",
+    "adv1": "сни",
+    "adj2": "чоловік",
+    "expected_adv2": "чоловіки",
+    "predicted_adv2": "чорно-білі",
+    "correct": false
+  },
+  {
+    "adj1": "Габон",
+    "adv1": "Африка",
+    "adj2": "Ліхтенштейн",
+    "expected_adv2": "Європа",
+    "predicted_adv2": "Азія",
+    "correct": false
+  },
+  {
+    "adj1": "Греція",
+    "adv1": "Афіни",
+    "adj2": "Куба",
+    "expected_adv2": "Гавана",
+    "predicted_adv2": "Гавана",
+    "correct": true
+  },
+  {
+    "adj1": "говорити",
+    "adv1": "говорили",
+    "adj2": "думати",
+    "expected_adv2": "думали",
+    "predicted_adv2": "думали",
+    "correct": true
+  },
+  {
+    "adj1": "Еквадор",
+    "adv1": "Кіто",
+    "adj2": "Ізраїль",
+    "expected_adv2": "Єрусалим",
+    "predicted_adv2": "Єрусалим",
+    "correct": true
+  },
+  {
+    "adj1": "машина",
+    "adv1": "машини",
+    "adj2": "сон",
+    "expected_adv2": "сни",
+    "predicted_adv2": "сни",
+    "correct": true
+  },
+  {
+    "adj1": "Самоа",
+    "adv1": "Апіа",
+    "adj2": "Іспанія",
+    "expected_adv2": "Мадрид",
+    "predicted_adv2": "Італія",
+    "correct": false
+  },
+  {
+    "adj1": "український",
+    "adv1": "українці",
+    "adj2": "новозеландський",
+    "expected_adv2": "новозеландці",
+    "predicted_adv2": "Українці",
+    "correct": false
+  },
+  {
+    "adj1": "Македонія",
+    "adv1": "динар",
+    "adj2": "Україна",
+    "expected_adv2": "гривня",
+    "predicted_adv2": "франк",
+    "correct": false
+  },
+  {
+    "adj1": "розумний",
+    "adv1": "найрозумніший",
+    "adj2": "повний",
+    "expected_adv2": "найповніший",
+    "predicted_adv2": "неповний",
+    "correct": false
+  },
+  {
+    "adj1": "мовчати",
+    "adv1": "мовчить",
+    "adj2": "аналізувати",
+    "expected_adv2": "аналізує",
+    "predicted_adv2": "аналізує",
+    "correct": true
+  },
+  {
+    "adj1": "гаїтяни",
+    "adv1": "Гаїті",
+    "adj2": "тунісці",
+    "expected_adv2": "Туніс",
+    "predicted_adv2": "Гондурасу",
+    "correct": false
+  },
+  {
+    "adj1": "плавати",
+    "adv1": "плаває",
+    "adj2": "закривати",
+    "expected_adv2": "закриває",
+    "predicted_adv2": "закриває",
+    "correct": true
+  },
+  {
+    "adj1": "Росія",
+    "adv1": "рубль",
+    "adj2": "Угорщина",
+    "expected_adv2": "форинт",
+    "predicted_adv2": "рубля",
+    "correct": false
+  },
+  {
+    "adj1": "крутий",
+    "adv1": "найкрутіший",
+    "adj2": "короткий",
+    "expected_adv2": "найкоротший",
+    "predicted_adv2": "найкоротший",
+    "correct": true
+  },
+  {
+    "adj1": "Палау",
+    "adv1": "Нгерулмуд",
+    "adj2": "Росія",
+    "expected_adv2": "Москва",
+    "predicted_adv2": "Московія",
+    "correct": false
+  },
+  {
+    "adj1": "Угорщина",
+    "adv1": "Будапешт",
+    "adj2": "Данія",
+    "expected_adv2": "Копенгаген",
+    "predicted_adv2": "Копенгаген",
+    "correct": true
+  },
+  {
+    "adj1": "Суринам",
+    "adv1": "Парамарибо",
+    "adj2": "Руанда",
+    "expected_adv2": "Кігалі",
+    "predicted_adv2": "Уганда",
+    "correct": false
+  },
+  {
+    "adj1": "гондурасці",
+    "adv1": "Гондурас",
+    "adj2": "чехи",
+    "expected_adv2": "Чехія",
+    "predicted_adv2": "Чехи",
+    "correct": false
+  },
+  {
+    "adj1": "Марокко",
+    "adv1": "Рабат",
+    "adj2": "Ліван",
+    "expected_adv2": "Бейрут",
+    "predicted_adv2": "Бейрут",
+    "correct": true
+  },
+  {
+    "adj1": "Литва",
+    "adv1": "Вільнюс",
+    "adj2": "Малі",
+    "expected_adv2": "Бамако",
+    "predicted_adv2": "Великі",
+    "correct": false
+  },
+  {
+    "adj1": "Голландія",
+    "adv1": "голландський",
+    "adj2": "Непал",
+    "expected_adv2": "непальський",
+    "predicted_adv2": "Непалу",
+    "correct": false
+  },
+  {
+    "adj1": "вітчим",
+    "adv1": "мачуха",
+    "adj2": "син",
+    "expected_adv2": "дочка",
+    "predicted_adv2": "дочка",
+    "correct": true
+  },
+  {
+    "adj1": "ефіопський",
+    "adv1": "ефіоп",
+    "adj2": "датський",
+    "expected_adv2": "датчанин",
+    "predicted_adv2": "данський",
+    "correct": false
+  },
+  {
+    "adj1": "спати",
+    "adv1": "спали",
+    "adj2": "літати",
+    "expected_adv2": "літали",
+    "predicted_adv2": "літали",
+    "correct": true
+  },
+  {
+    "adj1": "мовчати",
+    "adv1": "мовчить",
+    "adj2": "виховувати",
+    "expected_adv2": "виховує",
+    "predicted_adv2": "виховує",
+    "correct": true
+  },
+  {
+    "adj1": "Намібія",
+    "adv1": "намібійці",
+    "adj2": "Японія",
+    "expected_adv2": "японці",
+    "predicted_adv2": "японці",
+    "correct": true
+  },
+  {
+    "adj1": "щасливий",
+    "adv1": "щасливо",
+    "adj2": "професійний",
+    "expected_adv2": "професійно",
+    "predicted_adv2": "успішно",
+    "correct": false
+  },
+  {
+    "adj1": "Польща",
+    "adv1": "Варшава",
+    "adj2": "Мадагаскар",
+    "expected_adv2": "Антананаріву",
+    "predicted_adv2": "Мадагаскарі",
+    "correct": false
+  },
+  {
+    "adj1": "око",
+    "adv1": "очі",
+    "adj2": "палець",
+    "expected_adv2": "пальці",
+    "predicted_adv2": "губи",
+    "correct": false
+  },
+  {
+    "adj1": "Косово",
+    "adv1": "косовари",
+    "adj2": "Молдова",
+    "expected_adv2": "молдовани",
+    "predicted_adv2": "Кишинів",
+    "correct": false
+  },
+  {
+    "adj1": "бачити",
+    "adv1": "бачить",
+    "adj2": "закривати",
+    "expected_adv2": "закриває",
+    "predicted_adv2": "закриває",
+    "correct": true
+  },
+  {
+    "adj1": "кішка",
+    "adv1": "кішки",
+    "adj2": "будівля",
+    "expected_adv2": "будівлі",
+    "predicted_adv2": "будівлі",
+    "correct": true
+  },
+  {
+    "adj1": "відмінний",
+    "adv1": "відмінно",
+    "adj2": "очевидний",
+    "expected_adv2": "очевидно",
+    "predicted_adv2": "добре",
+    "correct": false
+  },
+  {
+    "adj1": "азербайджанка",
+    "adv1": "азербайджанський",
+    "adj2": "нідерландка",
+    "expected_adv2": "нідерландський",
+    "predicted_adv2": "нідерландський",
+    "correct": true
+  },
+  {
+    "adj1": "сальвадорці",
+    "adv1": "сальвадорський",
+    "adj2": "коринфяни",
+    "expected_adv2": "коринфський",
+    "predicted_adv2": "грецький",
+    "correct": false
+  },
+  {
+    "adj1": "швидкий",
+    "adv1": "швидко",
+    "adj2": "тихий",
+    "expected_adv2": "тихо",
+    "predicted_adv2": "тихо",
+    "correct": true
+  },
+  {
+    "adj1": "Домініка",
+    "adv1": "Розо",
+    "adj2": "Беліз",
+    "expected_adv2": "Бельмопан",
+    "predicted_adv2": "Лаос",
+    "correct": false
+  },
+  {
+    "adj1": "косовари",
+    "adv1": "косовський",
+    "adj2": "азербайджанці",
+    "expected_adv2": "азербайджанський",
+    "predicted_adv2": "азербайджанський",
+    "correct": true
+  },
+  {
+    "adj1": "вітчим",
+    "adv1": "мачуха",
+    "adj2": "внук",
+    "expected_adv2": "внучка",
+    "predicted_adv2": "онук",
+    "correct": false
+  },
+  {
+    "adj1": "Іран",
+    "adv1": "іранський",
+    "adj2": "Швейцарія",
+    "expected_adv2": "швейцарський",
+    "predicted_adv2": "швейцарський",
+    "correct": true
+  },
+  {
+    "adj1": "веселий",
+    "adv1": "весело",
+    "adj2": "повільний",
+    "expected_adv2": "повільно",
+    "predicted_adv2": "повільно",
+    "correct": true
+  },
+  {
+    "adj1": "тайванський",
+    "adv1": "тайванець",
+    "adj2": "болівійський",
+    "expected_adv2": "болівієць",
+    "predicted_adv2": "аргентинський",
+    "correct": false
+  },
+  {
+    "adj1": "Уганда",
+    "adv1": "угандійці",
+    "adj2": "Індонезія",
+    "expected_adv2": "індонезійці",
+    "predicted_adv2": "солісти",
+    "correct": false
+  },
+  {
+    "adj1": "темний",
+    "adv1": "найтемніший",
+    "adj2": "розумний",
+    "expected_adv2": "найрозумніший",
+    "predicted_adv2": "вимірює",
+    "correct": false
+  },
+  {
+    "adj1": "кричати",
+    "adv1": "кричить",
+    "adj2": "стояти",
+    "expected_adv2": "стоїть",
+    "predicted_adv2": "стоїть",
+    "correct": true
+  },
+  {
+    "adj1": "заперечувати",
+    "adv1": "заперечували",
+    "adj2": "ковтати",
+    "expected_adv2": "ковтали",
+    "predicted_adv2": "проковтнути",
+    "correct": false
+  },
+  {
+    "adj1": "англієць",
+    "adv1": "Англія",
+    "adj2": "ірландець",
+    "expected_adv2": "Ірландія",
+    "predicted_adv2": "Великобританія",
+    "correct": false
+  },
+  {
+    "adj1": "простий",
+    "adv1": "найпростіший",
+    "adj2": "широкий",
+    "expected_adv2": "найширший",
+    "predicted_adv2": "Широкий",
+    "correct": false
+  },
+  {
+    "adj1": "інформативно",
+    "adv1": "неінформативно",
+    "adj2": "раціонально",
+    "expected_adv2": "ірраціонально",
+    "predicted_adv2": "розумно",
+    "correct": false
+  },
+  {
+    "adj1": "зрозумілий",
+    "adv1": "зрозуміло",
+    "adj2": "рідкісний",
+    "expected_adv2": "рідко",
+    "predicted_adv2": "рідкісна",
+    "correct": false
+  },
+  {
+    "adj1": "Гамбія",
+    "adv1": "Африка",
+    "adj2": "Швейцарія",
+    "expected_adv2": "Європа",
+    "predicted_adv2": "Азія",
+    "correct": false
+  },
+  {
+    "adj1": "нечастий",
+    "adv1": "нечасто",
+    "adj2": "зрозумілий",
+    "expected_adv2": "зрозуміло",
+    "predicted_adv2": "рідко",
+    "correct": false
+  },
+  {
+    "adj1": "Естонія",
+    "adv1": "Таллінн",
+    "adj2": "Туркменістан",
+    "expected_adv2": "Ашгабат",
+    "predicted_adv2": "Баку",
+    "correct": false
+  },
+  {
+    "adj1": "вітчим",
+    "adv1": "мачуха",
+    "adj2": "принц",
+    "expected_adv2": "принцеса",
+    "predicted_adv2": "принцеса",
+    "correct": true
+  },
+  {
+    "adj1": "слабкий",
+    "adv1": "найслабший",
+    "adj2": "щасливий",
+    "expected_adv2": "найщасливіший",
+    "predicted_adv2": "щасливим",
+    "correct": false
+  },
+  {
+    "adj1": "повний",
+    "adv1": "повно",
+    "adj2": "точний",
+    "expected_adv2": "точно",
+    "predicted_adv2": "точно",
+    "correct": true
+  },
+  {
+    "adj1": "Грузія",
+    "adv1": "Тбілісі",
+    "adj2": "Лесото",
+    "expected_adv2": "Масеру",
+    "predicted_adv2": "Нігерії",
+    "correct": false
+  },
+  {
+    "adj1": "сумний",
+    "adv1": "сумно",
+    "adj2": "ефективний",
+    "expected_adv2": "ефективно",
+    "predicted_adv2": "цікаво",
+    "correct": false
+  },
+  {
+    "adj1": "простий",
+    "adv1": "найпростіший",
+    "adj2": "великий",
+    "expected_adv2": "найбільший",
+    "predicted_adv2": "величезний",
+    "correct": false
+  },
+  {
+    "adj1": "випадковий",
+    "adv1": "випадково",
+    "adj2": "точний",
+    "expected_adv2": "точно",
+    "predicted_adv2": "точно",
+    "correct": true
+  },
+  {
+    "adj1": "Габон",
+    "adv1": "Африка",
+    "adj2": "Китай",
+    "expected_adv2": "Азія",
+    "predicted_adv2": "Азія",
+    "correct": true
+  },
+  {
+    "adj1": "їсти",
+    "adv1": "їсть",
+    "adj2": "створювати",
+    "expected_adv2": "створює",
+    "predicted_adv2": "створює",
+    "correct": true
+  },
+  {
+    "adj1": "син",
+    "adv1": "дочка",
+    "adj2": "внук",
+    "expected_adv2": "внучка",
+    "predicted_adv2": "внучка",
+    "correct": true
+  },
+  {
+    "adj1": "Румунія",
+    "adv1": "Бухарест",
+    "adj2": "Сенегал",
+    "expected_adv2": "Дакар",
+    "predicted_adv2": "Сенегалу",
+    "correct": false
+  },
+  {
+    "adj1": "чоловік",
+    "adv1": "дружина",
+    "adj2": "брат",
+    "expected_adv2": "сестра",
+    "predicted_adv2": "син",
+    "correct": false
+  },
+  {
+    "adj1": "стояти",
+    "adv1": "стояли",
+    "adj2": "малювати",
+    "expected_adv2": "малювали",
+    "predicted_adv2": "малювали",
+    "correct": true
+  },
+  {
+    "adj1": "афганський",
+    "adv1": "афганець",
+    "adj2": "індійський",
+    "expected_adv2": "індієць",
+    "predicted_adv2": "Індійський",
+    "correct": false
+  },
+  {
+    "adj1": "Швейцарія",
+    "adv1": "швейцарці",
+    "adj2": "Малі",
+    "expected_adv2": "малійці",
+    "predicted_adv2": "Великі",
+    "correct": false
+  },
+  {
+    "adj1": "продуктивно",
+    "adv1": "непродуктивно",
+    "adj2": "вдало",
+    "expected_adv2": "невдало",
+    "predicted_adv2": "невдало",
+    "correct": true
+  },
+  {
+    "adj1": "Індонезія",
+    "adv1": "Азія",
+    "adj2": "Сомалі",
+    "expected_adv2": "Африка",
+    "predicted_adv2": "Африка",
+    "correct": true
+  },
+  {
+    "adj1": "слон",
+    "adv1": "слони",
+    "adj2": "будівля",
+    "expected_adv2": "будівлі",
+    "predicted_adv2": "споруда",
+    "correct": false
+  },
+  {
+    "adj1": "кінь",
+    "adv1": "коні",
+    "adj2": "груша",
+    "expected_adv2": "груші",
+    "predicted_adv2": "груші",
+    "correct": true
+  },
+  {
+    "adj1": "прогнозувати",
+    "adv1": "прогнозували",
+    "adj2": "узагальнювати",
+    "expected_adv2": "узагальнювали",
+    "predicted_adv2": "аналізували",
+    "correct": false
+  },
+  {
+    "adj1": "веселий",
+    "adv1": "весело",
+    "adj2": "щасливий",
+    "expected_adv2": "щасливо",
+    "predicted_adv2": "радісно",
+    "correct": false
+  },
+  {
+    "adj1": "Камерун",
+    "adv1": "Африка",
+    "adj2": "Ємен",
+    "expected_adv2": "Азія",
+    "predicted_adv2": "Судан",
+    "correct": false
+  },
+  {
+    "adj1": "Фінляндія",
+    "adv1": "Гельсінкі",
+    "adj2": "Камбоджа",
+    "expected_adv2": "Пномпень",
+    "predicted_adv2": "Камбоджі",
+    "correct": false
+  },
+  {
+    "adj1": "вільний",
+    "adv1": "вільно",
+    "adj2": "високий",
+    "expected_adv2": "високо",
+    "predicted_adv2": "високо",
+    "correct": true
+  },
+  {
+    "adj1": "Росія",
+    "adv1": "рубль",
+    "adj2": "Японія",
+    "expected_adv2": "ієн",
+    "predicted_adv2": "долар",
+    "correct": false
+  },
+  {
+    "adj1": "Алжир",
+    "adv1": "Африка",
+    "adj2": "Непал",
+    "expected_adv2": "Азія",
+    "predicted_adv2": "Непалі",
+    "correct": false
+  },
+  {
+    "adj1": "Албанія",
+    "adv1": "Тирана",
+    "adj2": "Гватемала",
+    "expected_adv2": "Гватемала",
+    "predicted_adv2": "Кіто",
+    "correct": false
+  },
+  {
+    "adj1": "грати",
+    "adv1": "грали",
+    "adj2": "бачити",
+    "expected_adv2": "бачили",
+    "predicted_adv2": "бачили",
+    "correct": true
+  },
+  {
+    "adj1": "Алжир",
+    "adv1": "Алжир",
+    "adj2": "Намібія",
+    "expected_adv2": "Віндгук",
+    "predicted_adv2": "Намібії",
+    "correct": false
+  },
+  {
+    "adj1": "запевняти",
+    "adv1": "запевняли",
+    "adj2": "грати",
+    "expected_adv2": "грали",
+    "predicted_adv2": "грали",
+    "correct": true
+  },
+  {
+    "adj1": "Афганістан",
+    "adv1": "Кабул",
+    "adj2": "Йорданія",
+    "expected_adv2": "Амман",
+    "predicted_adv2": "Аммані",
+    "correct": false
+  },
+  {
+    "adj1": "старий",
+    "adv1": "найстаріший",
+    "adj2": "сильний",
+    "expected_adv2": "найсильніший",
+    "predicted_adv2": "найсильніший",
+    "correct": true
+  },
+  {
+    "adj1": "колір",
+    "adv1": "кольори",
+    "adj2": "осел",
+    "expected_adv2": "осли",
+    "predicted_adv2": "лев",
+    "correct": false
+  },
+  {
+    "adj1": "ірландці",
+    "adv1": "ірландський",
+    "adj2": "туркмени",
+    "expected_adv2": "туркменський",
+    "predicted_adv2": "узбецький",
+    "correct": false
+  },
+  {
+    "adj1": "тримати",
+    "adv1": "тримали",
+    "adj2": "запевняти",
+    "expected_adv2": "запевняли",
+    "predicted_adv2": "переконували",
+    "correct": false
+  },
+  {
+    "adj1": "Ірак",
+    "adv1": "Багдад",
+    "adj2": "Палау",
+    "expected_adv2": "Нгерулмуд",
+    "predicted_adv2": "островів",
+    "correct": false
+  },
+  {
+    "adj1": "Ізраїль",
+    "adv1": "Єрусалим",
+    "adj2": "Норвегія",
+    "expected_adv2": "Осло",
+    "predicted_adv2": "Осло",
+    "correct": true
+  },
+  {
+    "adj1": "Того",
+    "adv1": "Ломе",
+    "adj2": "Україна",
+    "expected_adv2": "Київ",
+    "predicted_adv2": "Centro",
+    "correct": false
+  },
+  {
+    "adj1": "Латвія",
+    "adv1": "Рига",
+    "adj2": "Руанда",
+    "expected_adv2": "Кігалі",
+    "predicted_adv2": "Варшава",
+    "correct": false
+  },
+  {
+    "adj1": "важкий",
+    "adv1": "важчий",
+    "adj2": "дешевий",
+    "expected_adv2": "дешевший",
+    "predicted_adv2": "дешевший",
+    "correct": true
+  },
+  {
+    "adj1": "веселий",
+    "adv1": "веселіший",
+    "adj2": "голосний",
+    "expected_adv2": "голосніший",
+    "predicted_adv2": "приголосний",
+    "correct": false
+  },
+  {
+    "adj1": "заперечувати",
+    "adv1": "заперечували",
+    "adj2": "писати",
+    "expected_adv2": "писали",
+    "predicted_adv2": "писали",
+    "correct": true
+  },
+  {
+    "adj1": "італійці",
+    "adv1": "італієць",
+    "adj2": "ефіопи",
+    "expected_adv2": "ефіоп",
+    "predicted_adv2": "іспанець",
+    "correct": false
+  },
+  {
+    "adj1": "іспанці",
+    "adv1": "іспанець",
+    "adj2": "ефіопи",
+    "expected_adv2": "ефіоп",
+    "predicted_adv2": "Мохамед",
+    "correct": false
+  },
+  {
+    "adj1": "Туркменістан",
+    "adv1": "Азія",
+    "adj2": "Камерун",
+    "expected_adv2": "Африка",
+    "predicted_adv2": "Африка",
+    "correct": true
+  },
+  {
+    "adj1": "самоа",
+    "adv1": "Самоа",
+    "adj2": "мальдівці",
+    "expected_adv2": "Мальдіви",
+    "predicted_adv2": "Фіджі",
+    "correct": false
+  },
+  {
+    "adj1": "ефективно",
+    "adv1": "неефективно",
+    "adj2": "зручно",
+    "expected_adv2": "незручно",
+    "predicted_adv2": "незручно",
+    "correct": true
+  },
+  {
+    "adj1": "італійка",
+    "adv1": "Італія",
+    "adj2": "японка",
+    "expected_adv2": "Японія",
+    "predicted_adv2": "Японія",
+    "correct": true
+  },
+  {
+    "adj1": "Намібія",
+    "adv1": "Віндгук",
+    "adj2": "Ірак",
+    "expected_adv2": "Багдад",
+    "predicted_adv2": "Багдад",
+    "correct": true
+  },
+  {
+    "adj1": "відчувати",
+    "adv1": "відчували",
+    "adj2": "думати",
+    "expected_adv2": "думали",
+    "predicted_adv2": "думали",
+    "correct": true
+  },
+  {
+    "adj1": "малий",
+    "adv1": "менший",
+    "adj2": "хороший",
+    "expected_adv2": "кращий",
+    "predicted_adv2": "кращий",
+    "correct": true
+  },
+  {
+    "adj1": "Лесото",
+    "adv1": "Африка",
+    "adj2": "Індія",
+    "expected_adv2": "Азія",
+    "predicted_adv2": "Азія",
+    "correct": true
+  },
+  {
+    "adj1": "малювати",
+    "adv1": "малювали",
+    "adj2": "думати",
+    "expected_adv2": "думали",
+    "predicted_adv2": "думали",
+    "correct": true
+  },
+  {
+    "adj1": "нідерландський",
+    "adv1": "нідерландці",
+    "adj2": "гондураський",
+    "expected_adv2": "гондурасці",
+    "predicted_adv2": "іспанці",
+    "correct": false
+  },
+  {
+    "adj1": "говорити",
+    "adv1": "говорили",
+    "adj2": "лежати",
+    "expected_adv2": "лежали",
+    "predicted_adv2": "лежали",
+    "correct": true
+  },
+  {
+    "adj1": "долар",
+    "adv1": "долари",
+    "adj2": "лев",
+    "expected_adv2": "леви",
+    "predicted_adv2": "лева",
+    "correct": false
+  },
+  {
+    "adj1": "афганський",
+    "adv1": "Афганістан",
+    "adj2": "руський",
+    "expected_adv2": "Русь",
+    "predicted_adv2": "Руський",
+    "correct": false
+  },
+  {
+    "adj1": "нечастий",
+    "adv1": "нечасто",
+    "adj2": "спокійний",
+    "expected_adv2": "спокійно",
+    "predicted_adv2": "рідко",
+    "correct": false
+  },
+  {
+    "adj1": "Киргизстан",
+    "adv1": "Азія",
+    "adj2": "Уганда",
+    "expected_adv2": "Африка",
+    "predicted_adv2": "Африка",
+    "correct": true
+  },
+  {
+    "adj1": "простий",
+    "adv1": "найпростіший",
+    "adj2": "слабкий",
+    "expected_adv2": "найслабший",
+    "predicted_adv2": "сильний",
+    "correct": false
+  },
+  {
+    "adj1": "Гвінея",
+    "adv1": "Конакрі",
+    "adj2": "Кіпр",
+    "expected_adv2": "Нікосія",
+    "predicted_adv2": "Кіпрі",
+    "correct": false
+  },
+  {
+    "adj1": "Азербайджан",
+    "adv1": "Баку",
+    "adj2": "Туніс",
+    "expected_adv2": "Туніс",
+    "predicted_adv2": "Алжир",
+    "correct": false
+  },
+  {
+    "adj1": "Сирія",
+    "adv1": "Дамаск",
+    "adj2": "Філіппіни",
+    "expected_adv2": "Маніла",
+    "predicted_adv2": "Єрусалим",
+    "correct": false
+  },
+  {
+    "adj1": "думати",
+    "adv1": "думали",
+    "adj2": "спати",
+    "expected_adv2": "спали",
+    "predicted_adv2": "спали",
+    "correct": true
+  },
+  {
+    "adj1": "короткий",
+    "adv1": "найкоротший",
+    "adj2": "повільний",
+    "expected_adv2": "найповільніший",
+    "predicted_adv2": "швидкий",
+    "correct": false
+  },
+  {
+    "adj1": "типовий",
+    "adv1": "типово",
+    "adj2": "веселий",
+    "expected_adv2": "весело",
+    "predicted_adv2": "веселим",
+    "correct": false
+  },
+  {
+    "adj1": "Туніс",
+    "adv1": "тунісці",
+    "adj2": "Аргентина",
+    "expected_adv2": "аргентинці",
+    "predicted_adv2": "індіанці",
+    "correct": false
+  },
+  {
+    "adj1": "хороший",
+    "adv1": "найкращий",
+    "adj2": "маленький",
+    "expected_adv2": "найменший",
+    "predicted_adv2": "найменший",
+    "correct": true
+  },
+  {
+    "adj1": "холодний",
+    "adv1": "найхолодніший",
+    "adj2": "яскравий",
+    "expected_adv2": "найяскравіший",
+    "predicted_adv2": "Яскравий",
+    "correct": false
+  },
+  {
+    "adj1": "змій",
+    "adv1": "змії",
+    "adj2": "колір",
+    "expected_adv2": "кольори",
+    "predicted_adv2": "відтінки",
+    "correct": false
+  },
+  {
+    "adj1": "Афганістан",
+    "adv1": "афганці",
+    "adj2": "Полінезія",
+    "expected_adv2": "полінезійці",
+    "predicted_adv2": "Полінезії",
+    "correct": false
+  },
+  {
+    "adj1": "комфортно",
+    "adv1": "некомфортно",
+    "adj2": "ефективно",
+    "expected_adv2": "неефективно",
+    "predicted_adv2": "неефективно",
+    "correct": true
+  },
+  {
+    "adj1": "Мозамбік",
+    "adv1": "Мапуту",
+    "adj2": "Україна",
+    "expected_adv2": "Київ",
+    "predicted_adv2": "Київська",
+    "correct": false
+  },
+  {
+    "adj1": "плавати",
+    "adv1": "плавали",
+    "adj2": "слухати",
+    "expected_adv2": "слухали",
+    "predicted_adv2": "слухали",
+    "correct": true
+  },
+  {
+    "adj1": "орел",
+    "adv1": "орли",
+    "adj2": "колір",
+    "expected_adv2": "кольори",
+    "predicted_adv2": "колірні",
+    "correct": false
+  },
+  {
+    "adj1": "Аргентина",
+    "adv1": "аргентинець",
+    "adj2": "Мексика",
+    "expected_adv2": "мексиканець",
+    "predicted_adv2": "мексиканський",
+    "correct": false
+  },
+  {
+    "adj1": "рішуче",
+    "adv1": "нерішуче",
+    "adj2": "вдало",
+    "expected_adv2": "невдало",
+    "predicted_adv2": "невдало",
+    "correct": true
+  },
+  {
+    "adj1": "долар",
+    "adv1": "долари",
+    "adj2": "сон",
+    "expected_adv2": "сни",
+    "predicted_adv2": "сни",
+    "correct": true
+  },
+  {
+    "adj1": "Філіппіни",
+    "adv1": "філіппінський",
+    "adj2": "Європа",
+    "expected_adv2": "європейський",
+    "predicted_adv2": "Европа",
+    "correct": false
+  },
+  {
+    "adj1": "Кувейт",
+    "adv1": "Азія",
+    "adj2": "Естонія",
+    "expected_adv2": "Європа",
+    "predicted_adv2": "Європа",
+    "correct": true
+  },
+  {
+    "adj1": "Сенегал",
+    "adv1": "Дакар",
+    "adj2": "Туреччина",
+    "expected_adv2": "Анкара",
+    "predicted_adv2": "Анкара",
+    "correct": true
+  },
+  {
+    "adj1": "Замбія",
+    "adv1": "Лусака",
+    "adj2": "Ємен",
+    "expected_adv2": "Сана",
+    "predicted_adv2": "Ємену",
+    "correct": false
+  },
+  {
+    "adj1": "Монголія",
+    "adv1": "монгол",
+    "adj2": "Швейцарія",
+    "expected_adv2": "швейцарець",
+    "predicted_adv2": "швейцарський",
+    "correct": false
+  },
+  {
+    "adj1": "Туркменістан",
+    "adv1": "туркменський",
+    "adj2": "Словаччина",
+    "expected_adv2": "словацький",
+    "predicted_adv2": "словацький",
+    "correct": true
+  },
+  {
+    "adj1": "Гвінея",
+    "adv1": "Конакрі",
+    "adj2": "Барбадос",
+    "expected_adv2": "Бриджтаун",
+    "predicted_adv2": "Данді",
+    "correct": false
+  },
+  {
+    "adj1": "Венесуела",
+    "adv1": "Каракас",
+    "adj2": "Іспанія",
+    "expected_adv2": "Мадрид",
+    "predicted_adv2": "Мадрид",
+    "correct": true
+  },
+  {
+    "adj1": "коза",
+    "adv1": "кози",
+    "adj2": "дорога",
+    "expected_adv2": "дороги",
+    "predicted_adv2": "дороги",
+    "correct": true
+  },
+  {
+    "adj1": "машина",
+    "adv1": "машини",
+    "adj2": "кішка",
+    "expected_adv2": "кішки",
+    "predicted_adv2": "кішки",
+    "correct": true
+  },
+  {
+    "adj1": "ймовірно",
+    "adv1": "неймовірно",
+    "adj2": "логічно",
+    "expected_adv2": "нелогічно",
+    "predicted_adv2": "лаконічно",
+    "correct": false
+  },
+  {
+    "adj1": "автомобіль",
+    "adv1": "автомобілі",
+    "adj2": "хмара",
+    "expected_adv2": "хмари",
+    "predicted_adv2": "хмари",
+    "correct": true
+  },
+  {
+    "adj1": "Данія",
+    "adv1": "Копенгаген",
+    "adj2": "Того",
+    "expected_adv2": "Ломе",
+    "predicted_adv2": "Наступного",
+    "correct": false
+  },
+  {
+    "adj1": "ефективно",
+    "adv1": "неефективно",
+    "adj2": "рішуче",
+    "expected_adv2": "нерішуче",
+    "predicted_adv2": "категорично",
+    "correct": false
+  },
+  {
+    "adj1": "Кенія",
+    "adv1": "Найробі",
+    "adj2": "Норвегія",
+    "expected_adv2": "Осло",
+    "predicted_adv2": "Осло",
+    "correct": true
+  },
+  {
+    "adj1": "естонець",
+    "adv1": "естонський",
+    "adj2": "австрієць",
+    "expected_adv2": "австрійський",
+    "predicted_adv2": "німецький",
+    "correct": false
+  },
+  {
+    "adj1": "слабкий",
+    "adv1": "найслабший",
+    "adj2": "солодкий",
+    "expected_adv2": "найсолодший",
+    "predicted_adv2": "Солодкий",
+    "correct": false
+  },
+  {
+    "adj1": "Беліз",
+    "adv1": "Бельмопан",
+    "adj2": "Білорусь",
+    "expected_adv2": "Мінськ",
+    "predicted_adv2": "Гродненська",
+    "correct": false
+  },
+  {
+    "adj1": "американці",
+    "adv1": "американець",
+    "adj2": "чилійці",
+    "expected_adv2": "чилієць",
+    "predicted_adv2": "іспанець",
+    "correct": false
+  },
+  {
+    "adj1": "Єгипет",
+    "adv1": "Каїр",
+    "adj2": "Судан",
+    "expected_adv2": "Хартум",
+    "predicted_adv2": "Каїра",
+    "correct": false
+  },
+  {
+    "adj1": "писати",
+    "adv1": "пише",
+    "adj2": "думати",
+    "expected_adv2": "думає",
+    "predicted_adv2": "зазначає",
+    "correct": false
+  },
+  {
+    "adj1": "Казахстан",
+    "adv1": "Азія",
+    "adj2": "Греція",
+    "expected_adv2": "Європа",
+    "predicted_adv2": "Європа",
+    "correct": true
+  },
+  {
+    "adj1": "приємно",
+    "adv1": "неприємно",
+    "adj2": "логічно",
+    "expected_adv2": "нелогічно",
+    "predicted_adv2": "Логічно",
+    "correct": false
+  },
+  {
+    "adj1": "Мавританія",
+    "adv1": "Африка",
+    "adj2": "Хорватія",
+    "expected_adv2": "Європа",
+    "predicted_adv2": "Америка",
+    "correct": false
+  },
+  {
+    "adj1": "латвійський",
+    "adv1": "латвійці",
+    "adj2": "лівонський",
+    "expected_adv2": "ліви",
+    "predicted_adv2": "литовці",
+    "correct": false
+  },
+  {
+    "adj1": "цибуля",
+    "adv1": "цибулю",
+    "adj2": "машина",
+    "expected_adv2": "машини",
+    "predicted_adv2": "машину",
+    "correct": false
+  },
+  {
+    "adj1": "вільний",
+    "adv1": "вільно",
+    "adj2": "точний",
+    "expected_adv2": "точно",
+    "predicted_adv2": "точно",
+    "correct": true
+  },
+  {
+    "adj1": "Японія",
+    "adv1": "Токіо",
+    "adj2": "США",
+    "expected_adv2": "Вашингтон",
+    "predicted_adv2": "Нью-Йорку",
+    "correct": false
+  },
+  {
+    "adj1": "голосний",
+    "adv1": "голосніший",
+    "adj2": "високий",
+    "expected_adv2": "вищий",
+    "predicted_adv2": "невисокий",
+    "correct": false
+  },
+  {
+    "adj1": "дідусь",
+    "adv1": "бабуся",
+    "adj2": "брати",
+    "expected_adv2": "сестри",
+    "predicted_adv2": "взяти",
+    "correct": false
+  },
+  {
+    "adj1": "гострий",
+    "adv1": "найгостріший",
+    "adj2": "швидкий",
+    "expected_adv2": "найшвидший",
+    "predicted_adv2": "Швидкий",
+    "correct": false
+  },
+  {
+    "adj1": "угандійський",
+    "adv1": "Уганда",
+    "adj2": "кубинський",
+    "expected_adv2": "Куба",
+    "predicted_adv2": "Танзанія",
+    "correct": false
+  },
+  {
+    "adj1": "Сенегал",
+    "adv1": "Африка",
+    "adj2": "Японія",
+    "expected_adv2": "Азія",
+    "predicted_adv2": "Америка",
+    "correct": false
+  },
+  {
+    "adj1": "Бутан",
+    "adv1": "Азія",
+    "adj2": "Німеччина",
+    "expected_adv2": "Європа",
+    "predicted_adv2": "Європа",
+    "correct": true
+  },
+  {
+    "adj1": "вітчим",
+    "adv1": "мачуха",
+    "adj2": "дядько",
+    "expected_adv2": "тітка",
+    "predicted_adv2": "тітка",
+    "correct": true
+  },
+  {
+    "adj1": "Узбекистан",
+    "adv1": "Ташкент",
+    "adj2": "Ліван",
+    "expected_adv2": "Бейрут",
+    "predicted_adv2": "Бейрут",
+    "correct": true
+  },
+  {
+    "adj1": "будівля",
+    "adv1": "будівлі",
+    "adj2": "осел",
+    "expected_adv2": "осли",
+    "predicted_adv2": "кіт",
+    "correct": false
+  },
+  {
+    "adj1": "бразильський",
+    "adv1": "бразилець",
+    "adj2": "грецький",
+    "expected_adv2": "грек",
+    "predicted_adv2": "грек",
+    "correct": true
+  },
+  {
+    "adj1": "американець",
+    "adv1": "американці",
+    "adj2": "русин",
+    "expected_adv2": "русини",
+    "predicted_adv2": "русини",
+    "correct": true
+  },
+  {
+    "adj1": "Франція",
+    "adv1": "Париж",
+    "adj2": "Непал",
+    "expected_adv2": "Катманду",
+    "predicted_adv2": "Непалу",
+    "correct": false
+  },
+  {
+    "adj1": "сміливий",
+    "adv1": "сміливо",
+    "adj2": "зрозумілий",
+    "expected_adv2": "зрозуміло",
+    "predicted_adv2": "можна",
+    "correct": false
+  },
+  {
+    "adj1": "Бурунді",
+    "adv1": "Бужумбура",
+    "adj2": "Барбадос",
+    "expected_adv2": "Бриджтаун",
+    "predicted_adv2": "Тенерифе",
+    "correct": false
+  },
+  {
+    "adj1": "Словаччина",
+    "adv1": "Братислава",
+    "adj2": "Лесото",
+    "expected_adv2": "Масеру",
+    "predicted_adv2": "Ботсвана",
+    "correct": false
+  },
+  {
+    "adj1": "закритий",
+    "adv1": "закрито",
+    "adj2": "можливий",
+    "expected_adv2": "можливо",
+    "predicted_adv2": "можливе",
+    "correct": false
+  },
+  {
+    "adj1": "Бахрейн",
+    "adv1": "Манама",
+    "adj2": "Домініка",
+    "expected_adv2": "Розо",
+    "predicted_adv2": "Томаша",
+    "correct": false
+  },
+  {
+    "adj1": "полінезійський",
+    "adv1": "Полінезія",
+    "adj2": "тайванський",
+    "expected_adv2": "Тайвань",
+    "predicted_adv2": "Індонезія",
+    "correct": false
+  },
+  {
+    "adj1": "Росія",
+    "adv1": "росіянин",
+    "adj2": "Чилі",
+    "expected_adv2": "чилієць",
+    "predicted_adv2": "Аргентини",
+    "correct": false
+  },
+  {
+    "adj1": "Чилі",
+    "adv1": "чилієць",
+    "adj2": "Йордан",
+    "expected_adv2": "йорданець",
+    "predicted_adv2": "Юліус",
+    "correct": false
+  },
+  {
+    "adj1": "фіджійці",
+    "adv1": "Фіджі",
+    "adj2": "йорданці",
+    "expected_adv2": "Йордан",
+    "predicted_adv2": "Вануату",
+    "correct": false
+  },
+  {
+    "adj1": "малаєць",
+    "adv1": "Малайзія",
+    "adj2": "поляк",
+    "expected_adv2": "Польща",
+    "predicted_adv2": "Поляк",
+    "correct": false
+  },
+  {
+    "adj1": "словенці",
+    "adv1": "Словенія",
+    "adj2": "перуанці",
+    "expected_adv2": "Перу",
+    "predicted_adv2": "Венесуела",
+    "correct": false
+  },
+  {
+    "adj1": "вільний",
+    "adv1": "вільно",
+    "adj2": "повний",
+    "expected_adv2": "повно",
+    "predicted_adv2": "повно",
+    "correct": true
+  },
+  {
+    "adj1": "миша",
+    "adv1": "миші",
+    "adj2": "змій",
+    "expected_adv2": "змії",
+    "predicted_adv2": "павуків",
+    "correct": false
+  },
+  {
+    "adj1": "Куба",
+    "adv1": "Гавана",
+    "adj2": "Афганістан",
+    "expected_adv2": "Кабул",
+    "predicted_adv2": "Mumbai",
+    "correct": false
+  },
+  {
+    "adj1": "колумбійський",
+    "adv1": "Колумбія",
+    "adj2": "швейцарський",
+    "expected_adv2": "Швейцарія",
+    "predicted_adv2": "Швейцарія",
+    "correct": true
+  },
+  {
+    "adj1": "Лесото",
+    "adv1": "Африка",
+    "adj2": "Данія",
+    "expected_adv2": "Європа",
+    "predicted_adv2": "Європа",
+    "correct": true
+  },
+  {
+    "adj1": "Малайзія",
+    "adv1": "рингіт",
+    "adj2": "Ангола",
+    "expected_adv2": "кванза",
+    "predicted_adv2": "Анголи",
+    "correct": false
+  },
+  {
+    "adj1": "Замбія",
+    "adv1": "Лусака",
+    "adj2": "Перу",
+    "expected_adv2": "Ліма",
+    "predicted_adv2": "Чилі",
+    "correct": false
+  },
+  {
+    "adj1": "лев",
+    "adv1": "леви",
+    "adj2": "собака",
+    "expected_adv2": "собаки",
+    "predicted_adv2": "собаки",
+    "correct": true
+  },
+  {
+    "adj1": "хороший",
+    "adv1": "кращий",
+    "adj2": "довгий",
+    "expected_adv2": "довший",
+    "predicted_adv2": "довший",
+    "correct": true
+  },
+  {
+    "adj1": "поляки",
+    "adv1": "Польща",
+    "adj2": "коринфяни",
+    "expected_adv2": "Коринф",
+    "predicted_adv2": "Греція",
+    "correct": false
+  },
+  {
+    "adj1": "Гвінея",
+    "adv1": "Африка",
+    "adj2": "Естонія",
+    "expected_adv2": "Європа",
+    "predicted_adv2": "Європа",
+    "correct": true
+  },
+  {
+    "adj1": "Литва",
+    "adv1": "Вільнюс",
+    "adj2": "Руанда",
+    "expected_adv2": "Кігалі",
+    "predicted_adv2": "Руанди",
+    "correct": false
+  },
+  {
+    "adj1": "Намібія",
+    "adv1": "Віндгук",
+    "adj2": "Румунія",
+    "expected_adv2": "Бухарест",
+    "predicted_adv2": "Бухарест",
+    "correct": true
+  },
+  {
+    "adj1": "зростати",
+    "adv1": "зростали",
+    "adj2": "ковзати",
+    "expected_adv2": "ковзали",
+    "predicted_adv2": "бігали",
+    "correct": false
+  },
+  {
+    "adj1": "македонський",
+    "adv1": "македонці",
+    "adj2": "ефіопський",
+    "expected_adv2": "ефіопи",
+    "predicted_adv2": "індійці",
+    "correct": false
+  },
+  {
+    "adj1": "Мальдіви",
+    "adv1": "Азія",
+    "adj2": "Люксембург",
+    "expected_adv2": "Європа",
+    "predicted_adv2": "Європа",
+    "correct": true
+  },
+  {
+    "adj1": "Мальдіви",
+    "adv1": "мальдівський",
+    "adj2": "Сахалін",
+    "expected_adv2": "сахалінський",
+    "predicted_adv2": "сибірський",
+    "correct": false
+  },
+  {
+    "adj1": "іракець",
+    "adv1": "Ірак",
+    "adj2": "іранець",
+    "expected_adv2": "Іран",
+    "predicted_adv2": "Іран",
+    "correct": true
+  },
+  {
+    "adj1": "США",
+    "adv1": "Вашингтон",
+    "adj2": "Тонга",
+    "expected_adv2": "Нукуалофа",
+    "predicted_adv2": "Балі",
+    "correct": false
+  },
+  {
+    "adj1": "Замбія",
+    "adv1": "Лусака",
+    "adj2": "Еквадор",
+    "expected_adv2": "Кіто",
+    "predicted_adv2": "Кіто",
+    "correct": true
+  },
+  {
+    "adj1": "Грузія",
+    "adv1": "Азія",
+    "adj2": "Габон",
+    "expected_adv2": "Африка",
+    "predicted_adv2": "Африка",
+    "correct": true
+  },
+  {
+    "adj1": "Уганда",
+    "adv1": "Африка",
+    "adj2": "Ліхтенштейн",
+    "expected_adv2": "Європа",
+    "predicted_adv2": "Азія",
+    "correct": false
+  },
+  {
+    "adj1": "Єгипет",
+    "adv1": "Каїр",
+    "adj2": "Ірландія",
+    "expected_adv2": "Дублін",
+    "predicted_adv2": "Дублін",
+    "correct": true
+  },
+  {
+    "adj1": "Сербія",
+    "adv1": "Белград",
+    "adj2": "Науру",
+    "expected_adv2": "Ярен",
+    "predicted_adv2": "Самоа",
+    "correct": false
+  },
+  {
+    "adj1": "Малаві",
+    "adv1": "Африка",
+    "adj2": "Сербія",
+    "expected_adv2": "Європа",
+    "predicted_adv2": "Європа",
+    "correct": true
+  },
+  {
+    "adj1": "Люксембург",
+    "adv1": "Європа",
+    "adj2": "Нігерія",
+    "expected_adv2": "Африка",
+    "predicted_adv2": "Америка",
+    "correct": false
+  },
+  {
+    "adj1": "європейка",
+    "adv1": "Європа",
+    "adj2": "перуанка",
+    "expected_adv2": "Перу",
+    "predicted_adv2": "Америка",
+    "correct": false
+  },
+  {
+    "adj1": "лежати",
+    "adv1": "лежали",
+    "adj2": "оцінювати",
+    "expected_adv2": "оцінювали",
+    "predicted_adv2": "оцінювали",
+    "correct": true
+  },
+  {
+    "adj1": "Ефіопія",
+    "adv1": "Африка",
+    "adj2": "Франція",
+    "expected_adv2": "Європа",
+    "predicted_adv2": "Америка",
+    "correct": false
+  },
+  {
+    "adj1": "зростати",
+    "adv1": "зростали",
+    "adj2": "тримати",
+    "expected_adv2": "тримали",
+    "predicted_adv2": "тримали",
+    "correct": true
+  },
+  {
+    "adj1": "Угорщина",
+    "adv1": "Європа",
+    "adj2": "Камбоджа",
+    "expected_adv2": "Азія",
+    "predicted_adv2": "Европа",
+    "correct": false
+  },
+  {
+    "adj1": "іудей",
+    "adv1": "іудейський",
+    "adj2": "швейцарець",
+    "expected_adv2": "швейцарський",
+    "predicted_adv2": "швейцарський",
+    "correct": true
+  },
+  {
+    "adj1": "ходити",
+    "adv1": "ходили",
+    "adj2": "тримати",
+    "expected_adv2": "тримали",
+    "predicted_adv2": "тримали",
+    "correct": true
+  },
+  {
+    "adj1": "сміливий",
+    "adv1": "сміливо",
+    "adj2": "серйозний",
+    "expected_adv2": "серйозно",
+    "predicted_adv2": "спокійно",
+    "correct": false
+  },
+  {
+    "adj1": "британці",
+    "adv1": "британський",
+    "adj2": "єгиптяни",
+    "expected_adv2": "єгипетський",
+    "predicted_adv2": "єгипетський",
+    "correct": true
+  },
+  {
+    "adj1": "Ліхтенштейн",
+    "adv1": "Європа",
+    "adj2": "Грузія",
+    "expected_adv2": "Азія",
+    "predicted_adv2": "Україна",
+    "correct": false
+  },
+  {
+    "adj1": "Вірменія",
+    "adv1": "Азія",
+    "adj2": "Судан",
+    "expected_adv2": "Африка",
+    "predicted_adv2": "Африка",
+    "correct": true
+  },
+  {
+    "adj1": "машина",
+    "adv1": "машини",
+    "adj2": "свиня",
+    "expected_adv2": "свині",
+    "predicted_adv2": "свині",
+    "correct": true
+  },
+  {
+    "adj1": "лаоський",
+    "adv1": "Лаос",
+    "adj2": "філіппінський",
+    "expected_adv2": "Філіппіни",
+    "predicted_adv2": "Лаосу",
+    "correct": false
+  },
+  {
+    "adj1": "осел",
+    "adv1": "осли",
+    "adj2": "кінь",
+    "expected_adv2": "коні",
+    "predicted_adv2": "коні",
+    "correct": true
+  },
+  {
+    "adj1": "Португалія",
+    "adv1": "Лісабон",
+    "adj2": "Уганда",
+    "expected_adv2": "Кампала",
+    "predicted_adv2": "Руанда",
+    "correct": false
+  },
+  {
+    "adj1": "мальтійці",
+    "adv1": "Мальта",
+    "adj2": "індонезійці",
+    "expected_adv2": "Індонезія",
+    "predicted_adv2": "Ісландія",
+    "correct": false
+  },
+  {
+    "adj1": "співати",
+    "adv1": "співає",
+    "adj2": "думати",
+    "expected_adv2": "думає",
+    "predicted_adv2": "думає",
+    "correct": true
+  },
+  {
+    "adj1": "Таїланд",
+    "adv1": "Азія",
+    "adj2": "Нігер",
+    "expected_adv2": "Африка",
+    "predicted_adv2": "Африка",
+    "correct": true
+  },
+  {
+    "adj1": "серйозний",
+    "adv1": "серйозно",
+    "adj2": "відмінний",
+    "expected_adv2": "відмінно",
+    "predicted_adv2": "істотно",
+    "correct": false
+  },
+  {
+    "adj1": "англійка",
+    "adv1": "англійці",
+    "adj2": "мексиканка",
+    "expected_adv2": "мексиканці",
+    "predicted_adv2": "іспанці",
+    "correct": false
+  },
+  {
+    "adj1": "колір",
+    "adv1": "кольори",
+    "adj2": "будівля",
+    "expected_adv2": "будівлі",
+    "predicted_adv2": "Будівля",
+    "correct": false
+  },
+  {
+    "adj1": "Уганда",
+    "adv1": "Кампала",
+    "adj2": "Норвегія",
+    "expected_adv2": "Осло",
+    "predicted_adv2": "Осло",
+    "correct": true
+  },
+  {
+    "adj1": "плавати",
+    "adv1": "плаває",
+    "adj2": "думати",
+    "expected_adv2": "думає",
+    "predicted_adv2": "думає",
+    "correct": true
+  },
+  {
+    "adj1": "відчувати",
+    "adv1": "відчували",
+    "adj2": "ходити",
+    "expected_adv2": "ходили",
+    "predicted_adv2": "ходили",
+    "correct": true
+  },
+  {
+    "adj1": "передбачати",
+    "adv1": "передбачає",
+    "adj2": "ходити",
+    "expected_adv2": "ходить",
+    "predicted_adv2": "ходить",
+    "correct": true
+  },
+  {
+    "adj1": "Бразилія",
+    "adv1": "Бразиліа",
+    "adj2": "Казахстан",
+    "expected_adv2": "Астана",
+    "predicted_adv2": "Алмати",
+    "correct": false
+  },
+  {
+    "adj1": "крутий",
+    "adv1": "найкрутіший",
+    "adj2": "щасливий",
+    "expected_adv2": "найщасливіший",
+    "predicted_adv2": "щасливим",
+    "correct": false
+  },
+  {
+    "adj1": "Парагвай",
+    "adv1": "Асунсьйон",
+    "adj2": "Беліз",
+    "expected_adv2": "Бельмопан",
+    "predicted_adv2": "Антигуа",
+    "correct": false
+  },
+  {
+    "adj1": "Кенія",
+    "adv1": "кенієць",
+    "adj2": "Галич",
+    "expected_adv2": "галичанин",
+    "predicted_adv2": "Галича",
+    "correct": false
+  },
+  {
+    "adj1": "стрибати",
+    "adv1": "стрибали",
+    "adj2": "плавати",
+    "expected_adv2": "плавали",
+    "predicted_adv2": "плавали",
+    "correct": true
+  },
+  {
+    "adj1": "слухати",
+    "adv1": "слухали",
+    "adj2": "тримати",
+    "expected_adv2": "тримали",
+    "predicted_adv2": "тримали",
+    "correct": true
+  },
+  {
+    "adj1": "Ватикан",
+    "adv1": "Європа",
+    "adj2": "Малі",
+    "expected_adv2": "Африка",
+    "predicted_adv2": "Великі",
+    "correct": false
+  },
+  {
+    "adj1": "рухати",
+    "adv1": "рухається",
+    "adj2": "збільшувати",
+    "expected_adv2": "збільшується",
+    "predicted_adv2": "зростає",
+    "correct": false
+  },
+  {
+    "adj1": "співати",
+    "adv1": "співає",
+    "adj2": "реалізовувати",
+    "expected_adv2": "реалізовує",
+    "predicted_adv2": "реалізовує",
+    "correct": true
+  },
+  {
+    "adj1": "спати",
+    "adv1": "спали",
+    "adj2": "зростати",
+    "expected_adv2": "зростали",
+    "predicted_adv2": "зростали",
+    "correct": true
+  },
+  {
+    "adj1": "Уругвай",
+    "adv1": "Монтевідео",
+    "adj2": "Болгарія",
+    "expected_adv2": "Софія",
+    "predicted_adv2": "Варна",
+    "correct": false
+  },
+  {
+    "adj1": "Чад",
+    "adv1": "Африка",
+    "adj2": "Люксембург",
+    "expected_adv2": "Європа",
+    "predicted_adv2": "Мелітополі",
+    "correct": false
+  },
+  {
+    "adj1": "йорданці",
+    "adv1": "йорданський",
+    "adj2": "таджики",
+    "expected_adv2": "таджицький",
+    "predicted_adv2": "узбецький",
+    "correct": false
+  },
+  {
+    "adj1": "Хорватія",
+    "adv1": "Загреб",
+    "adj2": "Ямайка",
+    "expected_adv2": "Кінгстон",
+    "predicted_adv2": "Ямайки",
+    "correct": false
+  },
+  {
+    "adj1": "ефективно",
+    "adv1": "неефективно",
+    "adj2": "можливо",
+    "expected_adv2": "неможливо",
+    "predicted_adv2": "Можливо",
+    "correct": false
+  },
+  {
+    "adj1": "Уганда",
+    "adv1": "Африка",
+    "adj2": "Болгарія",
+    "expected_adv2": "Європа",
+    "predicted_adv2": "Азія",
+    "correct": false
+  },
+  {
+    "adj1": "повний",
+    "adv1": "найповніший",
+    "adj2": "швидкий",
+    "expected_adv2": "найшвидший",
+    "predicted_adv2": "Швидкий",
+    "correct": false
+  },
+  {
+    "adj1": "Греція",
+    "adv1": "Афіни",
+    "adj2": "Китай",
+    "expected_adv2": "Пекін",
+    "predicted_adv2": "Пекін",
+    "correct": true
+  },
+  {
+    "adj1": "Швеція",
+    "adv1": "крона",
+    "adj2": "Мексика",
+    "expected_adv2": "песо",
+    "predicted_adv2": "крони",
+    "correct": false
+  },
+  {
+    "adj1": "Ісландія",
+    "adv1": "ісландський",
+    "adj2": "Німеччина",
+    "expected_adv2": "німецький",
+    "predicted_adv2": "німецький",
+    "correct": true
+  },
+  {
+    "adj1": "відповідально",
+    "adv1": "безвідповідально",
+    "adj2": "рішуче",
+    "expected_adv2": "нерішуче",
+    "predicted_adv2": "різко",
+    "correct": false
+  },
+  {
+    "adj1": "створювати",
+    "adv1": "створює",
+    "adj2": "співати",
+    "expected_adv2": "співає",
+    "predicted_adv2": "співає",
+    "correct": true
+  },
+  {
+    "adj1": "Естонія",
+    "adv1": "Європа",
+    "adj2": "Вірменія",
+    "expected_adv2": "Азія",
+    "predicted_adv2": "Азія",
+    "correct": true
+  },
+  {
+    "adj1": "хороший",
+    "adv1": "кращий",
+    "adj2": "малий",
+    "expected_adv2": "менший",
+    "predicted_adv2": "менший",
+    "correct": true
+  },
+  {
+    "adj1": "Японія",
+    "adv1": "Токіо",
+    "adj2": "Науру",
+    "expected_adv2": "Ярен",
+    "predicted_adv2": "Бангкоку",
+    "correct": false
+  },
+  {
+    "adj1": "Індонезія",
+    "adv1": "Джакарта",
+    "adj2": "Естонія",
+    "expected_adv2": "Таллінн",
+    "predicted_adv2": "Таллінн",
+    "correct": true
+  },
+  {
+    "adj1": "сидіти",
+    "adv1": "сидить",
+    "adj2": "їсти",
+    "expected_adv2": "їсть",
+    "predicted_adv2": "їсть",
+    "correct": true
+  },
+  {
+    "adj1": "Гамбія",
+    "adv1": "Банжул",
+    "adj2": "Мексика",
+    "expected_adv2": "Мехіко",
+    "predicted_adv2": "Мехіко",
+    "correct": true
+  },
+  {
+    "adj1": "Мавританія",
+    "adv1": "Африка",
+    "adj2": "Молдова",
+    "expected_adv2": "Європа",
+    "predicted_adv2": "Азія",
+    "correct": false
+  },
+  {
+    "adj1": "серйозний",
+    "adv1": "серйозно",
+    "adj2": "нещасливий",
+    "expected_adv2": "нещасливо",
+    "predicted_adv2": "сильно",
+    "correct": false
+  },
+  {
+    "adj1": "диня",
+    "adv1": "дині",
+    "adj2": "машина",
+    "expected_adv2": "машини",
+    "predicted_adv2": "машини",
+    "correct": true
+  },
+  {
+    "adj1": "готувати",
+    "adv1": "готує",
+    "adj2": "відкривати",
+    "expected_adv2": "відкриває",
+    "predicted_adv2": "відкриває",
+    "correct": true
+  },
+  {
+    "adj1": "бачити",
+    "adv1": "бачить",
+    "adj2": "мовчати",
+    "expected_adv2": "мовчить",
+    "predicted_adv2": "мовчить",
+    "correct": true
+  },
+  {
+    "adj1": "канадці",
+    "adv1": "канадець",
+    "adj2": "ефіопи",
+    "expected_adv2": "ефіоп",
+    "predicted_adv2": "єгипетський",
+    "correct": false
+  },
+  {
+    "adj1": "племінник",
+    "adv1": "племінниця",
+    "adj2": "дядько",
+    "expected_adv2": "тітка",
+    "predicted_adv2": "тітка",
+    "correct": true
+  },
+  {
+    "adj1": "Фіджі",
+    "adv1": "Сува",
+    "adj2": "Сенегал",
+    "expected_adv2": "Дакар",
+    "predicted_adv2": "Нур",
+    "correct": false
+  },
+  {
+    "adj1": "обманювати",
+    "adv1": "обманювали",
+    "adj2": "мовчати",
+    "expected_adv2": "мовчали",
+    "predicted_adv2": "мовчали",
+    "correct": true
+  },
+  {
+    "adj1": "коза",
+    "adv1": "кози",
+    "adj2": "лев",
+    "expected_adv2": "леви",
+    "predicted_adv2": "лева",
+    "correct": false
+  },
+  {
+    "adj1": "вітчим",
+    "adv1": "мачуха",
+    "adj2": "тато",
+    "expected_adv2": "мама",
+    "predicted_adv2": "мама",
+    "correct": true
+  },
+  {
+    "adj1": "зростати",
+    "adv1": "зростали",
+    "adj2": "прогнозувати",
+    "expected_adv2": "прогнозували",
+    "predicted_adv2": "прогнозували",
+    "correct": true
+  },
+  {
+    "adj1": "Бурунді",
+    "adv1": "Африка",
+    "adj2": "Сирія",
+    "expected_adv2": "Азія",
+    "predicted_adv2": "Америка",
+    "correct": false
+  },
+  {
+    "adj1": "Ефіопія",
+    "adv1": "ефіоп",
+    "adj2": "Люксембурґ",
+    "expected_adv2": "люксембуржець",
+    "predicted_adv2": "француз",
+    "correct": false
+  },
+  {
+    "adj1": "Росія",
+    "adv1": "Москва",
+    "adj2": "Руанда",
+    "expected_adv2": "Кігалі",
+    "predicted_adv2": "Руанди",
+    "correct": false
+  },
+  {
+    "adj1": "бельгієць",
+    "adv1": "бельгійці",
+    "adj2": "перс",
+    "expected_adv2": "перси",
+    "predicted_adv2": "араб",
+    "correct": false
+  },
+  {
+    "adj1": "серби",
+    "adv1": "серб",
+    "adj2": "болгари",
+    "expected_adv2": "болгарин",
+    "predicted_adv2": "грек",
+    "correct": false
+  },
+  {
+    "adj1": "їхати",
+    "adv1": "їхали",
+    "adj2": "співати",
+    "expected_adv2": "співали",
+    "predicted_adv2": "співали",
+    "correct": true
+  },
+  {
+    "adj1": "Намібія",
+    "adv1": "Віндгук",
+    "adj2": "Непал",
+    "expected_adv2": "Катманду",
+    "predicted_adv2": "Непалу",
+    "correct": false
+  },
+  {
+    "adj1": "Домініка",
+    "adv1": "Розо",
+    "adj2": "Катар",
+    "expected_adv2": "Доха",
+    "predicted_adv2": "Доха",
+    "correct": true
+  },
+  {
+    "adj1": "Україна",
+    "adv1": "Київ",
+    "adj2": "Австралія",
+    "expected_adv2": "Канберра",
+    "predicted_adv2": "Львів",
+    "correct": false
+  },
+  {
+    "adj1": "Конго",
+    "adv1": "Браззавіль",
+    "adj2": "Суринам",
+    "expected_adv2": "Парамарибо",
+    "predicted_adv2": "Дрезден",
+    "correct": false
+  },
+  {
+    "adj1": "Швеція",
+    "adv1": "крона",
+    "adj2": "Малайзія",
+    "expected_adv2": "рингіт",
+    "predicted_adv2": "крони",
+    "correct": false
+  },
+  {
+    "adj1": "сміливий",
+    "adv1": "сміливо",
+    "adj2": "закритий",
+    "expected_adv2": "закрито",
+    "predicted_adv2": "закрито",
+    "correct": true
+  },
+  {
+    "adj1": "Бутан",
+    "adv1": "Тхімпху",
+    "adj2": "Малі",
+    "expected_adv2": "Бамако",
+    "predicted_adv2": "Великі",
+    "correct": false
+  },
+  {
+    "adj1": "створювати",
+    "adv1": "створює",
+    "adj2": "бачити",
+    "expected_adv2": "бачить",
+    "predicted_adv2": "бачить",
+    "correct": true
+  },
+  {
+    "adj1": "сирійський",
+    "adv1": "сирійці",
+    "adj2": "канадський",
+    "expected_adv2": "канадці",
+    "predicted_adv2": "українці",
+    "correct": false
+  },
+  {
+    "adj1": "відмінний",
+    "adv1": "відмінно",
+    "adj2": "щасливий",
+    "expected_adv2": "щасливо",
+    "predicted_adv2": "чудово",
+    "correct": false
+  },
+  {
+    "adj1": "новозеландці",
+    "adv1": "новозеландський",
+    "adj2": "азербайджанці",
+    "expected_adv2": "азербайджанський",
+    "predicted_adv2": "азербайджанський",
+    "correct": true
+  },
+  {
+    "adj1": "Мавританія",
+    "adv1": "Африка",
+    "adj2": "Італія",
+    "expected_adv2": "Європа",
+    "predicted_adv2": "Азія",
+    "correct": false
+  },
+  {
+    "adj1": "солодкий",
+    "adv1": "найсолодший",
+    "adj2": "повільний",
+    "expected_adv2": "найповільніший",
+    "predicted_adv2": "повільне",
+    "correct": false
+  },
+  {
+    "adj1": "повно",
+    "adv1": "неповно",
+    "adj2": "ефективно",
+    "expected_adv2": "неефективно",
+    "predicted_adv2": "неефективно",
+    "correct": true
+  },
+  {
+    "adj1": "ірландський",
+    "adv1": "ірландка",
+    "adj2": "голландський",
+    "expected_adv2": "голландка",
+    "predicted_adv2": "американка",
+    "correct": false
+  },
+  {
+    "adj1": "тайванський",
+    "adv1": "тайванці",
+    "adj2": "угорський",
+    "expected_adv2": "угорці",
+    "predicted_adv2": "угорці",
+    "correct": true
+  },
+  {
+    "adj1": "будівля",
+    "adv1": "будівлі",
+    "adj2": "автомобіль",
+    "expected_adv2": "автомобілі",
+    "predicted_adv2": "автомобілі",
+    "correct": true
+  },
+  {
+    "adj1": "Ватикан",
+    "adv1": "Ватикан",
+    "adj2": "Бурунді",
+    "expected_adv2": "Бужумбура",
+    "predicted_adv2": "Руанди",
+    "correct": false
+  },
+  {
+    "adj1": "дядько",
+    "adv1": "тітка",
+    "adj2": "пасинок",
+    "expected_adv2": "падчерка",
+    "predicted_adv2": "невістка",
+    "correct": false
+  },
+  {
+    "adj1": "машина",
+    "adv1": "машини",
+    "adj2": "груша",
+    "expected_adv2": "груші",
+    "predicted_adv2": "груші",
+    "correct": true
+  },
+  {
+    "adj1": "дивний",
+    "adv1": "найдивніший",
+    "adj2": "солодкий",
+    "expected_adv2": "найсолодший",
+    "predicted_adv2": "Солодкий",
+    "correct": false
+  },
+  {
+    "adj1": "Греція",
+    "adv1": "Афіни",
+    "adj2": "Австрія",
+    "expected_adv2": "Відень",
+    "predicted_adv2": "Відень",
+    "correct": true
+  },
+  {
+    "adj1": "француз",
+    "adv1": "Франція",
+    "adj2": "іспанець",
+    "expected_adv2": "Іспанія",
+    "predicted_adv2": "Іспанія",
+    "correct": true
+  },
+  {
+    "adj1": "болгари",
+    "adv1": "Болгарія",
+    "adj2": "мальтійці",
+    "expected_adv2": "Мальта",
+    "predicted_adv2": "Італія",
+    "correct": false
+  },
+  {
+    "adj1": "маленький",
+    "adv1": "найменший",
+    "adj2": "розумний",
+    "expected_adv2": "найрозумніший",
+    "predicted_adv2": "найвищий",
+    "correct": false
+  },
+  {
+    "adj1": "орел",
+    "adv1": "орли",
+    "adj2": "щур",
+    "expected_adv2": "щурі",
+    "predicted_adv2": "щури",
+    "correct": false
+  },
+  {
+    "adj1": "Мексика",
+    "adv1": "Мехіко",
+    "adj2": "Ємен",
+    "expected_adv2": "Сана",
+    "predicted_adv2": "Ємену",
+    "correct": false
+  },
+  {
+    "adj1": "поліцейський",
+    "adv1": "поліцейська",
+    "adj2": "пасинок",
+    "expected_adv2": "падчерка",
+    "predicted_adv2": "дружина",
+    "correct": false
+  },
+  {
+    "adj1": "Іран",
+    "adv1": "ріал",
+    "adj2": "Болгарія",
+    "expected_adv2": "лев",
+    "predicted_adv2": "ре",
+    "correct": false
+  },
+  {
+    "adj1": "Бахрейн",
+    "adv1": "Манама",
+    "adj2": "Чехія",
+    "expected_adv2": "Прага",
+    "predicted_adv2": "Словаччина",
+    "correct": false
+  },
+  {
+    "adj1": "Індія",
+    "adv1": "Азія",
+    "adj2": "Естонія",
+    "expected_adv2": "Європа",
+    "predicted_adv2": "Європа",
+    "correct": true
+  },
+  {
+    "adj1": "Ліван",
+    "adv1": "Азія",
+    "adj2": "Малі",
+    "expected_adv2": "Африка",
+    "predicted_adv2": "Африка",
+    "correct": true
+  },
+  {
+    "adj1": "Кіпр",
+    "adv1": "Європа",
+    "adj2": "Узбекистан",
+    "expected_adv2": "Азія",
+    "predicted_adv2": "Европа",
+    "correct": false
+  },
+  {
+    "adj1": "ефіопи",
+    "adv1": "Ефіопія",
+    "adj2": "галичани",
+    "expected_adv2": "Галич",
+    "predicted_adv2": "Галичина",
+    "correct": false
+  },
+  {
+    "adj1": "поліський",
+    "adv1": "поліщук",
+    "adj2": "датський",
+    "expected_adv2": "датчанин",
+    "predicted_adv2": "данський",
+    "correct": false
+  },
+  {
+    "adj1": "іспанський",
+    "adv1": "Іспанія",
+    "adj2": "туркменський",
+    "expected_adv2": "Туркменістан",
+    "predicted_adv2": "Туреччина",
+    "correct": false
+  },
+  {
+    "adj1": "поганий",
+    "adv1": "найгірший",
+    "adj2": "розумний",
+    "expected_adv2": "найрозумніший",
+    "predicted_adv2": "найкращий",
+    "correct": false
+  },
+  {
+    "adj1": "слухати",
+    "adv1": "слухали",
+    "adj2": "запевняти",
+    "expected_adv2": "запевняли",
+    "predicted_adv2": "стверджували",
+    "correct": false
+  },
+  {
+    "adj1": "Еквадор",
+    "adv1": "Кіто",
+    "adj2": "Алжир",
+    "expected_adv2": "Алжир",
+    "predicted_adv2": "Алжирі",
+    "correct": false
+  },
+  {
+    "adj1": "Зімбабве",
+    "adv1": "Хараре",
+    "adj2": "Киргизстан",
+    "expected_adv2": "Бішкек",
+    "predicted_adv2": "Бішкек",
+    "correct": true
+  },
+  {
+    "adj1": "брат",
+    "adv1": "сестра",
+    "adj2": "чоловік",
+    "expected_adv2": "жінка",
+    "predicted_adv2": "жінка",
+    "correct": true
+  },
+  {
+    "adj1": "європейський",
+    "adv1": "європейка",
+    "adj2": "іракський",
+    "expected_adv2": "іракця",
+    "predicted_adv2": "іракських",
+    "correct": false
+  },
+  {
+    "adj1": "дорога",
+    "adv1": "дороги",
+    "adj2": "орел",
+    "expected_adv2": "орли",
+    "predicted_adv2": "сокіл",
+    "correct": false
+  },
+  {
+    "adj1": "німці",
+    "adv1": "німецький",
+    "adj2": "ямайці",
+    "expected_adv2": "ямайський",
+    "predicted_adv2": "індійський",
+    "correct": false
+  },
+  {
+    "adj1": "Мадагаскар",
+    "adv1": "Африка",
+    "adj2": "Бангладеш",
+    "expected_adv2": "Азія",
+    "predicted_adv2": "Нігерія",
+    "correct": false
+  },
+  {
+    "adj1": "ефіоп",
+    "adv1": "Ефіопія",
+    "adj2": "камерунець",
+    "expected_adv2": "Камерун",
+    "predicted_adv2": "Танзанія",
+    "correct": false
+  },
+  {
+    "adj1": "писати",
+    "adv1": "писали",
+    "adj2": "обманювати",
+    "expected_adv2": "обманювали",
+    "predicted_adv2": "заявляли",
+    "correct": false
+  },
+  {
+    "adj1": "Малайзія",
+    "adv1": "рингіт",
+    "adj2": "Аргентина",
+    "expected_adv2": "песо",
+    "predicted_adv2": "ринг",
+    "correct": false
+  },
+  {
+    "adj1": "Фіджі",
+    "adv1": "фіджійський",
+    "adj2": "Сирія",
+    "expected_adv2": "сирійський",
+    "predicted_adv2": "сирійський",
+    "correct": true
+  },
+  {
+    "adj1": "припустимо",
+    "adv1": "неприпустимо",
+    "adj2": "вдало",
+    "expected_adv2": "невдало",
+    "predicted_adv2": "невдало",
+    "correct": true
+  },
+  {
+    "adj1": "афганський",
+    "adv1": "афганець",
+    "adj2": "бразильський",
+    "expected_adv2": "бразилець",
+    "predicted_adv2": "бразилець",
+    "correct": true
+  },
+  {
+    "adj1": "Фінляндія",
+    "adv1": "Гельсінкі",
+    "adj2": "Бутан",
+    "expected_adv2": "Тхімпху",
+    "predicted_adv2": "Бутану",
+    "correct": false
+  },
+  {
+    "adj1": "теплий",
+    "adv1": "найтепліший",
+    "adj2": "повільний",
+    "expected_adv2": "найповільніший",
+    "predicted_adv2": "повільного",
+    "correct": false
+  },
+  {
+    "adj1": "іракця",
+    "adv1": "іракський",
+    "adj2": "голландка",
+    "expected_adv2": "голландський",
+    "predicted_adv2": "голландський",
+    "correct": true
+  },
+  {
+    "adj1": "іспанець",
+    "adv1": "іспанці",
+    "adj2": "албанець",
+    "expected_adv2": "албанці",
+    "predicted_adv2": "албанці",
+    "correct": true
+  },
+  {
+    "adj1": "Швейцарія",
+    "adv1": "Берн",
+    "adj2": "Гватемала",
+    "expected_adv2": "Гватемала",
+    "predicted_adv2": "Берлін",
+    "correct": false
+  },
+  {
+    "adj1": "азербайджанці",
+    "adv1": "Азербайджан",
+    "adj2": "самоа",
+    "expected_adv2": "Самоа",
+    "predicted_adv2": "Самоа",
+    "correct": true
+  },
+  {
+    "adj1": "Ліхтенштейн",
+    "adv1": "Європа",
+    "adj2": "Замбія",
+    "expected_adv2": "Африка",
+    "predicted_adv2": "Африка",
+    "correct": true
+  },
+  {
+    "adj1": "щур",
+    "adv1": "щурі",
+    "adj2": "чоловік",
+    "expected_adv2": "чоловіки",
+    "predicted_adv2": "чоловіки",
+    "correct": true
+  },
+  {
+    "adj1": "болівійський",
+    "adv1": "Болівія",
+    "adj2": "аравійський",
+    "expected_adv2": "Аравія",
+    "predicted_adv2": "Венесуела",
+    "correct": false
+  },
+  {
+    "adj1": "Росія",
+    "adv1": "росіянин",
+    "adj2": "Англія",
+    "expected_adv2": "англієць",
+    "predicted_adv2": "англієць",
+    "correct": true
+  },
+  {
+    "adj1": "Мексика",
+    "adv1": "Мехіко",
+    "adj2": "Сирія",
+    "expected_adv2": "Дамаск",
+    "predicted_adv2": "Алеппо",
+    "correct": false
+  },
+  {
+    "adj1": "москвич",
+    "adv1": "москвичі",
+    "adj2": "лівієць",
+    "expected_adv2": "лівійці",
+    "predicted_adv2": "сирійські",
+    "correct": false
+  },
+  {
+    "adj1": "болгарський",
+    "adv1": "Болгарія",
+    "adj2": "барбадоський",
+    "expected_adv2": "Барбадос",
+    "predicted_adv2": "Польща",
+    "correct": false
+  },
+  {
+    "adj1": "Уганда",
+    "adv1": "Кампала",
+    "adj2": "Тонга",
+    "expected_adv2": "Нукуалофа",
+    "predicted_adv2": "Фіджі",
+    "correct": false
+  },
+  {
+    "adj1": "бачити",
+    "adv1": "бачили",
+    "adj2": "спати",
+    "expected_adv2": "спали",
+    "predicted_adv2": "сплять",
+    "correct": false
+  },
+  {
+    "adj1": "бачити",
+    "adv1": "бачить",
+    "adj2": "збільшувати",
+    "expected_adv2": "збільшується",
+    "predicted_adv2": "зменшує",
+    "correct": false
+  },
+  {
+    "adj1": "мальтієць",
+    "adv1": "мальтійці",
+    "adj2": "казах",
+    "expected_adv2": "казахи",
+    "predicted_adv2": "казахів",
+    "correct": false
+  },
+  {
+    "adj1": "око",
+    "adv1": "очі",
+    "adj2": "чоловік",
+    "expected_adv2": "чоловіки",
+    "predicted_adv2": "чоловіки",
+    "correct": true
+  },
+  {
+    "adj1": "Марокко",
+    "adv1": "Рабат",
+    "adj2": "Зімбабве",
+    "expected_adv2": "Хараре",
+    "predicted_adv2": "Аль-Аглі",
+    "correct": false
+  },
+  {
+    "adj1": "плавати",
+    "adv1": "плавали",
+    "adj2": "стояти",
+    "expected_adv2": "стояли",
+    "predicted_adv2": "стояли",
+    "correct": true
+  },
+  {
+    "adj1": "Азербайджан",
+    "adv1": "Баку",
+    "adj2": "Фінляндія",
+    "expected_adv2": "Гельсінкі",
+    "predicted_adv2": "Тбілісі",
+    "correct": false
+  },
+  {
+    "adj1": "Перу",
+    "adv1": "Ліма",
+    "adj2": "Португалія",
+    "expected_adv2": "Лісабон",
+    "predicted_adv2": "Сілва",
+    "correct": false
+  },
+  {
+    "adj1": "чехи",
+    "adv1": "чеський",
+    "adj2": "полінезійці",
+    "expected_adv2": "полінезійський",
+    "predicted_adv2": "індійський",
+    "correct": false
+  },
+  {
+    "adj1": "нечастий",
+    "adv1": "нечасто",
+    "adj2": "веселий",
+    "expected_adv2": "весело",
+    "predicted_adv2": "рідко",
+    "correct": false
+  },
+  {
+    "adj1": "бірманський",
+    "adv1": "бірманці",
+    "adj2": "мавританський",
+    "expected_adv2": "мавританці",
+    "predicted_adv2": "араби",
+    "correct": false
+  },
+  {
+    "adj1": "поганий",
+    "adv1": "найгірший",
+    "adj2": "слабкий",
+    "expected_adv2": "найслабший",
+    "predicted_adv2": "найсильніший",
+    "correct": false
+  },
+  {
+    "adj1": "Молдова",
+    "adv1": "Кишинів",
+    "adj2": "Ангола",
+    "expected_adv2": "Луанда",
+    "predicted_adv2": "Анголи",
+    "correct": false
+  },
+  {
+    "adj1": "Тайвань",
+    "adv1": "тайванець",
+    "adj2": "Сербія",
+    "expected_adv2": "серб",
+    "predicted_adv2": "сербська",
+    "correct": false
+  },
+  {
+    "adj1": "добрий",
+    "adv1": "найдобріший",
+    "adj2": "холодний",
+    "expected_adv2": "найхолодніший",
+    "predicted_adv2": "холодні",
+    "correct": false
+  },
+  {
+    "adj1": "Зімбабве",
+    "adv1": "Хараре",
+    "adj2": "Болгарія",
+    "expected_adv2": "Софія",
+    "predicted_adv2": "Варна",
+    "correct": false
+  },
+  {
+    "adj1": "Туркменістан",
+    "adv1": "туркмени",
+    "adj2": "Свазіленд",
+    "expected_adv2": "свазі",
+    "predicted_adv2": "ірландці",
+    "correct": false
+  },
+  {
+    "adj1": "Європа",
+    "adv1": "євро",
+    "adj2": "Данія",
+    "expected_adv2": "крона",
+    "predicted_adv2": "евро",
+    "correct": false
+  },
+  {
+    "adj1": "зімбабвійський",
+    "adv1": "зімбабвійці",
+    "adj2": "болівійський",
+    "expected_adv2": "болівійці",
+    "predicted_adv2": "Болівії",
+    "correct": false
+  },
+  {
+    "adj1": "еритрейський",
+    "adv1": "еритрейці",
+    "adj2": "ліванський",
+    "expected_adv2": "ліванці",
+    "predicted_adv2": "Лівані",
+    "correct": false
+  },
+  {
+    "adj1": "повільний",
+    "adv1": "повільно",
+    "adj2": "очевидний",
+    "expected_adv2": "очевидно",
+    "predicted_adv2": "швидко",
+    "correct": false
+  },
+  {
+    "adj1": "Куба",
+    "adv1": "Гавана",
+    "adj2": "Угорщина",
+    "expected_adv2": "Будапешт",
+    "predicted_adv2": "угорська",
+    "correct": false
+  },
+  {
+    "adj1": "словенський",
+    "adv1": "Словенія",
+    "adj2": "полінезійський",
+    "expected_adv2": "Полінезія",
+    "predicted_adv2": "Ірландія",
+    "correct": false
+  },
+  {
+    "adj1": "Сирія",
+    "adv1": "Дамаск",
+    "adj2": "Мальта",
+    "expected_adv2": "Валлетта",
+    "predicted_adv2": "Мальти",
+    "correct": false
+  },
+  {
+    "adj1": "танцювати",
+    "adv1": "танцювали",
+    "adj2": "думати",
+    "expected_adv2": "думали",
+    "predicted_adv2": "думали",
+    "correct": true
+  },
+  {
+    "adj1": "закривати",
+    "adv1": "закриває",
+    "adj2": "слухати",
+    "expected_adv2": "слухає",
+    "predicted_adv2": "слухає",
+    "correct": true
+  },
+  {
+    "adj1": "Малі",
+    "adv1": "Бамако",
+    "adj2": "Німеччина",
+    "expected_adv2": "Берлін",
+    "predicted_adv2": "Бонн",
+    "correct": false
+  },
+  {
+    "adj1": "принц",
+    "adv1": "принцеса",
+    "adj2": "пасинок",
+    "expected_adv2": "падчерка",
+    "predicted_adv2": "бабця",
+    "correct": false
+  },
+  {
+    "adj1": "довгий",
+    "adv1": "найдовший",
+    "adj2": "яскравий",
+    "expected_adv2": "найяскравіший",
+    "predicted_adv2": "Яскравий",
+    "correct": false
+  },
+  {
+    "adj1": "Мавританія",
+    "adv1": "Нуакшот",
+    "adj2": "Ємен",
+    "expected_adv2": "Сана",
+    "predicted_adv2": "Ємену",
+    "correct": false
+  },
+  {
+    "adj1": "Джибуті",
+    "adv1": "Джибуті",
+    "adj2": "Уругвай",
+    "expected_adv2": "Монтевідео",
+    "predicted_adv2": "Парагвай",
+    "correct": false
+  },
+  {
+    "adj1": "Камерун",
+    "adv1": "Африка",
+    "adj2": "Ізраїль",
+    "expected_adv2": "Азія",
+    "predicted_adv2": "Америка",
+    "correct": false
+  },
+  {
+    "adj1": "яскравий",
+    "adv1": "найяскравіший",
+    "adj2": "слабкий",
+    "expected_adv2": "найслабший",
+    "predicted_adv2": "сильний",
+    "correct": false
+  },
+  {
+    "adj1": "Нікарагуа",
+    "adv1": "Манагуа",
+    "adj2": "Росія",
+    "expected_adv2": "Москва",
+    "predicted_adv2": "Москва",
+    "correct": true
+  },
+  {
+    "adj1": "Франція",
+    "adv1": "Європа",
+    "adj2": "Гана",
+    "expected_adv2": "Африка",
+    "predicted_adv2": "Уганда",
+    "correct": false
+  },
+  {
+    "adj1": "Фінляндія",
+    "adv1": "Європа",
+    "adj2": "Бруней",
+    "expected_adv2": "Азія",
+    "predicted_adv2": "Брунею",
+    "correct": false
+  },
+  {
+    "adj1": "США",
+    "adv1": "Вашингтон",
+    "adj2": "Катар",
+    "expected_adv2": "Доха",
+    "predicted_adv2": "Доха",
+    "correct": true
+  },
+  {
+    "adj1": "українці",
+    "adv1": "Україна",
+    "adj2": "литовці",
+    "expected_adv2": "Литва",
+    "predicted_adv2": "Литва",
+    "correct": true
+  },
+  {
+    "adj1": "Кіпр",
+    "adv1": "Нікосія",
+    "adj2": "Замбія",
+    "expected_adv2": "Лусака",
+    "predicted_adv2": "Замбезі",
+    "correct": false
+  },
+  {
+    "adj1": "Ізраїль",
+    "adv1": "Єрусалим",
+    "adj2": "Конго",
+    "expected_adv2": "Браззавіль",
+    "predicted_adv2": "Руанди",
+    "correct": false
+  },
+  {
+    "adj1": "брат",
+    "adv1": "сестра",
+    "adj2": "внук",
+    "expected_adv2": "внучка",
+    "predicted_adv2": "внучка",
+    "correct": true
+  },
+  {
+    "adj1": "Конго",
+    "adv1": "Браззавіль",
+    "adj2": "Ліван",
+    "expected_adv2": "Бейрут",
+    "predicted_adv2": "Бейрут",
+    "correct": true
+  },
+  {
+    "adj1": "Русь",
+    "adv1": "русини",
+    "adj2": "Полісся",
+    "expected_adv2": "поліщуки",
+    "predicted_adv2": "греко-католики",
+    "correct": false
+  },
+  {
+    "adj1": "Болгарія",
+    "adv1": "Софія",
+    "adj2": "Австрія",
+    "expected_adv2": "Відень",
+    "predicted_adv2": "Марія",
+    "correct": false
+  },
+  {
+    "adj1": "можливо",
+    "adv1": "неможливо",
+    "adj2": "ясно",
+    "expected_adv2": "неясно",
+    "predicted_adv2": "зрозуміло",
+    "correct": false
+  },
+  {
+    "adj1": "Болгарія",
+    "adv1": "Софія",
+    "adj2": "Швеція",
+    "expected_adv2": "Стокгольм",
+    "predicted_adv2": "Анна",
+    "correct": false
+  },
+  {
+    "adj1": "Чад",
+    "adv1": "Нджамена",
+    "adj2": "Румунія",
+    "expected_adv2": "Бухарест",
+    "predicted_adv2": "румунська",
+    "correct": false
+  },
+  {
+    "adj1": "німці",
+    "adv1": "Німеччина",
+    "adj2": "намібійці",
+    "expected_adv2": "Намібія",
+    "predicted_adv2": "Країна-виробник",
+    "correct": false
+  },
+  {
+    "adj1": "індонезійка",
+    "adv1": "індонезієць",
+    "adj2": "італійка",
+    "expected_adv2": "італієць",
+    "predicted_adv2": "італієць",
+    "correct": true
+  },
+  {
+    "adj1": "Венесуела",
+    "adv1": "Каракас",
+    "adj2": "Австралія",
+    "expected_adv2": "Канберра",
+    "predicted_adv2": "Сідней",
+    "correct": false
+  },
+  {
+    "adj1": "Європа",
+    "adv1": "європейський",
+    "adj2": "Галич",
+    "expected_adv2": "галицький",
+    "predicted_adv2": "Галича",
+    "correct": false
+  },
+  {
+    "adj1": "Боснія",
+    "adv1": "боснійський",
+    "adj2": "Ефіопія",
+    "expected_adv2": "ефіопський",
+    "predicted_adv2": "Ефіопії",
+    "correct": false
+  },
+  {
+    "adj1": "філіппінець",
+    "adv1": "філіппінці",
+    "adj2": "француз",
+    "expected_adv2": "французи",
+    "predicted_adv2": "французи",
+    "correct": true
+  },
+  {
+    "adj1": "Ямайка",
+    "adv1": "Кінгстон",
+    "adj2": "Колумбія",
+    "expected_adv2": "Богота",
+    "predicted_adv2": "Річмонд",
+    "correct": false
+  },
+  {
+    "adj1": "канадський",
+    "adv1": "канадка",
+    "adj2": "естонський",
+    "expected_adv2": "естонка",
+    "predicted_adv2": "естонська",
+    "correct": false
+  },
+  {
+    "adj1": "писати",
+    "adv1": "писали",
+    "adj2": "мовчати",
+    "expected_adv2": "мовчали",
+    "predicted_adv2": "мовчали",
+    "correct": true
+  },
+  {
+    "adj1": "киргизький",
+    "adv1": "киргизи",
+    "adj2": "вірменський",
+    "expected_adv2": "вірмени",
+    "predicted_adv2": "вірмени",
+    "correct": true
+  },
+  {
+    "adj1": "мікронезійці",
+    "adv1": "мікронезійський",
+    "adj2": "малійці",
+    "expected_adv2": "малійський",
+    "predicted_adv2": "малій",
+    "correct": false
+  },
+  {
+    "adj1": "Фіджі",
+    "adv1": "Сува",
+    "adj2": "Туркменістан",
+    "expected_adv2": "Ашгабат",
+    "predicted_adv2": "Нур",
+    "correct": false
+  },
+  {
+    "adj1": "Лівія",
+    "adv1": "Африка",
+    "adj2": "Норвегія",
+    "expected_adv2": "Європа",
+    "predicted_adv2": "Гренландія",
+    "correct": false
+  },
+  {
+    "adj1": "Ісландія",
+    "adv1": "Європа",
+    "adj2": "Габон",
+    "expected_adv2": "Африка",
+    "predicted_adv2": "Габону",
+    "correct": false
+  },
+  {
+    "adj1": "Естонія",
+    "adv1": "Таллінн",
+    "adj2": "Парагвай",
+    "expected_adv2": "Асунсьйон",
+    "predicted_adv2": "Парагваю",
+    "correct": false
+  },
+  {
+    "adj1": "Швеція",
+    "adv1": "крона",
+    "adj2": "Нігерія",
+    "expected_adv2": "найра",
+    "predicted_adv2": "крони",
+    "correct": false
+  },
+  {
+    "adj1": "Хорватія",
+    "adv1": "хорват",
+    "adj2": "Ефіопія",
+    "expected_adv2": "ефіоп",
+    "predicted_adv2": "Ефіопії",
+    "correct": false
+  },
+  {
+    "adj1": "простий",
+    "adv1": "найпростіший",
+    "adj2": "широкий",
+    "expected_adv2": "найширший",
+    "predicted_adv2": "Широкий",
+    "correct": false
+  },
+  {
+    "adj1": "Камбоджа",
+    "adv1": "Азія",
+    "adj2": "Швеція",
+    "expected_adv2": "Європа",
+    "predicted_adv2": "Європа",
+    "correct": true
+  },
+  {
+    "adj1": "випадковий",
+    "adv1": "випадково",
+    "adj2": "очевидний",
+    "expected_adv2": "очевидно",
+    "predicted_adv2": "очевидним",
+    "correct": false
+  },
+  {
+    "adj1": "мексиканський",
+    "adv1": "мексиканці",
+    "adj2": "ямайський",
+    "expected_adv2": "ямайці",
+    "predicted_adv2": "американці",
+    "correct": false
+  },
+  {
+    "adj1": "Словаччина",
+    "adv1": "Братислава",
+    "adj2": "Люксембург",
+    "expected_adv2": "Люксембург",
+    "predicted_adv2": "Люксембургу",
+    "correct": false
+  },
+  {
+    "adj1": "Еритрея",
+    "adv1": "Асмара",
+    "adj2": "Ізраїль",
+    "expected_adv2": "Єрусалим",
+    "predicted_adv2": "Тель-Авів",
+    "correct": false
+  },
+  {
+    "adj1": "Замбія",
+    "adv1": "Лусака",
+    "adj2": "Туркменістан",
+    "expected_adv2": "Ашгабат",
+    "predicted_adv2": "Бішкек",
+    "correct": false
+  },
+  {
+    "adj1": "Габон",
+    "adv1": "Африка",
+    "adj2": "Лаос",
+    "expected_adv2": "Азія",
+    "predicted_adv2": "Лаосу",
+    "correct": false
+  },
+  {
+    "adj1": "Данія",
+    "adv1": "крона",
+    "adj2": "Корея",
+    "expected_adv2": "вона",
+    "predicted_adv2": "крону",
+    "correct": false
+  },
+  {
+    "adj1": "диня",
+    "adv1": "дині",
+    "adj2": "коза",
+    "expected_adv2": "кози",
+    "predicted_adv2": "кози",
+    "correct": true
+  },
+  {
+    "adj1": "філіппінський",
+    "adv1": "філіппінці",
+    "adj2": "бразильський",
+    "expected_adv2": "бразильці",
+    "predicted_adv2": "бразильського",
+    "correct": false
+  },
+  {
+    "adj1": "Австрія",
+    "adv1": "Європа",
+    "adj2": "Філіппіни",
+    "expected_adv2": "Азія",
+    "predicted_adv2": "Америка",
+    "correct": false
+  },
+  {
+    "adj1": "іспанський",
+    "adv1": "іспанці",
+    "adj2": "перуанський",
+    "expected_adv2": "перуанці",
+    "predicted_adv2": "індіанці",
+    "correct": false
+  },
+  {
+    "adj1": "полінезійський",
+    "adv1": "Полінезія",
+    "adj2": "азербайджанський",
+    "expected_adv2": "Азербайджан",
+    "predicted_adv2": "Туреччина",
+    "correct": false
+  },
+  {
+    "adj1": "спокійний",
+    "adv1": "спокійно",
+    "adj2": "безпечний",
+    "expected_adv2": "безпечно",
+    "predicted_adv2": "безпечно",
+    "correct": true
+  },
+  {
+    "adj1": "турецький",
+    "adv1": "Туреччина",
+    "adj2": "кубинський",
+    "expected_adv2": "Куба",
+    "predicted_adv2": "Куба",
+    "correct": true
+  },
+  {
+    "adj1": "малаєць",
+    "adv1": "малайці",
+    "adj2": "ефіоп",
+    "expected_adv2": "ефіопи",
+    "predicted_adv2": "індійці",
+    "correct": false
+  },
+  {
+    "adj1": "гаїтянський",
+    "adv1": "Гаїті",
+    "adj2": "мальтійський",
+    "expected_adv2": "Мальта",
+    "predicted_adv2": "Нікарагуа",
+    "correct": false
+  },
+  {
+    "adj1": "кінь",
+    "adv1": "коні",
+    "adj2": "мавпа",
+    "expected_adv2": "мавпи",
+    "predicted_adv2": "мавпи",
+    "correct": true
+  },
+  {
+    "adj1": "Намібія",
+    "adv1": "Віндгук",
+    "adj2": "Зімбабве",
+    "expected_adv2": "Хараре",
+    "predicted_adv2": "Нігерії",
+    "correct": false
+  },
+  {
+    "adj1": "Йорданія",
+    "adv1": "Азія",
+    "adj2": "Італія",
+    "expected_adv2": "Європа",
+    "predicted_adv2": "Європа",
+    "correct": true
+  },
+  {
+    "adj1": "Сенегал",
+    "adv1": "Дакар",
+    "adj2": "Джибуті",
+    "expected_adv2": "Джибуті",
+    "predicted_adv2": "Бенгазі",
+    "correct": false
+  },
+  {
+    "adj1": "груша",
+    "adv1": "груші",
+    "adj2": "кішка",
+    "expected_adv2": "кішки",
+    "predicted_adv2": "кішки",
+    "correct": true
+  },
+  {
+    "adj1": "внук",
+    "adv1": "внучка",
+    "adj2": "дядько",
+    "expected_adv2": "тітка",
+    "predicted_adv2": "тітка",
+    "correct": true
+  },
+  {
+    "adj1": "албанський",
+    "adv1": "албанка",
+    "adj2": "філіппінський",
+    "expected_adv2": "філіппінка",
+    "predicted_adv2": "банка",
+    "correct": false
+  },
+  {
+    "adj1": "слухати",
+    "adv1": "слухає",
+    "adj2": "ходити",
+    "expected_adv2": "ходить",
+    "predicted_adv2": "ходить",
+    "correct": true
+  },
+  {
+    "adj1": "слон",
+    "adv1": "слони",
+    "adj2": "корова",
+    "expected_adv2": "корови",
+    "predicted_adv2": "корови",
+    "correct": true
+  },
+  {
+    "adj1": "США",
+    "adv1": "Вашингтон",
+    "adj2": "Ємен",
+    "expected_adv2": "Сана",
+    "predicted_adv2": "Судан",
+    "correct": false
+  },
+  {
+    "adj1": "іти",
+    "adv1": "йшли",
+    "adj2": "запевняти",
+    "expected_adv2": "запевняли",
+    "predicted_adv2": "демонструвалися",
+    "correct": false
+  },
+  {
+    "adj1": "реалізовувати",
+    "adv1": "реалізовує",
+    "adj2": "їсти",
+    "expected_adv2": "їсть",
+    "predicted_adv2": "їсть",
+    "correct": true
+  },
+  {
+    "adj1": "Європа",
+    "adv1": "євро",
+    "adj2": "Болгарія",
+    "expected_adv2": "лев",
+    "predicted_adv2": "гривень",
+    "correct": false
+  },
+  {
+    "adj1": "Монако",
+    "adv1": "Європа",
+    "adj2": "Бутан",
+    "expected_adv2": "Азія",
+    "predicted_adv2": "Індія",
+    "correct": false
+  },
+  {
+    "adj1": "Бірма",
+    "adv1": "бірманський",
+    "adj2": "Алжир",
+    "expected_adv2": "алжирський",
+    "predicted_adv2": "Алжиру",
+    "correct": false
+  },
+  {
+    "adj1": "Індонезія",
+    "adv1": "Джакарта",
+    "adj2": "Румунія",
+    "expected_adv2": "Бухарест",
+    "predicted_adv2": "Бухарест",
+    "correct": true
+  },
+  {
+    "adj1": "Туреччина",
+    "adv1": "Азія",
+    "adj2": "Габон",
+    "expected_adv2": "Африка",
+    "predicted_adv2": "Африка",
+    "correct": true
+  },
+  {
+    "adj1": "Швеція",
+    "adv1": "швед",
+    "adj2": "Фінляндія",
+    "expected_adv2": "фін",
+    "predicted_adv2": "фін",
+    "correct": true
+  },
+  {
+    "adj1": "Ангола",
+    "adv1": "Африка",
+    "adj2": "Туреччина",
+    "expected_adv2": "Азія",
+    "predicted_adv2": "Азія",
+    "correct": true
+  },
+  {
+    "adj1": "Колумбія",
+    "adv1": "колумбійський",
+    "adj2": "Албанія",
+    "expected_adv2": "албанський",
+    "predicted_adv2": "албанський",
+    "correct": true
+  },
+  {
+    "adj1": "австралійський",
+    "adv1": "австралійка",
+    "adj2": "швейцарський",
+    "expected_adv2": "швейцарка",
+    "predicted_adv2": "швейцарська",
+    "correct": false
+  },
+  {
+    "adj1": "дядько",
+    "adv1": "тітка",
+    "adj2": "вітчим",
+    "expected_adv2": "мачуха",
+    "predicted_adv2": "мачуха",
+    "correct": true
+  },
+  {
+    "adj1": "Білорусь",
+    "adv1": "Мінськ",
+    "adj2": "Гамбія",
+    "expected_adv2": "Банжул",
+    "predicted_adv2": "Гамбії",
+    "correct": false
+  },
+  {
+    "adj1": "Сирія",
+    "adv1": "Дамаск",
+    "adj2": "Мексика",
+    "expected_adv2": "Мехіко",
+    "predicted_adv2": "Мехіко",
+    "correct": true
+  },
+  {
+    "adj1": "сміливий",
+    "adv1": "сміливо",
+    "adj2": "типовий",
+    "expected_adv2": "типово",
+    "predicted_adv2": "можна",
+    "correct": false
+  },
+  {
+    "adj1": "іракський",
+    "adv1": "іракець",
+    "adj2": "ефіопський",
+    "expected_adv2": "ефіоп",
+    "predicted_adv2": "Ефіопія",
+    "correct": false
+  },
+  {
+    "adj1": "Туреччина",
+    "adv1": "Анкара",
+    "adj2": "Мальдіви",
+    "expected_adv2": "Мале",
+    "predicted_adv2": "Анкари",
+    "correct": false
+  },
+  {
+    "adj1": "високий",
+    "adv1": "найвищий",
+    "adj2": "слабкий",
+    "expected_adv2": "найслабший",
+    "predicted_adv2": "найсильніший",
+    "correct": false
+  },
+  {
+    "adj1": "хмара",
+    "adv1": "хмари",
+    "adj2": "колір",
+    "expected_adv2": "кольори",
+    "predicted_adv2": "кольори",
+    "correct": true
+  },
+  {
+    "adj1": "рідкісний",
+    "adv1": "рідко",
+    "adj2": "швидкий",
+    "expected_adv2": "швидко",
+    "predicted_adv2": "часто",
+    "correct": false
+  },
+  {
+    "adj1": "Ізраїль",
+    "adv1": "Єрусалим",
+    "adj2": "Білорусь",
+    "expected_adv2": "Мінськ",
+    "predicted_adv2": "Полоцьк",
+    "correct": false
+  },
+  {
+    "adj1": "Самоа",
+    "adv1": "Апіа",
+    "adj2": "Тувалу",
+    "expected_adv2": "Фунафуті",
+    "predicted_adv2": "Джакарта",
+    "correct": false
+  },
+  {
+    "adj1": "рішуче",
+    "adv1": "нерішуче",
+    "adj2": "чесно",
+    "expected_adv2": "нечесно",
+    "predicted_adv2": "Чесно",
+    "correct": false
+  },
+  {
+    "adj1": "думати",
+    "adv1": "думає",
+    "adj2": "виховувати",
+    "expected_adv2": "виховує",
+    "predicted_adv2": "виховує",
+    "correct": true
+  },
+  {
+    "adj1": "холодний",
+    "adv1": "найхолодніший",
+    "adj2": "короткий",
+    "expected_adv2": "найкоротший",
+    "predicted_adv2": "найкоротший",
+    "correct": true
+  },
+  {
+    "adj1": "Лаос",
+    "adv1": "лаоський",
+    "adj2": "Бруней",
+    "expected_adv2": "брунейський",
+    "predicted_adv2": "Мехмед",
+    "correct": false
+  },
+  {
+    "adj1": "Мозамбік",
+    "adv1": "Мапуту",
+    "adj2": "Палау",
+    "expected_adv2": "Нгерулмуд",
+    "predicted_adv2": "Тувалу",
+    "correct": false
+  },
+  {
+    "adj1": "Сербія",
+    "adv1": "Белград",
+    "adj2": "Мавританія",
+    "expected_adv2": "Нуакшот",
+    "predicted_adv2": "Каїр",
+    "correct": false
+  },
+  {
+    "adj1": "Бруней",
+    "adv1": "Азія",
+    "adj2": "Лесото",
+    "expected_adv2": "Африка",
+    "predicted_adv2": "Африка",
+    "correct": true
+  },
+  {
+    "adj1": "ліви",
+    "adv1": "Лівонія",
+    "adj2": "тайванці",
+    "expected_adv2": "Тайвань",
+    "predicted_adv2": "Лівонії",
+    "correct": false
+  },
+  {
+    "adj1": "Камбоджа",
+    "adv1": "Пномпень",
+    "adj2": "Сомалі",
+    "expected_adv2": "Могадишо",
+    "predicted_adv2": "Лівії",
+    "correct": false
+  },
+  {
+    "adj1": "плавати",
+    "adv1": "плаває",
+    "adj2": "танцювати",
+    "expected_adv2": "танцює",
+    "predicted_adv2": "танцює",
+    "correct": true
+  },
+  {
+    "adj1": "передбачати",
+    "adv1": "передбачає",
+    "adj2": "слухати",
+    "expected_adv2": "слухає",
+    "predicted_adv2": "слухає",
+    "correct": true
+  },
+  {
+    "adj1": "Алжир",
+    "adv1": "Алжир",
+    "adj2": "Іспанія",
+    "expected_adv2": "Мадрид",
+    "predicted_adv2": "Португалія",
+    "correct": false
+  },
+  {
+    "adj1": "серби",
+    "adv1": "Сербія",
+    "adj2": "малійці",
+    "expected_adv2": "Малі",
+    "predicted_adv2": "Бельгія",
+    "correct": false
+  },
+  {
+    "adj1": "Азербайджан",
+    "adv1": "Азія",
+    "adj2": "Португалія",
+    "expected_adv2": "Європа",
+    "predicted_adv2": "Африка",
+    "correct": false
+  },
+  {
+    "adj1": "миша",
+    "adv1": "миші",
+    "adj2": "жінка",
+    "expected_adv2": "жінки",
+    "predicted_adv2": "жінки",
+    "correct": true
+  },
+  {
+    "adj1": "Італія",
+    "adv1": "Рим",
+    "adj2": "Еритрея",
+    "expected_adv2": "Асмара",
+    "predicted_adv2": "Риму",
+    "correct": false
+  },
+  {
+    "adj1": "тато",
+    "adv1": "мама",
+    "adj2": "брат",
+    "expected_adv2": "сестра",
+    "predicted_adv2": "сестра",
+    "correct": true
+  },
+  {
+    "adj1": "узагальнювати",
+    "adv1": "узагальнювали",
+    "adj2": "бачити",
+    "expected_adv2": "бачили",
+    "predicted_adv2": "побачити",
+    "correct": false
+  },
+  {
+    "adj1": "Аргентина",
+    "adv1": "песо",
+    "adj2": "Румунія",
+    "expected_adv2": "лей",
+    "predicted_adv2": "франк",
+    "correct": false
+  },
+  {
+    "adj1": "збільшувати",
+    "adv1": "збільшується",
+    "adj2": "відкривати",
+    "expected_adv2": "відкриває",
+    "predicted_adv2": "відкриваються",
+    "correct": false
+  },
+  {
+    "adj1": "рука",
+    "adv1": "руки",
+    "adj2": "ананас",
+    "expected_adv2": "ананаси",
+    "predicted_adv2": "огірки",
+    "correct": false
+  },
+  {
+    "adj1": "свиня",
+    "adv1": "свині",
+    "adj2": "дитина",
+    "expected_adv2": "діти",
+    "predicted_adv2": "дитини",
+    "correct": false
+  },
+  {
+    "adj1": "узагальнювати",
+    "adv1": "узагальнювали",
+    "adj2": "прогнозувати",
+    "expected_adv2": "прогнозували",
+    "predicted_adv2": "прогнозували",
+    "correct": true
+  },
+  {
+    "adj1": "Ємен",
+    "adv1": "Азія",
+    "adj2": "Мальта",
+    "expected_adv2": "Європа",
+    "predicted_adv2": "Європа",
+    "correct": true
+  },
+  {
+    "adj1": "ірландець",
+    "adv1": "Ірландія",
+    "adj2": "грек",
+    "expected_adv2": "Греція",
+    "predicted_adv2": "греків",
+    "correct": false
+  },
+  {
+    "adj1": "Філіппіни",
+    "adv1": "Маніла",
+    "adj2": "Беліз",
+    "expected_adv2": "Бельмопан",
+    "predicted_adv2": "Аруба",
+    "correct": false
+  },
+  {
+    "adj1": "таджики",
+    "adv1": "таджик",
+    "adj2": "марокканці",
+    "expected_adv2": "марокканець",
+    "predicted_adv2": "американець",
+    "correct": false
+  },
+  {
+    "adj1": "Москва",
+    "adv1": "московський",
+    "adj2": "Австрія",
+    "expected_adv2": "австрійський",
+    "predicted_adv2": "австрійський",
+    "correct": true
+  },
+  {
+    "adj1": "Джибуті",
+    "adv1": "Африка",
+    "adj2": "Бангладеш",
+    "expected_adv2": "Азія",
+    "predicted_adv2": "Азія",
+    "correct": true
+  },
+  {
+    "adj1": "Японія",
+    "adv1": "ієн",
+    "adj2": "Європа",
+    "expected_adv2": "євро",
+    "predicted_adv2": "лір",
+    "correct": false
+  },
+  {
+    "adj1": "довгий",
+    "adv1": "довший",
+    "adj2": "веселий",
+    "expected_adv2": "веселіший",
+    "predicted_adv2": "радісний",
+    "correct": false
+  },
+  {
+    "adj1": "Ізраїль",
+    "adv1": "Єрусалим",
+    "adj2": "Бахрейн",
+    "expected_adv2": "Манама",
+    "predicted_adv2": "Бахрейну",
+    "correct": false
+  },
+  {
+    "adj1": "правильний",
+    "adv1": "правильно",
+    "adj2": "вільний",
+    "expected_adv2": "вільно",
+    "predicted_adv2": "вільно",
+    "correct": true
+  },
+  {
+    "adj1": "країна",
+    "adv1": "країни",
+    "adj2": "птах",
+    "expected_adv2": "птахи",
+    "predicted_adv2": "птаха",
+    "correct": false
+  },
+  {
+    "adj1": "вірогідно",
+    "adv1": "невірогідно",
+    "adj2": "зручно",
+    "expected_adv2": "незручно",
+    "predicted_adv2": "Зручно",
+    "correct": false
+  },
+  {
+    "adj1": "Кенія",
+    "adv1": "Африка",
+    "adj2": "Ірак",
+    "expected_adv2": "Азія",
+    "predicted_adv2": "Іраку",
+    "correct": false
+  },
+  {
+    "adj1": "Росія",
+    "adv1": "Європа",
+    "adj2": "Індонезія",
+    "expected_adv2": "Азія",
+    "predicted_adv2": "Суматра",
+    "correct": false
+  },
+  {
+    "adj1": "Беліз",
+    "adv1": "Бельмопан",
+    "adj2": "Молдова",
+    "expected_adv2": "Кишинів",
+    "predicted_adv2": "Кишиневі",
+    "correct": false
+  },
+  {
+    "adj1": "бачити",
+    "adv1": "бачили",
+    "adj2": "тримати",
+    "expected_adv2": "тримали",
+    "predicted_adv2": "тримали",
+    "correct": true
+  },
+  {
+    "adj1": "кубинський",
+    "adv1": "Куба",
+    "adj2": "мальтійський",
+    "expected_adv2": "Мальта",
+    "predicted_adv2": "Венесуела",
+    "correct": false
+  },
+  {
+    "adj1": "зростати",
+    "adv1": "зростали",
+    "adj2": "обманювати",
+    "expected_adv2": "обманювали",
+    "predicted_adv2": "грабували",
+    "correct": false
+  },
+  {
+    "adj1": "банан",
+    "adv1": "банани",
+    "adj2": "рука",
+    "expected_adv2": "руки",
+    "predicted_adv2": "нога",
+    "correct": false
+  },
+  {
+    "adj1": "Туркменістан",
+    "adv1": "Ашгабат",
+    "adj2": "Ботсвана",
+    "expected_adv2": "Габороне",
+    "predicted_adv2": "Ботсвани",
+    "correct": false
+  },
+  {
+    "adj1": "іти",
+    "adv1": "йшли",
+    "adj2": "спати",
+    "expected_adv2": "спали",
+    "predicted_adv2": "спали",
+    "correct": true
+  },
+  {
+    "adj1": "яскравий",
+    "adv1": "яскравіший",
+    "adj2": "дешевий",
+    "expected_adv2": "дешевший",
+    "predicted_adv2": "дешевший",
+    "correct": true
+  },
+  {
+    "adj1": "повільний",
+    "adv1": "найповільніший",
+    "adj2": "короткий",
+    "expected_adv2": "найкоротший",
+    "predicted_adv2": "Короткий",
+    "correct": false
+  },
+  {
+    "adj1": "Ірландія",
+    "adv1": "Європа",
+    "adj2": "Руанда",
+    "expected_adv2": "Африка",
+    "predicted_adv2": "Европа",
+    "correct": false
+  },
+  {
+    "adj1": "мексиканці",
+    "adv1": "Мексика",
+    "adj2": "ефіопи",
+    "expected_adv2": "Ефіопія",
+    "predicted_adv2": "Бразилія",
+    "correct": false
+  },
+  {
+    "adj1": "сирієць",
+    "adv1": "сирійці",
+    "adj2": "люксембуржець",
+    "expected_adv2": "люксембуржці",
+    "predicted_adv2": "американці",
+    "correct": false
+  },
+  {
+    "adj1": "кубинець",
+    "adv1": "Куба",
+    "adj2": "француз",
+    "expected_adv2": "Франція",
+    "predicted_adv2": "Гавана",
+    "correct": false
+  },
+  {
+    "adj1": "збільшувати",
+    "adv1": "збільшували",
+    "adj2": "їхати",
+    "expected_adv2": "їхали",
+    "predicted_adv2": "їхали",
+    "correct": true
+  },
+  {
+    "adj1": "Парагвай",
+    "adv1": "Асунсьйон",
+    "adj2": "Бахрейн",
+    "expected_adv2": "Манама",
+    "predicted_adv2": "Бахрейну",
+    "correct": false
+  },
+  {
+    "adj1": "Габон",
+    "adv1": "Лібревіль",
+    "adj2": "Ботсвана",
+    "expected_adv2": "Габороне",
+    "predicted_adv2": "Полоцька",
+    "correct": false
+  },
+  {
+    "adj1": "Тонга",
+    "adv1": "Нукуалофа",
+    "adj2": "Україна",
+    "expected_adv2": "Київ",
+    "predicted_adv2": "Росія",
+    "correct": false
+  },
+  {
+    "adj1": "типовий",
+    "adv1": "типово",
+    "adj2": "нещасливий",
+    "expected_adv2": "нещасливо",
+    "predicted_adv2": "зовсім",
+    "correct": false
+  },
+  {
+    "adj1": "Ліван",
+    "adv1": "Бейрут",
+    "adj2": "Мадагаскар",
+    "expected_adv2": "Антананаріву",
+    "predicted_adv2": "Мадагаскару",
+    "correct": false
+  },
+  {
+    "adj1": "Кіпр",
+    "adv1": "Європа",
+    "adj2": "Камбоджа",
+    "expected_adv2": "Азія",
+    "predicted_adv2": "Европа",
+    "correct": false
+  },
+  {
+    "adj1": "гарячий",
+    "adv1": "гарячіший",
+    "adj2": "новий",
+    "expected_adv2": "новіший",
+    "predicted_adv2": "інший",
+    "correct": false
+  },
+  {
+    "adj1": "тунісець",
+    "adv1": "тунісці",
+    "adj2": "мексиканець",
+    "expected_adv2": "мексиканці",
+    "predicted_adv2": "іспанці",
+    "correct": false
+  },
+  {
+    "adj1": "Йорданія",
+    "adv1": "Амман",
+    "adj2": "Зімбабве",
+    "expected_adv2": "Хараре",
+    "predicted_adv2": "Аммані",
+    "correct": false
+  },
+  {
+    "adj1": "Ємен",
+    "adv1": "Азія",
+    "adj2": "Камерун",
+    "expected_adv2": "Африка",
+    "predicted_adv2": "Африка",
+    "correct": true
+  },
+  {
+    "adj1": "Туреччина",
+    "adv1": "Анкара",
+    "adj2": "Туніс",
+    "expected_adv2": "Туніс",
+    "predicted_adv2": "Алжир",
+    "correct": false
+  },
+  {
+    "adj1": "Португалія",
+    "adv1": "Лісабон",
+    "adj2": "Грузія",
+    "expected_adv2": "Тбілісі",
+    "predicted_adv2": "Тбілісі",
+    "correct": true
+  },
+  {
+    "adj1": "цибуля",
+    "adv1": "цибулю",
+    "adj2": "жінка",
+    "expected_adv2": "жінки",
+    "predicted_adv2": "жінку",
+    "correct": false
+  },
+  {
+    "adj1": "Нікарагуа",
+    "adv1": "Манагуа",
+    "adj2": "Уругвай",
+    "expected_adv2": "Монтевідео",
+    "predicted_adv2": "Парагвай",
+    "correct": false
+  },
+  {
+    "adj1": "голосний",
+    "adv1": "голосніший",
+    "adj2": "холодний",
+    "expected_adv2": "холодніший",
+    "predicted_adv2": "гарячий",
+    "correct": false
+  },
+  {
+    "adj1": "брат",
+    "adv1": "сестра",
+    "adj2": "хлопчик",
+    "expected_adv2": "дівчинка",
+    "predicted_adv2": "дівчинка",
+    "correct": true
+  },
+  {
+    "adj1": "Пакистан",
+    "adv1": "Азія",
+    "adj2": "Замбія",
+    "expected_adv2": "Африка",
+    "predicted_adv2": "Африка",
+    "correct": true
+  },
+  {
+    "adj1": "Японія",
+    "adv1": "ієн",
+    "adj2": "Таїланд",
+    "expected_adv2": "бат",
+    "predicted_adv2": "юанів",
+    "correct": false
+  },
+  {
+    "adj1": "високий",
+    "adv1": "вищий",
+    "adj2": "холодний",
+    "expected_adv2": "холодніший",
+    "predicted_adv2": "нижчий",
+    "correct": false
+  },
+  {
+    "adj1": "мексиканка",
+    "adv1": "мексиканець",
+    "adj2": "албанка",
+    "expected_adv2": "албанець",
+    "predicted_adv2": "албанського",
+    "correct": false
+  },
+  {
+    "adj1": "гаїтянський",
+    "adv1": "гаїтяни",
+    "adj2": "ефіопський",
+    "expected_adv2": "ефіопи",
+    "predicted_adv2": "єгиптяни",
+    "correct": false
+  },
+  {
+    "adj1": "іспанець",
+    "adv1": "іспанці",
+    "adj2": "кенієць",
+    "expected_adv2": "кенійці",
+    "predicted_adv2": "англійці",
+    "correct": false
+  },
+  {
+    "adj1": "співати",
+    "adv1": "співає",
+    "adj2": "передбачати",
+    "expected_adv2": "передбачає",
+    "predicted_adv2": "враховує",
+    "correct": false
+  },
+  {
+    "adj1": "поляки",
+    "adv1": "Польща",
+    "adj2": "намібійці",
+    "expected_adv2": "Намібія",
+    "predicted_adv2": "Німеччина",
+    "correct": false
+  },
+  {
+    "adj1": "Словаччина",
+    "adv1": "Братислава",
+    "adj2": "Китай",
+    "expected_adv2": "Пекін",
+    "predicted_adv2": "Пекін",
+    "correct": true
+  },
+  {
+    "adj1": "Перу",
+    "adv1": "перуанський",
+    "adj2": "Бурунді",
+    "expected_adv2": "бурундійський",
+    "predicted_adv2": "шведський",
+    "correct": false
+  },
+  {
+    "adj1": "очевидний",
+    "adv1": "очевидно",
+    "adj2": "нещасливий",
+    "expected_adv2": "нещасливо",
+    "predicted_adv2": "ймовірно",
+    "correct": false
+  },
+  {
+    "adj1": "перуанці",
+    "adv1": "перуанський",
+    "adj2": "естонці",
+    "expected_adv2": "естонський",
+    "predicted_adv2": "естонський",
+    "correct": true
+  },
+  {
+    "adj1": "колір",
+    "adv1": "кольори",
+    "adj2": "коза",
+    "expected_adv2": "кози",
+    "predicted_adv2": "Коза",
+    "correct": false
+  },
+  {
+    "adj1": "Вірменія",
+    "adv1": "Азія",
+    "adj2": "Маврикій",
+    "expected_adv2": "Африка",
+    "predicted_adv2": "Африка",
+    "correct": true
+  },
+  {
+    "adj1": "безпечний",
+    "adv1": "безпечно",
+    "adj2": "професійний",
+    "expected_adv2": "професійно",
+    "predicted_adv2": "професійно",
+    "correct": true
+  },
+  {
+    "adj1": "македонський",
+    "adv1": "Македонія",
+    "adj2": "австрійський",
+    "expected_adv2": "Австрія",
+    "predicted_adv2": "Австрія",
+    "correct": true
+  },
+  {
+    "adj1": "оцінювати",
+    "adv1": "оцінювали",
+    "adj2": "спати",
+    "expected_adv2": "спали",
+    "predicted_adv2": "поспати",
+    "correct": false
+  },
+  {
+    "adj1": "сильний",
+    "adv1": "найсильніший",
+    "adj2": "великий",
+    "expected_adv2": "найбільший",
+    "predicted_adv2": "найбільший",
+    "correct": true
+  },
+  {
+    "adj1": "Індонезія",
+    "adv1": "Джакарта",
+    "adj2": "Мальта",
+    "expected_adv2": "Валлетта",
+    "predicted_adv2": "Валетта",
+    "correct": false
+  },
+  {
+    "adj1": "угандійці",
+    "adv1": "Уганда",
+    "adj2": "австралійці",
+    "expected_adv2": "Австралія",
+    "predicted_adv2": "Кенія",
+    "correct": false
+  },
+  {
+    "adj1": "реалізовувати",
+    "adv1": "реалізовує",
+    "adj2": "шукати",
+    "expected_adv2": "шукає",
+    "predicted_adv2": "шукає",
+    "correct": true
+  },
+  {
+    "adj1": "Казахстан",
+    "adv1": "Азія",
+    "adj2": "Ісландія",
+    "expected_adv2": "Європа",
+    "predicted_adv2": "Європа",
+    "correct": true
+  },
+  {
+    "adj1": "Кенія",
+    "adv1": "Найробі",
+    "adj2": "Ірак",
+    "expected_adv2": "Багдад",
+    "predicted_adv2": "Іраку",
+    "correct": false
+  },
+  {
+    "adj1": "цибуля",
+    "adv1": "цибулю",
+    "adj2": "чоловік",
+    "expected_adv2": "чоловіки",
+    "predicted_adv2": "Чоловік",
+    "correct": false
+  },
+  {
+    "adj1": "кенієць",
+    "adv1": "кенійський",
+    "adj2": "непалець",
+    "expected_adv2": "непальський",
+    "predicted_adv2": "індійський",
+    "correct": false
+  },
+  {
+    "adj1": "закритий",
+    "adv1": "закрито",
+    "adj2": "повільний",
+    "expected_adv2": "повільно",
+    "predicted_adv2": "повільне",
+    "correct": false
+  },
+  {
+    "adj1": "бельгійці",
+    "adv1": "бельгієць",
+    "adj2": "українці",
+    "expected_adv2": "українець",
+    "predicted_adv2": "українець",
+    "correct": true
+  },
+  {
+    "adj1": "жінка",
+    "adv1": "жінки",
+    "adj2": "палець",
+    "expected_adv2": "пальці",
+    "predicted_adv2": "пальці",
+    "correct": true
+  },
+  {
+    "adj1": "Мозамбік",
+    "adv1": "мозамбіцький",
+    "adj2": "Таїті",
+    "expected_adv2": "таїтянський",
+    "predicted_adv2": "острові",
+    "correct": false
+  },
+  {
+    "adj1": "передбачати",
+    "adv1": "передбачає",
+    "adj2": "писати",
+    "expected_adv2": "пише",
+    "predicted_adv2": "написати",
+    "correct": false
+  },
+  {
+    "adj1": "Ліхтенштейн",
+    "adv1": "Вадуц",
+    "adj2": "Бахрейн",
+    "expected_adv2": "Манама",
+    "predicted_adv2": "Бахрейну",
+    "correct": false
+  },
+  {
+    "adj1": "досконало",
+    "adv1": "недосконало",
+    "adj2": "етично",
+    "expected_adv2": "неетично",
+    "predicted_adv2": "морально",
+    "correct": false
+  },
+  {
+    "adj1": "танцювати",
+    "adv1": "танцює",
+    "adj2": "збирати",
+    "expected_adv2": "збирає",
+    "predicted_adv2": "збирає",
+    "correct": true
+  },
+  {
+    "adj1": "запевняти",
+    "adv1": "запевняли",
+    "adj2": "лежати",
+    "expected_adv2": "лежали",
+    "predicted_adv2": "лежать",
+    "correct": false
+  },
+  {
+    "adj1": "Голландія",
+    "adv1": "голландець",
+    "adj2": "Гаваї",
+    "expected_adv2": "гаваєць",
+    "predicted_adv2": "Гаваях",
+    "correct": false
+  },
+  {
+    "adj1": "Ліван",
+    "adv1": "Бейрут",
+    "adj2": "Самоа",
+    "expected_adv2": "Апіа",
+    "predicted_adv2": "Науру",
+    "correct": false
+  },
+  {
+    "adj1": "Еквадор",
+    "adv1": "Кіто",
+    "adj2": "Еритрея",
+    "expected_adv2": "Асмара",
+    "predicted_adv2": "Найробі",
+    "correct": false
+  },
+  {
+    "adj1": "сербський",
+    "adv1": "серби",
+    "adj2": "ґренландський",
+    "expected_adv2": "ґренландці",
+    "predicted_adv2": "угорці",
+    "correct": false
+  },
+  {
+    "adj1": "рука",
+    "adv1": "руки",
+    "adj2": "миша",
+    "expected_adv2": "миші",
+    "predicted_adv2": "мишку",
+    "correct": false
+  },
+  {
+    "adj1": "греки",
+    "adv1": "Греція",
+    "adj2": "мальтійці",
+    "expected_adv2": "Мальта",
+    "predicted_adv2": "Іспанія",
+    "correct": false
+  },
+  {
+    "adj1": "сумний",
+    "adv1": "сумніший",
+    "adj2": "голосний",
+    "expected_adv2": "голосніший",
+    "predicted_adv2": "приголосний",
+    "correct": false
+  },
+  {
+    "adj1": "бачити",
+    "adv1": "бачили",
+    "adj2": "збільшувати",
+    "expected_adv2": "збільшували",
+    "predicted_adv2": "збільшили",
+    "correct": false
+  },
+  {
+    "adj1": "Чехія",
+    "adv1": "Прага",
+    "adj2": "Франція",
+    "expected_adv2": "Париж",
+    "predicted_adv2": "Париж",
+    "correct": true
+  },
+  {
+    "adj1": "полінезійський",
+    "adv1": "полінезійці",
+    "adj2": "гавайський",
+    "expected_adv2": "гавайці",
+    "predicted_adv2": "індіанці",
+    "correct": false
+  },
+  {
+    "adj1": "миша",
+    "adv1": "миші",
+    "adj2": "палець",
+    "expected_adv2": "пальці",
+    "predicted_adv2": "пальці",
+    "correct": true
+  },
+  {
+    "adj1": "швидкий",
+    "adv1": "найшвидший",
+    "adj2": "високий",
+    "expected_adv2": "найвищий",
+    "predicted_adv2": "найвищий",
+    "correct": true
+  },
+  {
+    "adj1": "Пакистан",
+    "adv1": "Ісламабад",
+    "adj2": "Гамбія",
+    "expected_adv2": "Банжул",
+    "predicted_adv2": "Гамбії",
+    "correct": false
+  },
+  {
+    "adj1": "араб",
+    "adv1": "араби",
+    "adj2": "еквадорець",
+    "expected_adv2": "еквадорці",
+    "predicted_adv2": "угорці",
+    "correct": false
+  },
+  {
+    "adj1": "Лівія",
+    "adv1": "Африка",
+    "adj2": "Іспанія",
+    "expected_adv2": "Європа",
+    "predicted_adv2": "Мексика",
+    "correct": false
+  },
+  {
+    "adj1": "безпечний",
+    "adv1": "безпечно",
+    "adj2": "ефективний",
+    "expected_adv2": "ефективно",
+    "predicted_adv2": "ефективно",
+    "correct": true
+  },
+  {
+    "adj1": "старий",
+    "adv1": "найстаріший",
+    "adj2": "теплий",
+    "expected_adv2": "найтепліший",
+    "predicted_adv2": "прохолодний",
+    "correct": false
+  },
+  {
+    "adj1": "Іран",
+    "adv1": "Тегеран",
+    "adj2": "Туреччина",
+    "expected_adv2": "Анкара",
+    "predicted_adv2": "муніципальна",
+    "correct": false
+  },
+  {
+    "adj1": "Кіпр",
+    "adv1": "Нікосія",
+    "adj2": "Сомалі",
+    "expected_adv2": "Могадишо",
+    "predicted_adv2": "іракського",
+    "correct": false
+  },
+  {
+    "adj1": "Азія",
+    "adv1": "азіати",
+    "adj2": "Перу",
+    "expected_adv2": "перуанці",
+    "predicted_adv2": "Болівії",
+    "correct": false
+  },
+  {
+    "adj1": "лів",
+    "adv1": "лівонський",
+    "adj2": "косовар",
+    "expected_adv2": "косовський",
+    "predicted_adv2": "венеціанський",
+    "correct": false
+  },
+  {
+    "adj1": "Андорра",
+    "adv1": "Європа",
+    "adj2": "Іран",
+    "expected_adv2": "Азія",
+    "predicted_adv2": "Тегеран",
+    "correct": false
+  },
+  {
+    "adj1": "банан",
+    "adv1": "банани",
+    "adj2": "птах",
+    "expected_adv2": "птахи",
+    "predicted_adv2": "птахи",
+    "correct": true
+  },
+  {
+    "adj1": "Сербія",
+    "adv1": "Белград",
+    "adj2": "Непал",
+    "expected_adv2": "Катманду",
+    "predicted_adv2": "Непалу",
+    "correct": false
+  },
+  {
+    "adj1": "сміливий",
+    "adv1": "сміливо",
+    "adj2": "випадковий",
+    "expected_adv2": "випадково",
+    "predicted_adv2": "можна",
+    "correct": false
+  },
+  {
+    "adj1": "сміливий",
+    "adv1": "сміливо",
+    "adj2": "негайний",
+    "expected_adv2": "негайно",
+    "predicted_adv2": "негайно",
+    "correct": true
+  },
+  {
+    "adj1": "Туніс",
+    "adv1": "Туніс",
+    "adj2": "Джибуті",
+    "expected_adv2": "Джибуті",
+    "predicted_adv2": "Мозамбік",
+    "correct": false
+  },
+  {
+    "adj1": "вірмени",
+    "adv1": "вірменський",
+    "adj2": "бразильці",
+    "expected_adv2": "бразильський",
+    "predicted_adv2": "бразильський",
+    "correct": true
+  },
+  {
+    "adj1": "гарячий",
+    "adv1": "гарячіший",
+    "adj2": "низький",
+    "expected_adv2": "нижчий",
+    "predicted_adv2": "нижчий",
+    "correct": true
+  },
+  {
+    "adj1": "Мексика",
+    "adv1": "песо",
+    "adj2": "Данія",
+    "expected_adv2": "крона",
+    "predicted_adv2": "франк",
+    "correct": false
+  },
+  {
+    "adj1": "ананас",
+    "adv1": "ананаси",
+    "adj2": "кішка",
+    "expected_adv2": "кішки",
+    "predicted_adv2": "кішки",
+    "correct": true
+  },
+  {
+    "adj1": "Хорватія",
+    "adv1": "Європа",
+    "adj2": "Пакистан",
+    "expected_adv2": "Азія",
+    "predicted_adv2": "Іран",
+    "correct": false
+  },
+  {
+    "adj1": "Албанія",
+    "adv1": "Тирана",
+    "adj2": "Люксембург",
+    "expected_adv2": "Люксембург",
+    "predicted_adv2": "Загреб",
+    "correct": false
+  },
+  {
+    "adj1": "Кіпр",
+    "adv1": "Нікосія",
+    "adj2": "Джибуті",
+    "expected_adv2": "Джибуті",
+    "predicted_adv2": "відхиленнями",
+    "correct": false
+  },
+  {
+    "adj1": "зрозумілий",
+    "adv1": "зрозуміло",
+    "adj2": "сміливий",
+    "expected_adv2": "сміливо",
+    "predicted_adv2": "відважний",
+    "correct": false
+  },
+  {
+    "adj1": "смачний",
+    "adv1": "найсмачніший",
+    "adj2": "молодий",
+    "expected_adv2": "наймолодший",
+    "predicted_adv2": "Молодий",
+    "correct": false
+  },
+  {
+    "adj1": "Конго",
+    "adv1": "Браззавіль",
+    "adj2": "Сомалі",
+    "expected_adv2": "Могадишо",
+    "predicted_adv2": "конвоєм",
+    "correct": false
+  },
+  {
+    "adj1": "ангольський",
+    "adv1": "Ангола",
+    "adj2": "фінікійський",
+    "expected_adv2": "Фінікія",
+    "predicted_adv2": "Анголи",
+    "correct": false
+  },
+  {
+    "adj1": "Нігер",
+    "adv1": "Ніамей",
+    "adj2": "Замбія",
+    "expected_adv2": "Лусака",
+    "predicted_adv2": "Доха",
+    "correct": false
+  },
+  {
+    "adj1": "осел",
+    "adv1": "осли",
+    "adj2": "хмара",
+    "expected_adv2": "хмари",
+    "predicted_adv2": "хмари",
+    "correct": true
+  },
+  {
+    "adj1": "збирати",
+    "adv1": "збирає",
+    "adj2": "збільшувати",
+    "expected_adv2": "збільшується",
+    "predicted_adv2": "збільшує",
+    "correct": false
+  },
+  {
+    "adj1": "ходити",
+    "adv1": "ходили",
+    "adj2": "малювати",
+    "expected_adv2": "малювали",
+    "predicted_adv2": "малювали",
+    "correct": true
+  },
+  {
+    "adj1": "Хорватія",
+    "adv1": "Загреб",
+    "adj2": "Білорусь",
+    "expected_adv2": "Мінськ",
+    "predicted_adv2": "Мінськ",
+    "correct": true
+  },
+  {
+    "adj1": "український",
+    "adv1": "Україна",
+    "adj2": "фінікійський",
+    "expected_adv2": "Фінікія",
+    "predicted_adv2": "Європа",
+    "correct": false
+  },
+  {
+    "adj1": "кішка",
+    "adv1": "кішки",
+    "adj2": "птах",
+    "expected_adv2": "птахи",
+    "predicted_adv2": "птахи",
+    "correct": true
+  },
+  {
+    "adj1": "сальвадорець",
+    "adv1": "сальвадорці",
+    "adj2": "араб",
+    "expected_adv2": "араби",
+    "predicted_adv2": "араби",
+    "correct": true
+  },
+  {
+    "adj1": "зімбабвійці",
+    "adv1": "зімбабвійський",
+    "adj2": "таїтяни",
+    "expected_adv2": "таїтянський",
+    "predicted_adv2": "французький",
+    "correct": false
+  },
+  {
+    "adj1": "Узбекистан",
+    "adv1": "Ташкент",
+    "adj2": "Словенія",
+    "expected_adv2": "Любляна",
+    "predicted_adv2": "Любляна",
+    "correct": true
+  },
+  {
+    "adj1": "Ватикан",
+    "adv1": "Ватикан",
+    "adj2": "Руанда",
+    "expected_adv2": "Кігалі",
+    "predicted_adv2": "Руанди",
+    "correct": false
+  },
+  {
+    "adj1": "мальдівці",
+    "adv1": "Мальдіви",
+    "adj2": "англійці",
+    "expected_adv2": "Англія",
+    "predicted_adv2": "Англійці",
+    "correct": false
+  },
+  {
+    "adj1": "Мавританія",
+    "adv1": "Нуакшот",
+    "adj2": "Нікарагуа",
+    "expected_adv2": "Манагуа",
+    "predicted_adv2": "Еквадору",
+    "correct": false
+  },
+  {
+    "adj1": "повний",
+    "adv1": "повно",
+    "adj2": "вільний",
+    "expected_adv2": "вільно",
+    "predicted_adv2": "вільно",
+    "correct": true
+  },
+  {
+    "adj1": "літати",
+    "adv1": "літали",
+    "adj2": "співати",
+    "expected_adv2": "співали",
+    "predicted_adv2": "співали",
+    "correct": true
+  },
+  {
+    "adj1": "великий",
+    "adv1": "більший",
+    "adj2": "хороший",
+    "expected_adv2": "кращий",
+    "predicted_adv2": "кращий",
+    "correct": true
+  },
+  {
+    "adj1": "Таджикистан",
+    "adv1": "Душанбе",
+    "adj2": "Ліван",
+    "expected_adv2": "Бейрут",
+    "predicted_adv2": "Бейрут",
+    "correct": true
+  },
+  {
+    "adj1": "етично",
+    "adv1": "неетично",
+    "adj2": "повно",
+    "expected_adv2": "неповно",
+    "predicted_adv2": "адекватно",
+    "correct": false
+  },
+  {
+    "adj1": "досконало",
+    "adv1": "недосконало",
+    "adj2": "відомо",
+    "expected_adv2": "невідомо",
+    "predicted_adv2": "невідомо",
+    "correct": true
+  },
+  {
+    "adj1": "дивний",
+    "adv1": "дивно",
+    "adj2": "можливий",
+    "expected_adv2": "можливо",
+    "predicted_adv2": "можливо",
+    "correct": true
+  },
+  {
+    "adj1": "збирати",
+    "adv1": "збирає",
+    "adj2": "ходити",
+    "expected_adv2": "ходить",
+    "predicted_adv2": "ходить",
+    "correct": true
+  },
+  {
+    "adj1": "Лівія",
+    "adv1": "лівійський",
+    "adj2": "Кіпр",
+    "expected_adv2": "кіпрський",
+    "predicted_adv2": "Кіпрі",
+    "correct": false
+  },
+  {
+    "adj1": "косовський",
+    "adv1": "Косово",
+    "adj2": "свазілендський",
+    "expected_adv2": "Свазіленд",
+    "predicted_adv2": "Косова",
+    "correct": false
+  },
+  {
+    "adj1": "чесно",
+    "adv1": "нечесно",
+    "adj2": "вірогідно",
+    "expected_adv2": "невірогідно",
+    "predicted_adv2": "імовірно",
+    "correct": false
+  },
+  {
+    "adj1": "австрійці",
+    "adv1": "Австрія",
+    "adj2": "білоруси",
+    "expected_adv2": "Білорусь",
+    "predicted_adv2": "Білорусія",
+    "correct": false
+  },
+  {
+    "adj1": "естонський",
+    "adv1": "естонці",
+    "adj2": "італійський",
+    "expected_adv2": "італійці",
+    "predicted_adv2": "італійці",
+    "correct": true
+  },
+  {
+    "adj1": "Польща",
+    "adv1": "Варшава",
+    "adj2": "Еритрея",
+    "expected_adv2": "Асмара",
+    "predicted_adv2": "Еритреї",
+    "correct": false
+  },
+  {
+    "adj1": "будівля",
+    "adv1": "будівлі",
+    "adj2": "цибуля",
+    "expected_adv2": "цибулю",
+    "predicted_adv2": "цибулю",
+    "correct": true
+  },
+  {
+    "adj1": "будівля",
+    "adv1": "будівлі",
+    "adj2": "коза",
+    "expected_adv2": "кози",
+    "predicted_adv2": "кози",
+    "correct": true
+  },
+  {
+    "adj1": "македонський",
+    "adv1": "македонець",
+    "adj2": "естонський",
+    "expected_adv2": "естонець",
+    "predicted_adv2": "естонського",
+    "correct": false
+  },
+  {
+    "adj1": "Руанда",
+    "adv1": "Африка",
+    "adj2": "Камбоджа",
+    "expected_adv2": "Азія",
+    "predicted_adv2": "Азія",
+    "correct": true
+  },
+  {
+    "adj1": "киргиз",
+    "adv1": "киргизи",
+    "adj2": "анголець",
+    "expected_adv2": "ангольці",
+    "predicted_adv2": "іспанці",
+    "correct": false
+  },
+  {
+    "adj1": "Росія",
+    "adv1": "Москва",
+    "adj2": "Гаяна",
+    "expected_adv2": "Джорджтаун",
+    "predicted_adv2": "Гаяни",
+    "correct": false
+  },
+  {
+    "adj1": "камбоджійці",
+    "adv1": "камбоджійський",
+    "adj2": "мікронезійці",
+    "expected_adv2": "мікронезійський",
+    "predicted_adv2": "індійський",
+    "correct": false
+  },
+  {
+    "adj1": "слухати",
+    "adv1": "слухає",
+    "adj2": "реалізовувати",
+    "expected_adv2": "реалізовує",
+    "predicted_adv2": "виконує",
+    "correct": false
+  },
+  {
+    "adj1": "Данія",
+    "adv1": "Європа",
+    "adj2": "Бангладеш",
+    "expected_adv2": "Азія",
+    "predicted_adv2": "Європу",
+    "correct": false
+  },
+  {
+    "adj1": "рішуче",
+    "adv1": "нерішуче",
+    "adj2": "впевнено",
+    "expected_adv2": "невпевнено",
+    "predicted_adv2": "упевнено",
+    "correct": false
+  },
+  {
+    "adj1": "птах",
+    "adv1": "птахи",
+    "adj2": "свиня",
+    "expected_adv2": "свині",
+    "predicted_adv2": "свині",
+    "correct": true
+  },
+  {
+    "adj1": "Замбія",
+    "adv1": "Лусака",
+    "adj2": "Норвегія",
+    "expected_adv2": "Осло",
+    "predicted_adv2": "Осло",
+    "correct": true
+  },
+  {
+    "adj1": "люксембуржець",
+    "adv1": "люксембурзький",
+    "adj2": "перуанець",
+    "expected_adv2": "перуанський",
+    "predicted_adv2": "мексиканський",
+    "correct": false
+  },
+  {
+    "adj1": "Бутан",
+    "adv1": "Тхімпху",
+    "adj2": "Туніс",
+    "expected_adv2": "Туніс",
+    "predicted_adv2": "Тунісу",
+    "correct": false
+  },
+  {
+    "adj1": "ананас",
+    "adv1": "ананаси",
+    "adj2": "лев",
+    "expected_adv2": "леви",
+    "predicted_adv2": "лева",
+    "correct": false
+  },
+  {
+    "adj1": "виховувати",
+    "adv1": "виховує",
+    "adj2": "слухати",
+    "expected_adv2": "слухає",
+    "predicted_adv2": "слухає",
+    "correct": true
+  },
+  {
+    "adj1": "Білорусь",
+    "adv1": "Європа",
+    "adj2": "Ірак",
+    "expected_adv2": "Азія",
+    "predicted_adv2": "Іран",
+    "correct": false
+  },
+  {
+    "adj1": "Україна",
+    "adv1": "українка",
+    "adj2": "Італія",
+    "expected_adv2": "італійка",
+    "predicted_adv2": "Італії",
+    "correct": false
+  },
+  {
+    "adj1": "Сирія",
+    "adv1": "Дамаск",
+    "adj2": "Латвія",
+    "expected_adv2": "Рига",
+    "predicted_adv2": "Рига",
+    "correct": true
+  },
+  {
+    "adj1": "повний",
+    "adv1": "повно",
+    "adj2": "безпечний",
+    "expected_adv2": "безпечно",
+    "predicted_adv2": "ефективно",
+    "correct": false
+  },
+  {
+    "adj1": "Швейцарія",
+    "adv1": "Берн",
+    "adj2": "Лівія",
+    "expected_adv2": "Триполі",
+    "predicted_adv2": "Берлін",
+    "correct": false
+  },
+  {
+    "adj1": "Монако",
+    "adv1": "Європа",
+    "adj2": "Мальдіви",
+    "expected_adv2": "Азія",
+    "predicted_adv2": "Европа",
+    "correct": false
+  },
+  {
+    "adj1": "естонець",
+    "adv1": "естонський",
+    "adj2": "швейцарець",
+    "expected_adv2": "швейцарський",
+    "predicted_adv2": "швейцарський",
+    "correct": true
+  },
+  {
+    "adj1": "Бангладеш",
+    "adv1": "Дакка",
+    "adj2": "Фінляндія",
+    "expected_adv2": "Гельсінкі",
+    "predicted_adv2": "Таллінн",
+    "correct": false
+  },
+  {
+    "adj1": "мовчати",
+    "adv1": "мовчить",
+    "adj2": "плавати",
+    "expected_adv2": "плаває",
+    "predicted_adv2": "плаває",
+    "correct": true
+  },
+  {
+    "adj1": "Алжир",
+    "adv1": "динар",
+    "adj2": "Малайзія",
+    "expected_adv2": "рингіт",
+    "predicted_adv2": "песо",
+    "correct": false
+  },
+  {
+    "adj1": "Гамбія",
+    "adv1": "Банжул",
+    "adj2": "Уганда",
+    "expected_adv2": "Кампала",
+    "predicted_adv2": "Уганди",
+    "correct": false
+  },
+  {
+    "adj1": "кричати",
+    "adv1": "кричить",
+    "adj2": "аналізувати",
+    "expected_adv2": "аналізує",
+    "predicted_adv2": "аналізує",
+    "correct": true
+  },
+  {
+    "adj1": "Йорданія",
+    "adv1": "Азія",
+    "adj2": "Португалія",
+    "expected_adv2": "Європа",
+    "predicted_adv2": "Європа",
+    "correct": true
+  },
+  {
+    "adj1": "стрибати",
+    "adv1": "стрибали",
+    "adj2": "іти",
+    "expected_adv2": "йшли",
+    "predicted_adv2": "йти",
+    "correct": false
+  },
+  {
+    "adj1": "Мозамбік",
+    "adv1": "Африка",
+    "adj2": "Ємен",
+    "expected_adv2": "Азія",
+    "predicted_adv2": "Судан",
+    "correct": false
+  },
+  {
+    "adj1": "гострий",
+    "adv1": "найгостріший",
+    "adj2": "простий",
+    "expected_adv2": "найпростіший",
+    "predicted_adv2": "найпростіший",
+    "correct": true
+  },
+  {
+    "adj1": "Туніс",
+    "adv1": "Туніс",
+    "adj2": "Азербайджан",
+    "expected_adv2": "Баку",
+    "predicted_adv2": "Баку",
+    "correct": true
+  },
+  {
+    "adj1": "птах",
+    "adv1": "птахи",
+    "adj2": "ананас",
+    "expected_adv2": "ананаси",
+    "predicted_adv2": "ананаси",
+    "correct": true
+  },
+  {
+    "adj1": "Афганістан",
+    "adv1": "Кабул",
+    "adj2": "Еритрея",
+    "expected_adv2": "Асмара",
+    "predicted_adv2": "Кабулі",
+    "correct": false
+  },
+  {
+    "adj1": "рішуче",
+    "adv1": "нерішуче",
+    "adj2": "ефективно",
+    "expected_adv2": "неефективно",
+    "predicted_adv2": "неефективно",
+    "correct": true
+  },
+  {
+    "adj1": "Ліхтенштейн",
+    "adv1": "Вадуц",
+    "adj2": "Іран",
+    "expected_adv2": "Тегеран",
+    "predicted_adv2": "Тегеран",
+    "correct": true
+  },
+  {
+    "adj1": "Словаччина",
+    "adv1": "Братислава",
+    "adj2": "Туніс",
+    "expected_adv2": "Туніс",
+    "predicted_adv2": "Тунісу",
+    "correct": false
+  },
+  {
+    "adj1": "Венесуела",
+    "adv1": "Каракас",
+    "adj2": "Замбія",
+    "expected_adv2": "Лусака",
+    "predicted_adv2": "Замбії",
+    "correct": false
+  },
+  {
+    "adj1": "племінник",
+    "adv1": "племінниця",
+    "adj2": "батько",
+    "expected_adv2": "мати",
+    "predicted_adv2": "Батько",
+    "correct": false
+  },
+  {
+    "adj1": "коза",
+    "adv1": "кози",
+    "adj2": "рука",
+    "expected_adv2": "руки",
+    "predicted_adv2": "руки",
+    "correct": true
+  },
+  {
+    "adj1": "говорити",
+    "adv1": "говорили",
+    "adj2": "спати",
+    "expected_adv2": "спали",
+    "predicted_adv2": "сплять",
+    "correct": false
+  },
+  {
+    "adj1": "Данія",
+    "adv1": "Європа",
+    "adj2": "Лівія",
+    "expected_adv2": "Африка",
+    "predicted_adv2": "Сирія",
+    "correct": false
+  },
+  {
+    "adj1": "Аргентина",
+    "adv1": "песо",
+    "adj2": "Угорщина",
+    "expected_adv2": "форинт",
+    "predicted_adv2": "рупій",
+    "correct": false
+  },
+  {
+    "adj1": "польський",
+    "adv1": "поляки",
+    "adj2": "фінський",
+    "expected_adv2": "фіни",
+    "predicted_adv2": "німці",
+    "correct": false
+  },
+  {
+    "adj1": "Ірак",
+    "adv1": "Багдад",
+    "adj2": "Замбія",
+    "expected_adv2": "Лусака",
+    "predicted_adv2": "Замбезі",
+    "correct": false
+  },
+  {
+    "adj1": "Португалія",
+    "adv1": "Європа",
+    "adj2": "Ліберія",
+    "expected_adv2": "Африка",
+    "predicted_adv2": "Америка",
+    "correct": false
+  },
+  {
+    "adj1": "солодкий",
+    "adv1": "найсолодший",
+    "adj2": "дивний",
+    "expected_adv2": "найдивніший",
+    "predicted_adv2": "таємничий",
+    "correct": false
+  },
+  {
+    "adj1": "Угорщина",
+    "adv1": "Будапешт",
+    "adj2": "Естонія",
+    "expected_adv2": "Таллінн",
+    "predicted_adv2": "Таллінн",
+    "correct": true
+  },
+  {
+    "adj1": "чоловік",
+    "adv1": "чоловіки",
+    "adj2": "осел",
+    "expected_adv2": "осли",
+    "predicted_adv2": "кінь",
+    "correct": false
+  },
+  {
+    "adj1": "Гана",
+    "adv1": "Африка",
+    "adj2": "Норвегія",
+    "expected_adv2": "Європа",
+    "predicted_adv2": "Азія",
+    "correct": false
+  },
+  {
+    "adj1": "Перу",
+    "adv1": "Ліма",
+    "adj2": "Канада",
+    "expected_adv2": "Оттава",
+    "predicted_adv2": "Ванкувер",
+    "correct": false
+  },
+  {
+    "adj1": "колір",
+    "adv1": "кольори",
+    "adj2": "слон",
+    "expected_adv2": "слони",
+    "predicted_adv2": "слони",
+    "correct": true
+  },
+  {
+    "adj1": "Фіджі",
+    "adv1": "Сува",
+    "adj2": "Ірак",
+    "expected_adv2": "Багдад",
+    "predicted_adv2": "Багдад",
+    "correct": true
+  },
+  {
+    "adj1": "Кенія",
+    "adv1": "Африка",
+    "adj2": "Мальта",
+    "expected_adv2": "Європа",
+    "predicted_adv2": "Сицилія",
+    "correct": false
+  },
+  {
+    "adj1": "албанка",
+    "adv1": "албанець",
+    "adj2": "ірландка",
+    "expected_adv2": "ірландець",
+    "predicted_adv2": "іспанець",
+    "correct": false
+  },
+  {
+    "adj1": "кенійці",
+    "adv1": "Кенія",
+    "adj2": "азербайджанці",
+    "expected_adv2": "Азербайджан",
+    "predicted_adv2": "Ефіопія",
+    "correct": false
+  },
+  {
+    "adj1": "бельгійський",
+    "adv1": "Бельгія",
+    "adj2": "хорватський",
+    "expected_adv2": "Хорватія",
+    "predicted_adv2": "Хорватія",
+    "correct": true
+  },
+  {
+    "adj1": "плавати",
+    "adv1": "плавали",
+    "adj2": "думати",
+    "expected_adv2": "думали",
+    "predicted_adv2": "думали",
+    "correct": true
+  },
+  {
+    "adj1": "Венесуела",
+    "adv1": "Каракас",
+    "adj2": "Монако",
+    "expected_adv2": "Монако",
+    "predicted_adv2": "Ніцца",
+    "correct": false
+  },
+  {
+    "adj1": "Конго",
+    "adv1": "Африка",
+    "adj2": "Кіпр",
+    "expected_adv2": "Європа",
+    "predicted_adv2": "Греція",
+    "correct": false
+  },
+  {
+    "adj1": "македонський",
+    "adv1": "македонець",
+    "adj2": "аргентинський",
+    "expected_adv2": "аргентинець",
+    "predicted_adv2": "аргентинського",
+    "correct": false
+  },
+  {
+    "adj1": "Гондурас",
+    "adv1": "Тегусігальпа",
+    "adj2": "Габон",
+    "expected_adv2": "Лібревіль",
+    "predicted_adv2": "Габону",
+    "correct": false
+  },
+  {
+    "adj1": "точний",
+    "adv1": "найточніший",
+    "adj2": "слабкий",
+    "expected_adv2": "найслабший",
+    "predicted_adv2": "слабка",
+    "correct": false
+  },
+  {
+    "adj1": "Іспанія",
+    "adv1": "іспанець",
+    "adj2": "Хорватія",
+    "expected_adv2": "хорват",
+    "predicted_adv2": "хорватський",
+    "correct": false
+  },
+  {
+    "adj1": "автомобіль",
+    "adv1": "автомобілі",
+    "adj2": "сон",
+    "expected_adv2": "сни",
+    "predicted_adv2": "сни",
+    "correct": true
+  },
+  {
+    "adj1": "Польща",
+    "adv1": "злотий",
+    "adj2": "Росія",
+    "expected_adv2": "рубль",
+    "predicted_adv2": "російський",
+    "correct": false
+  },
+  {
+    "adj1": "швейцарка",
+    "adv1": "швейцарський",
+    "adj2": "угорка",
+    "expected_adv2": "угорський",
+    "predicted_adv2": "угорський",
+    "correct": true
+  },
+  {
+    "adj1": "Данія",
+    "adv1": "крона",
+    "adj2": "Іран",
+    "expected_adv2": "ріал",
+    "predicted_adv2": "Ірану",
+    "correct": false
+  },
+  {
+    "adj1": "тихий",
+    "adv1": "тихо",
+    "adj2": "нещасливий",
+    "expected_adv2": "нещасливо",
+    "predicted_adv2": "спокійно",
+    "correct": false
+  },
+  {
+    "adj1": "Словаччина",
+    "adv1": "словак",
+    "adj2": "Кенія",
+    "expected_adv2": "кенієць",
+    "predicted_adv2": "Кенії",
+    "correct": false
+  },
+  {
+    "adj1": "дитина",
+    "adv1": "діти",
+    "adj2": "птах",
+    "expected_adv2": "птахи",
+    "predicted_adv2": "птахи",
+    "correct": true
+  },
+  {
+    "adj1": "Суринам",
+    "adv1": "суринамці",
+    "adj2": "Мальдіви",
+    "expected_adv2": "мальдівці",
+    "predicted_adv2": "сережки",
+    "correct": false
+  },
+  {
+    "adj1": "люксембуржці",
+    "adv1": "люксембуржець",
+    "adj2": "індонезійці",
+    "expected_adv2": "індонезієць",
+    "predicted_adv2": "індійці",
+    "correct": false
+  },
+  {
+    "adj1": "Словенія",
+    "adv1": "Любляна",
+    "adj2": "Мальдіви",
+    "expected_adv2": "Мале",
+    "predicted_adv2": "Дубай",
+    "correct": false
+  },
+  {
+    "adj1": "Греція",
+    "adv1": "Афіни",
+    "adj2": "США",
+    "expected_adv2": "Вашингтон",
+    "predicted_adv2": "Америки",
+    "correct": false
+  },
+  {
+    "adj1": "Філіппіни",
+    "adv1": "Азія",
+    "adj2": "Ангола",
+    "expected_adv2": "Африка",
+    "predicted_adv2": "Африка",
+    "correct": true
+  },
+  {
+    "adj1": "типовий",
+    "adv1": "типово",
+    "adj2": "можливий",
+    "expected_adv2": "можливо",
+    "predicted_adv2": "потенційно",
+    "correct": false
+  },
+  {
+    "adj1": "Норвегія",
+    "adv1": "Осло",
+    "adj2": "Швеція",
+    "expected_adv2": "Стокгольм",
+    "predicted_adv2": "Стокгольмі",
+    "correct": false
+  },
+  {
+    "adj1": "брати",
+    "adv1": "сестри",
+    "adj2": "чоловік",
+    "expected_adv2": "жінка",
+    "predicted_adv2": "дочки",
+    "correct": false
+  },
+  {
+    "adj1": "Малі",
+    "adv1": "Африка",
+    "adj2": "Мальдіви",
+    "expected_adv2": "Азія",
+    "predicted_adv2": "Антарктида",
+    "correct": false
+  },
+  {
+    "adj1": "тримати",
+    "adv1": "тримали",
+    "adj2": "штовхати",
+    "expected_adv2": "штовхали",
+    "predicted_adv2": "кидали",
+    "correct": false
+  },
+  {
+    "adj1": "теплий",
+    "adv1": "тепліший",
+    "adj2": "сумний",
+    "expected_adv2": "сумніший",
+    "predicted_adv2": "гірший",
+    "correct": false
+  },
+  {
+    "adj1": "словацький",
+    "adv1": "Словаччина",
+    "adj2": "аргентинський",
+    "expected_adv2": "Аргентина",
+    "predicted_adv2": "Аргентина",
+    "correct": true
+  },
+  {
+    "adj1": "новозеландці",
+    "adv1": "новозеландець",
+    "adj2": "малайці",
+    "expected_adv2": "малаєць",
+    "predicted_adv2": "китайці",
+    "correct": false
+  },
+  {
+    "adj1": "писати",
+    "adv1": "писали",
+    "adj2": "ковтати",
+    "expected_adv2": "ковтали",
+    "predicted_adv2": "ковтання",
+    "correct": false
+  },
+  {
+    "adj1": "Бельгія",
+    "adv1": "Брюссель",
+    "adj2": "Словаччина",
+    "expected_adv2": "Братислава",
+    "predicted_adv2": "Кошице",
+    "correct": false
+  },
+  {
+    "adj1": "аргентинський",
+    "adv1": "аргентинець",
+    "adj2": "іудейський",
+    "expected_adv2": "іудей",
+    "predicted_adv2": "єврейський",
+    "correct": false
+  },
+  {
+    "adj1": "Латвія",
+    "adv1": "Рига",
+    "adj2": "Нікарагуа",
+    "expected_adv2": "Манагуа",
+    "predicted_adv2": "Санкт-Петербург",
+    "correct": false
+  },
+  {
+    "adj1": "Чехія",
+    "adv1": "Прага",
+    "adj2": "Оман",
+    "expected_adv2": "Маскат",
+    "predicted_adv2": "Оману",
+    "correct": false
+  },
+  {
+    "adj1": "Угорщина",
+    "adv1": "угорець",
+    "adj2": "Йордан",
+    "expected_adv2": "йорданець",
+    "predicted_adv2": "Йордану",
+    "correct": false
+  },
+  {
+    "adj1": "Данія",
+    "adv1": "датський",
+    "adj2": "Мальдіви",
+    "expected_adv2": "мальдівський",
+    "predicted_adv2": "єгипетський",
+    "correct": false
+  },
+  {
+    "adj1": "Франція",
+    "adv1": "Європа",
+    "adj2": "Сирія",
+    "expected_adv2": "Азія",
+    "predicted_adv2": "Росія",
+    "correct": false
+  },
+  {
+    "adj1": "Туреччина",
+    "adv1": "Анкара",
+    "adj2": "Судан",
+    "expected_adv2": "Хартум",
+    "predicted_adv2": "Судану",
+    "correct": false
+  },
+  {
+    "adj1": "Кенія",
+    "adv1": "Найробі",
+    "adj2": "Білорусь",
+    "expected_adv2": "Мінськ",
+    "predicted_adv2": "Вітебську",
+    "correct": false
+  },
+  {
+    "adj1": "Узбекистан",
+    "adv1": "Ташкент",
+    "adj2": "Грузія",
+    "expected_adv2": "Тбілісі",
+    "predicted_adv2": "Тбілісі",
+    "correct": true
+  },
+  {
+    "adj1": "австралієць",
+    "adv1": "Австралія",
+    "adj2": "гаваєць",
+    "expected_adv2": "Гаваї",
+    "predicted_adv2": "Канада",
+    "correct": false
+  },
+  {
+    "adj1": "румуни",
+    "adv1": "румунський",
+    "adj2": "сирійці",
+    "expected_adv2": "сирійський",
+    "predicted_adv2": "сирійський",
+    "correct": true
+  },
+  {
+    "adj1": "Венесуела",
+    "adv1": "Каракас",
+    "adj2": "Китай",
+    "expected_adv2": "Пекін",
+    "predicted_adv2": "Пекін",
+    "correct": true
+  },
+  {
+    "adj1": "збільшувати",
+    "adv1": "збільшували",
+    "adj2": "слухати",
+    "expected_adv2": "слухали",
+    "predicted_adv2": "слухали",
+    "correct": true
+  },
+  {
+    "adj1": "Мавританія",
+    "adv1": "Африка",
+    "adj2": "Німеччина",
+    "expected_adv2": "Європа",
+    "predicted_adv2": "Америка",
+    "correct": false
+  },
+  {
+    "adj1": "штовхати",
+    "adv1": "штовхали",
+    "adj2": "стрибати",
+    "expected_adv2": "стрибали",
+    "predicted_adv2": "стрибнути",
+    "correct": false
+  },
+  {
+    "adj1": "Вірменія",
+    "adv1": "Єреван",
+    "adj2": "Сирія",
+    "expected_adv2": "Дамаск",
+    "predicted_adv2": "Дамаск",
+    "correct": true
+  },
+  {
+    "adj1": "розумний",
+    "adv1": "найрозумніший",
+    "adj2": "гарний",
+    "expected_adv2": "найгарніший",
+    "predicted_adv2": "чудовий",
+    "correct": false
+  },
+  {
+    "adj1": "Німеччина",
+    "adv1": "німецький",
+    "adj2": "Швеція",
+    "expected_adv2": "шведський",
+    "predicted_adv2": "шведський",
+    "correct": true
+  },
+  {
+    "adj1": "свиня",
+    "adv1": "свині",
+    "adj2": "ананас",
+    "expected_adv2": "ананаси",
+    "predicted_adv2": "ананаси",
+    "correct": true
+  },
+  {
+    "adj1": "Бангладеш",
+    "adv1": "Дакка",
+    "adj2": "Ліван",
+    "expected_adv2": "Бейрут",
+    "predicted_adv2": "Бейрут",
+    "correct": true
+  },
+  {
+    "adj1": "Швеція",
+    "adv1": "Стокгольм",
+    "adj2": "Філіппіни",
+    "expected_adv2": "Маніла",
+    "predicted_adv2": "Філіппінах",
+    "correct": false
+  },
+  {
+    "adj1": "швейцарський",
+    "adv1": "швейцарець",
+    "adj2": "російський",
+    "expected_adv2": "росіянин",
+    "predicted_adv2": "росіянин",
+    "correct": true
+  },
+  {
+    "adj1": "Туркменістан",
+    "adv1": "Ашгабат",
+    "adj2": "Тонга",
+    "expected_adv2": "Нукуалофа",
+    "predicted_adv2": "Фіджі",
+    "correct": false
+  },
+  {
+    "adj1": "узагальнювати",
+    "adv1": "узагальнювали",
+    "adj2": "стрибати",
+    "expected_adv2": "стрибали",
+    "predicted_adv2": "стрибнути",
+    "correct": false
+  },
+  {
+    "adj1": "москвич",
+    "adv1": "московський",
+    "adj2": "казах",
+    "expected_adv2": "казахський",
+    "predicted_adv2": "казахський",
+    "correct": true
+  },
+  {
+    "adj1": "Болгарія",
+    "adv1": "Європа",
+    "adj2": "Чад",
+    "expected_adv2": "Африка",
+    "predicted_adv2": "Бенін",
+    "correct": false
+  },
+  {
+    "adj1": "перуанці",
+    "adv1": "перуанський",
+    "adj2": "українці",
+    "expected_adv2": "український",
+    "predicted_adv2": "український",
+    "correct": true
+  },
+  {
+    "adj1": "Йорданія",
+    "adv1": "Амман",
+    "adj2": "Мексика",
+    "expected_adv2": "Мехіко",
+    "predicted_adv2": "Мехіко",
+    "correct": true
+  },
+  {
+    "adj1": "вільний",
+    "adv1": "вільно",
+    "adj2": "професійний",
+    "expected_adv2": "професійно",
+    "predicted_adv2": "впевнено",
+    "correct": false
+  },
+  {
+    "adj1": "грати",
+    "adv1": "грали",
+    "adj2": "їхати",
+    "expected_adv2": "їхали",
+    "predicted_adv2": "їхали",
+    "correct": true
+  },
+  {
+    "adj1": "Єгипет",
+    "adv1": "Каїр",
+    "adj2": "Науру",
+    "expected_adv2": "Ярен",
+    "predicted_adv2": "Каїра",
+    "correct": false
+  },
+  {
+    "adj1": "можливий",
+    "adv1": "можливо",
+    "adj2": "високий",
+    "expected_adv2": "високо",
+    "predicted_adv2": "низький",
+    "correct": false
+  },
+  {
+    "adj1": "дорога",
+    "adv1": "дороги",
+    "adj2": "лев",
+    "expected_adv2": "леви",
+    "predicted_adv2": "тигр",
+    "correct": false
+  },
+  {
+    "adj1": "Люксембурґ",
+    "adv1": "люксембуржець",
+    "adj2": "Мексика",
+    "expected_adv2": "мексиканець",
+    "predicted_adv2": "Мексиканська",
+    "correct": false
+  },
+  {
+    "adj1": "чилійський",
+    "adv1": "чилійці",
+    "adj2": "тайванський",
+    "expected_adv2": "тайванці",
+    "predicted_adv2": "японці",
+    "correct": false
+  },
+  {
+    "adj1": "Азербайджан",
+    "adv1": "Баку",
+    "adj2": "Данія",
+    "expected_adv2": "Копенгаген",
+    "predicted_adv2": "Копенгаген",
+    "correct": true
+  },
+  {
+    "adj1": "Катар",
+    "adv1": "Доха",
+    "adj2": "Естонія",
+    "expected_adv2": "Таллінн",
+    "predicted_adv2": "Рига",
+    "correct": false
+  },
+  {
+    "adj1": "гондураський",
+    "adv1": "гондурасець",
+    "adj2": "шведський",
+    "expected_adv2": "швед",
+    "predicted_adv2": "шведського",
+    "correct": false
+  },
+  {
+    "adj1": "Британія",
+    "adv1": "британський",
+    "adj2": "Узбекистан",
+    "expected_adv2": "узбецький",
+    "predicted_adv2": "узбецький",
+    "correct": true
+  },
+  {
+    "adj1": "Туркменістан",
+    "adv1": "Ашгабат",
+    "adj2": "Афганістан",
+    "expected_adv2": "Кабул",
+    "predicted_adv2": "Кабул",
+    "correct": true
+  },
+  {
+    "adj1": "албанський",
+    "adv1": "албанка",
+    "adj2": "канадський",
+    "expected_adv2": "канадка",
+    "predicted_adv2": "канадська",
+    "correct": false
+  },
+  {
+    "adj1": "Хорватія",
+    "adv1": "Європа",
+    "adj2": "Катар",
+    "expected_adv2": "Азія",
+    "predicted_adv2": "Катару",
+    "correct": false
+  },
+  {
+    "adj1": "Сербія",
+    "adv1": "Белград",
+    "adj2": "Суринам",
+    "expected_adv2": "Парамарибо",
+    "predicted_adv2": "Амстердам",
+    "correct": false
+  },
+  {
+    "adj1": "іспанці",
+    "adv1": "іспанка",
+    "adj2": "ісландці",
+    "expected_adv2": "ісландка",
+    "predicted_adv2": "американка",
+    "correct": false
+  },
+  {
+    "adj1": "Домініка",
+    "adv1": "Розо",
+    "adj2": "Норвегія",
+    "expected_adv2": "Осло",
+    "predicted_adv2": "Осло",
+    "correct": true
+  },
+  {
+    "adj1": "Йорданія",
+    "adv1": "Амман",
+    "adj2": "Алжир",
+    "expected_adv2": "Алжир",
+    "predicted_adv2": "Туніс",
+    "correct": false
+  },
+  {
+    "adj1": "Угорщина",
+    "adv1": "форинт",
+    "adj2": "Україна",
+    "expected_adv2": "гривня",
+    "predicted_adv2": "рубль",
+    "correct": false
+  },
+  {
+    "adj1": "албанці",
+    "adv1": "албанець",
+    "adj2": "йорданці",
+    "expected_adv2": "йорданець",
+    "predicted_adv2": "іспанець",
+    "correct": false
+  },
+  {
+    "adj1": "марокканський",
+    "adv1": "марокканець",
+    "adj2": "лівійський",
+    "expected_adv2": "лівієць",
+    "predicted_adv2": "сирійський",
+    "correct": false
+  },
+  {
+    "adj1": "Ліхтенштейн",
+    "adv1": "Вадуц",
+    "adj2": "Сенегал",
+    "expected_adv2": "Дакар",
+    "predicted_adv2": "Гамбія",
+    "correct": false
+  },
+  {
+    "adj1": "Малі",
+    "adv1": "Бамако",
+    "adj2": "Нігерія",
+    "expected_adv2": "Абуджа",
+    "predicted_adv2": "Лагос",
+    "correct": false
+  },
+  {
+    "adj1": "дитина",
+    "adv1": "діти",
+    "adj2": "кінь",
+    "expected_adv2": "коні",
+    "predicted_adv2": "коні",
+    "correct": true
+  },
+  {
+    "adj1": "Португалія",
+    "adv1": "Лісабон",
+    "adj2": "Канада",
+    "expected_adv2": "Оттава",
+    "predicted_adv2": "Торонто",
+    "correct": false
+  },
+  {
+    "adj1": "Іудея",
+    "adv1": "іудейський",
+    "adj2": "Македонія",
+    "expected_adv2": "македонський",
+    "predicted_adv2": "словенський",
+    "correct": false
+  },
+  {
+    "adj1": "мадагаскарський",
+    "adv1": "Мадагаскар",
+    "adj2": "мексиканський",
+    "expected_adv2": "Мексика",
+    "predicted_adv2": "Мадагаскару",
+    "correct": false
+  },
+  {
+    "adj1": "спадати",
+    "adv1": "спадали",
+    "adj2": "оцінювати",
+    "expected_adv2": "оцінювали",
+    "predicted_adv2": "оцінювали",
+    "correct": true
+  },
+  {
+    "adj1": "тримати",
+    "adv1": "тримали",
+    "adj2": "мовчати",
+    "expected_adv2": "мовчали",
+    "predicted_adv2": "мовчали",
+    "correct": true
+  },
+  {
+    "adj1": "Суринам",
+    "adv1": "Парамарибо",
+    "adj2": "Ангола",
+    "expected_adv2": "Луанда",
+    "predicted_adv2": "Анголи",
+    "correct": false
+  },
+  {
+    "adj1": "лежати",
+    "adv1": "лежали",
+    "adj2": "спадати",
+    "expected_adv2": "спадали",
+    "predicted_adv2": "падали",
+    "correct": false
+  },
+  {
+    "adj1": "мексиканці",
+    "adv1": "Мексика",
+    "adj2": "бразильці",
+    "expected_adv2": "Бразилія",
+    "predicted_adv2": "Бразилія",
+    "correct": true
+  },
+  {
+    "adj1": "бельгійський",
+    "adv1": "бельгієць",
+    "adj2": "шведський",
+    "expected_adv2": "швед",
+    "predicted_adv2": "швед",
+    "correct": true
+  },
+  {
+    "adj1": "лев",
+    "adv1": "леви",
+    "adj2": "груша",
+    "expected_adv2": "груші",
+    "predicted_adv2": "груші",
+    "correct": true
+  },
+  {
+    "adj1": "гарячий",
+    "adv1": "гарячіший",
+    "adj2": "дешевий",
+    "expected_adv2": "дешевший",
+    "predicted_adv2": "дешевший",
+    "correct": true
+  },
+  {
+    "adj1": "цибуля",
+    "adv1": "цибулю",
+    "adj2": "мавпа",
+    "expected_adv2": "мавпи",
+    "predicted_adv2": "мавпи",
+    "correct": true
+  },
+  {
+    "adj1": "Латвія",
+    "adv1": "Рига",
+    "adj2": "Тувалу",
+    "expected_adv2": "Фунафуті",
+    "predicted_adv2": "Нарва",
+    "correct": false
+  },
+  {
+    "adj1": "писати",
+    "adv1": "пише",
+    "adj2": "співати",
+    "expected_adv2": "співає",
+    "predicted_adv2": "повідомляє",
+    "correct": false
+  },
+  {
+    "adj1": "Алжир",
+    "adv1": "Африка",
+    "adj2": "Словенія",
+    "expected_adv2": "Європа",
+    "predicted_adv2": "Океанія",
+    "correct": false
+  },
+  {
+    "adj1": "Кенія",
+    "adv1": "Африка",
+    "adj2": "Киргизстан",
+    "expected_adv2": "Азія",
+    "predicted_adv2": "Азія",
+    "correct": true
+  },
+  {
+    "adj1": "шукати",
+    "adv1": "шукає",
+    "adj2": "відкривати",
+    "expected_adv2": "відкриває",
+    "predicted_adv2": "відкриває",
+    "correct": true
+  },
+  {
+    "adj1": "Австралія",
+    "adv1": "Канберра",
+    "adj2": "Хорватія",
+    "expected_adv2": "Загреб",
+    "predicted_adv2": "Хорватії",
+    "correct": false
+  },
+  {
+    "adj1": "танцювати",
+    "adv1": "танцює",
+    "adj2": "слухати",
+    "expected_adv2": "слухає",
+    "predicted_adv2": "слухає",
+    "correct": true
+  },
+  {
+    "adj1": "Сербія",
+    "adv1": "Белград",
+    "adj2": "Гаяна",
+    "expected_adv2": "Джорджтаун",
+    "predicted_adv2": "Гаяни",
+    "correct": false
+  },
+  {
+    "adj1": "слухати",
+    "adv1": "слухали",
+    "adj2": "мовчати",
+    "expected_adv2": "мовчали",
+    "predicted_adv2": "мовчали",
+    "correct": true
+  },
+  {
+    "adj1": "писати",
+    "adv1": "писали",
+    "adj2": "малювати",
+    "expected_adv2": "малювали",
+    "predicted_adv2": "малювали",
+    "correct": true
+  },
+  {
+    "adj1": "лев",
+    "adv1": "леви",
+    "adj2": "змій",
+    "expected_adv2": "змії",
+    "predicted_adv2": "павуків",
+    "correct": false
+  }
+]

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8" />
+  <title>Adjective → Adverb Аналогії</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      padding: 20px;
+      background: #f9f9f9;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 1em;
+      display: none; /* Схована таблиця спочатку */
+    }
+    th, td {
+      border: 1px solid #ddd;
+      padding: 6px 10px;
+      text-align: center;
+    }
+    th {
+      background: #eee;
+    }
+    .correct {
+      background-color: #d4edda;
+    }
+    .incorrect {
+      background-color: #f8d7da;
+    }
+    input {
+      margin-top: 10px;
+      padding: 5px;
+      width: 300px;
+    }
+    #noResults {
+      color: gray;
+      margin-top: 1em;
+      display: none;
+    }
+  </style>
+</head>
+<body>
+  <h2>Аналогії: прикметник → прислівник</h2>
+  <input type="text" id="search" placeholder="🔍 Введіть слово для пошуку..." onkeyup="filterTable()" />
+
+  <p id="noResults">Нічого не знайдено…</p>
+
+  <table id="resultsTable">
+    <thead>
+      <tr>
+        <th>Прикметник 1</th>
+        <th>Прислівник 1</th>
+        <th>Прикметник 2</th>
+        <th>Очікувано</th>
+        <th>Передбачено</th>
+        <th>Результат</th>
+      </tr>
+    </thead>
+    <tbody></tbody>
+  </table>
+
+  <script>
+    let data = [];
+
+    fetch('analogy_results.json')
+      .then(response => response.json())
+      .then(json => {
+        data = json; // Зберігаємо дані глобально
+      });
+
+    function filterTable() {
+      const input = document.getElementById("search").value.toLowerCase();
+      const tbody = document.querySelector("#resultsTable tbody");
+      const table = document.getElementById("resultsTable");
+      const noResults = document.getElementById("noResults");
+
+      tbody.innerHTML = "";
+
+      if (!input.trim()) {
+        table.style.display = "none";
+        noResults.style.display = "none";
+        return;
+      }
+
+      const filtered = data.filter(item =>
+        item.adj1.toLowerCase().includes(input) ||
+        item.adv1.toLowerCase().includes(input) ||
+        item.adj2.toLowerCase().includes(input) ||
+        item.expected_adv2.toLowerCase().includes(input) ||
+        item.predicted_adv2.toLowerCase().includes(input)
+      );
+
+      if (filtered.length === 0) {
+        table.style.display = "none";
+        noResults.style.display = "block";
+        return;
+      }
+
+      noResults.style.display = "none";
+      table.style.display = "table";
+
+      filtered.forEach(item => {
+        const row = document.createElement('tr');
+        row.className = item.correct ? 'correct' : 'incorrect';
+        row.innerHTML = `
+          <td>${item.adj1}</td>
+          <td>${item.adv1}</td>
+          <td>${item.adj2}</td>
+          <td>${item.expected_adv2}</td>
+          <td>${item.predicted_adv2}</td>
+          <td>${item.correct ? '✅' : '❌'}</td>
+        `;
+        tbody.appendChild(row);
+      });
+    }
+  </script>
+</body>
+</html>

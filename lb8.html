@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <title>CBOW Вектори слів</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      margin: 40px;
+      background: #f5f5f5;
+    }
+    input, button {
+      padding: 8px;
+      margin-right: 10px;
+      font-size: 16px;
+    }
+    #results {
+      margin-top: 20px;
+      background: #fff;
+      padding: 15px;
+      border-radius: 8px;
+      box-shadow: 0 0 5px rgba(0,0,0,0.1);
+      max-width: 600px;
+    }
+  </style>
+</head>
+<body>
+
+<h2>🔎 Пошук подібних слів за CBOW-моделлю</h2>
+
+<input type="text" id="wordInput" placeholder="Введіть слово..." />
+<button onclick="findSimilar()">Знайти подібні</button>
+
+<div id="results">⏳ Завантаження моделі CBOW...</div>
+
+<script>
+  let wordVectors = {};
+
+  // Завантаження моделі з папки
+  fetch("cbow_vectors.json")
+    .then(response => response.json())
+    .then(data => {
+      wordVectors = data;
+      document.getElementById('results').innerHTML = "✅ Модель успішно завантажена. Введіть слово.";
+    })
+    .catch(error => {
+      document.getElementById('results').innerHTML = "❌ Не вдалося завантажити модель.";
+      console.error("Помилка завантаження моделі:", error);
+    });
+
+  function cosineSimilarity(vec1, vec2) {
+    const dot = vec1.reduce((sum, val, i) => sum + val * vec2[i], 0);
+    const norm1 = Math.sqrt(vec1.reduce((sum, val) => sum + val * val, 0));
+    const norm2 = Math.sqrt(vec2.reduce((sum, val) => sum + val * val, 0));
+    return dot / (norm1 * norm2);
+  }
+
+  function findSimilar() {
+    const word = document.getElementById('wordInput').value.trim();
+    const resultsDiv = document.getElementById('results');
+    resultsDiv.innerHTML = '';
+
+    if (!(word in wordVectors)) {
+      resultsDiv.innerHTML = `<b>Слово "${word}" не знайдено в моделі.</b>`;
+      return;
+    }
+
+    const inputVec = wordVectors[word];
+    const similarities = [];
+
+    for (let [otherWord, vector] of Object.entries(wordVectors)) {
+      if (otherWord !== word) {
+        const sim = cosineSimilarity(inputVec, vector);
+        similarities.push({ word: otherWord, score: sim });
+      }
+    }
+
+    similarities.sort((a, b) => b.score - a.score);
+    const top = similarities.slice(0, 10);
+
+    let html = `<h3>🔗 Найбільш подібні до "${word}":</h3><ul>`;
+    top.forEach(item => {
+      html += `<li><b>${item.word}</b>: ${item.score.toFixed(4)}</li>`;
+    });
+    html += '</ul>';
+    resultsDiv.innerHTML = html;
+  }
+</script>
+
+</body>
+</html>

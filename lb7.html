@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Автозавершення тексту</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 2em;
+      background: #f9f9f9;
+    }
+    input[type="text"] {
+      width: 70%;
+      padding: 10px;
+      font-size: 16px;
+    }
+    #suggestions {
+      margin-top: 10px;
+      background: white;
+      border: 1px solid #ddd;
+      max-width: 70%;
+      padding: 10px;
+      border-radius: 4px;
+    }
+    #suggestions ul {
+      list-style: none;
+      padding-left: 0;
+    }
+    #suggestions li {
+      padding: 5px 0;
+      border-bottom: 1px solid #eee;
+      cursor: pointer;
+    }
+    #suggestions li:hover {
+      background-color: #f0f0f0;
+    }
+  </style>
+</head>
+<body>
+
+<h2>Автозавершення тексту</h2>
+
+<input type="text" id="inputText" placeholder="Введіть текст тут..." autocomplete="off" />
+<div id="suggestions"></div>
+
+<script>
+  let model = {};
+
+  fetch('autocomplete_model.json')
+    .then(response => response.json())
+    .then(data => model = data)
+    .catch(err => {
+      console.error('Помилка завантаження моделі:', err);
+      document.getElementById('suggestions').innerHTML = '<i>Не вдалося завантажити модель</i>';
+    });
+
+  const input = document.getElementById('inputText');
+  const suggestionsDiv = document.getElementById('suggestions');
+
+  function getSuggestions(text) {
+    const words = text.trim().toLowerCase().split(/\s+/);
+    if (words.length === 0) return [];
+
+    // Спробуємо знайти найточніший контекст: спочатку 2 слова, потім 1 слово
+    let key = '';
+    if (words.length >= 2) {
+      key = words.slice(-2).join(' ');
+      if (model[key]) return model[key];
+    }
+    // Якщо 2 слова не знайшлося, спробуємо 1 слово
+    key = words.slice(-1)[0];
+    if (model[key]) return model[key];
+
+    return [];
+  }
+
+  function renderSuggestions(suggestions) {
+    if (!suggestions.length) {
+      suggestionsDiv.innerHTML = '<i>Немає пропозицій</i>';
+      return;
+    }
+    const ul = document.createElement('ul');
+    suggestions.forEach(word => {
+      const li = document.createElement('li');
+      li.textContent = word;
+      li.onclick = () => {
+        // Додаємо слово, і пробіл після нього
+        input.value = input.value.trim() + ' ' + word + ' ';
+        input.focus();
+        suggestionsDiv.innerHTML = '';
+      };
+      ul.appendChild(li);
+    });
+    suggestionsDiv.innerHTML = '';
+    suggestionsDiv.appendChild(ul);
+  }
+
+  let debounceTimer;
+  input.addEventListener('input', () => {
+    clearTimeout(debounceTimer);
+    debounceTimer = setTimeout(() => {
+      const text = input.value;
+      const suggestions = getSuggestions(text);
+      renderSuggestions(suggestions);
+    }, 300);
+  });
+</script>
+
+</body>
+</html>

@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Виправлення слів за моделлю частот</title>
+</head>
+<body>
+    <h1>Виправлення слів за моделлю частот</h1>
+    <textarea id="textInput" rows="6" cols="60" placeholder="Будь ласка, введіть текст англійською..."></textarea><br>
+    <button onclick="correctText()">Виправити текст</button>
+    <pre id="result" style="white-space: pre-wrap; margin-top: 20px;"></pre>
+
+<script>
+let wordFreq = {};
+let totalWords = 1;  
+
+
+fetch('word_freq_model.json')
+  .then(response => response.json())
+  .then(data => {
+    wordFreq = data.word_freq;
+    totalWords = data.total_words;
+    console.log("Модель завантажена, у словнику слів:", Object.keys(wordFreq).length);
+  })
+  .catch(err => {
+    console.error("Помилка завантаження моделі:", err);
+  });
+
+
+function tokenize(text) {
+  return text.toLowerCase().match(/\b[a-z]+\b/g) || [];
+}
+
+
+const letters = 'abcdefghijklmnopqrstuvwxyz';
+
+function deleteLetter(word) {
+  let edits = [];
+  for(let i=0; i<word.length; i++) {
+    edits.push(word.slice(0,i) + word.slice(i+1));
+  }
+  return edits;
+}
+
+function replaceLetter(word) {
+  let edits = [];
+  for(let i=0; i<word.length; i++) {
+    for(let l of letters) {
+      if(l !== word[i]) {
+        edits.push(word.slice(0,i) + l + word.slice(i+1));
+      }
+    }
+  }
+  return edits;
+}
+
+function insertLetter(word) {
+  let edits = [];
+  for(let i=0; i<=word.length; i++) {
+    for(let l of letters) {
+      edits.push(word.slice(0,i) + l + word.slice(i));
+    }
+  }
+  return edits;
+}
+
+function transposeLetters(word) {
+  let edits = [];
+  for(let i=0; i<word.length -1; i++) {
+    edits.push(word.slice(0,i) + word[i+1] + word[i] + word.slice(i+2));
+  }
+  return edits;
+}
+
+function edits1(word) {
+  let e = new Set([
+    ...deleteLetter(word),
+    ...replaceLetter(word),
+    ...insertLetter(word),
+    ...transposeLetters(word)
+  ]);
+  return Array.from(e);
+}
+
+
+function wordProbability(word) {
+  return (wordFreq[word] || 1) / totalWords;
+}
+
+
+function correction(word) {
+  if (wordFreq[word]) {
+    return word;  
+  }
+
+  
+  const candidates = edits1(word).filter(w => w in wordFreq);
+
+  if (candidates.length === 0) {
+    return word;  
+  }
+
+  
+  let best = candidates[0];
+  let bestProb = wordProbability(best);
+  for (let c of candidates) {
+    let p = wordProbability(c);
+    if (p > bestProb) {
+      best = c;
+      bestProb = p;
+    }
+  }
+  return best;
+}
+
+
+function correctText() {
+  const text = document.getElementById('textInput').value.trim();
+  if (!text) {
+    document.getElementById('result').textContent = "Будь ласка, введіть текст англійською";
+    return;
+  }
+
+  const words = tokenize(text);
+  if(words.length === 0) {
+    document.getElementById('result').textContent = "Текст не містить слів для обробки.";
+    return;
+  }
+
+  let correctedWords = words.map(word => {
+    let corrected = correction(word);
+    return word === corrected ? word : `${word} → ${corrected}`;
+  });
+
+  document.getElementById('result').textContent =
+    "Виправлені слова:\n" + correctedWords.join(' ');
+}
+</script>
+</body>
+</html>

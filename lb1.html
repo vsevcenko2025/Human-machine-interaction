@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Аналіз тональності</title>
+</head>
+<body>
+    <h1>Аналіз тональності</h1>
+    <textarea id="tweetInput" rows="6" cols="70" placeholder="Введіть текст..."></textarea><br>
+    <button onclick="classifyTweet()">Визначити тональність</button>
+    <pre id="result" style="white-space: pre-wrap;"></pre>
+
+    <script>
+        let vocab = {};
+        let weights = [];
+
+        // Завантажуємо json з моделлю, у якій:
+        // vocab: {word: index}
+        // weights: [числовий масив ваг w]
+        fetch('model.json')
+            .then(response => response.json())
+            .then(data => {
+                vocab = data.vocab;
+                weights = data.weights;
+            })
+            .catch(error => console.error("Помилка завантаження моделі:", error));
+
+        function sigmoid(z) {
+            return 1 / (1 + Math.exp(-z));
+        }
+
+        // Простий препроцесинг тексту: нижній регістр, очищення від пунктуації, розбиття на слова
+        function processText(text) {
+            return text
+                .toLowerCase()
+                .replace(/[^\w\s]|_/g, '')  // прибираємо пунктуацію
+                .replace(/\s+/g, ' ')       // заміна множинних пробілів одним
+                .trim()
+                .split(' ');
+        }
+
+        // Перетворюємо текст у вектор ознак відповідно до словника vocab
+        function textToVector(words) {
+            const vec = new Array(weights.length).fill(0);
+            for (const w of words) {
+                if (w in vocab) {
+                    vec[vocab[w]] += 1;
+                }
+            }
+            return vec;
+        }
+
+        // Логістична регресія: зважена сума + сигмоїда
+        function predictLogistic(text) {
+            const words = processText(text);
+            const vec = textToVector(words);
+
+            let z = 0;
+            for (let i = 0; i < vec.length; i++) {
+                z += vec[i] * weights[i];
+            }
+
+            return sigmoid(z);
+        }
+
+        function classifyTweet() {
+            const text = document.getElementById('tweetInput').value.trim();
+            if (!text) {
+                document.getElementById('result').textContent = "Будь ласка, введіть текст.";
+                return;
+            }
+
+            const probability = predictLogistic(text);
+            const predictedClass = probability >= 0.5 ? 'M' : 'F';
+
+            const resultText = 
+`Текст: ${text}
+
+Передбачений клас: ${predictedClass}
+Ймовірність належності до класу M: ${probability.toFixed(4)}`;
+
+            document.getElementById('result').textContent = resultText;
+        }
+    </script>
+</body>
+</html>

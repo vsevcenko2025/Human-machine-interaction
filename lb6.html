@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8" />
+  <title>POS Tagging з HMM у браузері</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 40px; }
+    input[type=text] { width: 70%; padding: 8px; font-size: 16px; }
+    button { padding: 8px 16px; font-size: 16px; }
+    table { border-collapse: collapse; margin-top: 20px; }
+    th, td { border: 1px solid #ccc; padding: 8px 12px; }
+    th { background-color: #eee; }
+    #result { margin-top: 20px; }
+  </style>
+</head>
+<body>
+  <h1>POS Tagging з використанням HMM (JS)</h1>
+
+  <input type="text" id="sentence" placeholder="Введіть речення англійською" />
+  <button onclick="tagSentence()">Тегувати</button>
+
+  <div id="result"></div>
+
+  <script>
+    let model = null;
+
+    // Завантажуємо JSON-модель (файл hmm_pos_model.json має бути в тій же папці)
+    async function loadModel() {
+      const response = await fetch('hmm_pos_model.json');
+      model = await response.json();
+
+      // Перевірка наявності потрібних полів
+      model.transition_probs = model.transition_probs || {};
+      model.emission_probs = model.emission_probs || {};
+      model.tags = model.tags || [];
+      model.START = "<START>";
+    }
+
+    // Отримуємо логарифмічну ймовірність переходу (лог ймовірність вже в моделі)
+    function getTransProb(prevTag, tag) {
+      if (model.transition_probs[prevTag] && model.transition_probs[prevTag][tag] !== undefined) {
+        return model.transition_probs[prevTag][tag];
+      }
+      return -Infinity;
+    }
+
+    // Отримуємо логарифмічну ймовірність емісії (лог ймовірність вже в моделі)
+    function getEmitProb(tag, word) {
+      word = word.toLowerCase();
+      if (model.emission_probs[tag] && model.emission_probs[tag][word] !== undefined) {
+        return model.emission_probs[tag][word];
+      }
+      if (model.emission_probs[tag] && model.emission_probs[tag]['<UNK>'] !== undefined) {
+        return model.emission_probs[tag]['<UNK>'];
+      }
+      return -Infinity;
+    }
+
+    // Алгоритм Вітербі для POS-тегування
+    function viterbi(sentence) {
+      if (!model) {
+        alert('Модель ще не завантажена!');
+        return [];
+      }
+
+      const words = sentence.trim().split(/\s+/);
+      const T = words.length;
+      const tags = model.tags;
+      const START = model.START;
+
+      let V = [{}];
+      let path = {};
+
+      // Ініціалізація
+      for (const tag of tags) {
+        let trans_p = getTransProb(START, tag);
+        let emit_p = getEmitProb(tag, words[0]);
+        V[0][tag] = trans_p + emit_p;
+        path[tag] = [tag];
+      }
+
+      // Рекурсія
+      for (let t = 1; t < T; t++) {
+        V.push({});
+        let newPath = {};
+
+        for (const tag of tags) {
+          let candidates = [];
+          for (const prevTag of tags) {
+            let prob = V[t-1][prevTag] + getTransProb(prevTag, tag) + getEmitProb(tag, words[t]);
+            candidates.push({prob: prob, prevTag: prevTag});
+          }
+          let best = candidates.reduce((a,b) => a.prob > b.prob ? a : b);
+          V[t][tag] = best.prob;
+          newPath[tag] = path[best.prevTag].concat(tag);
+        }
+
+        path = newPath;
+      }
+
+      // Завершення
+      let finalCandidates = tags.map(tag => ({tag: tag, prob: V[T-1][tag]}));
+      let bestFinal = finalCandidates.reduce((a,b) => a.prob > b.prob ? a : b);
+
+      return path[bestFinal.tag];
+    }
+
+    // Обробник кнопки тегування
+    function tagSentence() {
+      const sentence = document.getElementById('sentence').value;
+      if (!sentence.trim()) {
+        alert('Введіть речення!');
+        return;
+      }
+      const tags = viterbi(sentence);
+      if (!tags.length) return;
+
+      const words = sentence.trim().split(/\s+/);
+      let html = '<table><tr><th>Слово</th><th>Тег</th></tr>';
+      for (let i = 0; i < words.length; i++) {
+        html += `<tr><td>${words[i]}</td><td>${tags[i]}</td></tr>`;
+      }
+      html += '</table>';
+
+      document.getElementById('result').innerHTML = html;
+    }
+
+    // Завантажуємо модель при завантаженні сторінки
+    window.onload = loadModel;
+  </script>
+</body>
+</html>
